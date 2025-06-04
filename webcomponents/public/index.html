@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comparativo Web Components vs LitElement</title>
+
+  <!-- ======= VERSIÓN VANILLA ======= -->
+  <!-- Nota: aquí cargamos el componente <suscripcion> vanilla y <acordion> vanilla -->
+  <script type="module" src="./vanilla/suscripcion-vanilla.js"></script>
+  <script type="module" src="./vanilla/acordion-vanilla.js"></script>
+  <!-- <link rel="stylesheet" href="../src/vanilla/suscripcion-vanilla.css" />
+  <link rel="stylesheet" href="../src/vanilla/acordion-vanilla.css" /> -->
+
+  <!-- ======= VERSIÓN LIT ======= -->
+  <!-- Nota: aquí cargamos el componente <suscripcion> Lit y <acordion> Lit -->
+  <script type="module" src="./lit/suscripcion-lit.js"></script>
+  <script type="module" src="./lit/acordion-lit.js"></script>
+  <!-- <link rel="stylesheet" href="../src/lit/suscripcion-lit.css" />
+  <link rel="stylesheet" href="../src/lit/acordion-lit.css" /> -->
+
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+      line-height: 1.5;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    section {
+      margin: 2rem 0;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    section h2 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ejemplo Comparativo: Web Components nativo vs LitElement</h1>
+
+  <!-- =============================================== -->
+  <!-- 1. EJEMPLOS DE <suscripcion> (Vanilla)           -->
+  <!-- =============================================== -->
+  <section>
+    <h2>1. Suscripción con Web Components "Vanilla"</h2>
+
+    <!-- Usamos el componente <suscripcion> sin insertar ningún JS extra, solo atributos y contenido -->
+    <suscripcion-vanilla
+      plan="Basic"
+      price="0"
+      price-vat="$0 incl. 21% Vat"
+      description="Basic tariff is built for those users who want to try and grow with our app without paying. It's like 'grow with us package'."
+      button-text="Get started"
+      highlight="false"
+    >
+      <!-- Lista de características principales -->
+      <ul>
+        <li>Daily visits</li>
+        <li>Monthly visits reporting</li>
+        <li>Google Analytics Integration</li>
+        <li>Facebook Integration</li>
+        <li>Basic Dashboard <span style="color: teal;">New</span></li>
+        <li>Email Support</li>
+      </ul>
+    </suscripcion-vanilla>
+
+    <br />
+
+    <suscripcion-vanilla
+      plan="Freelance"
+      price="16"
+      price-vat="$18 incl. 21% Vat"
+      description="Freelance tarif matching the analytics tool for clients. Get fast insights and make real time decisions."
+      button-text="Get started"
+      highlight="true"
+    >
+      <ul>
+        <li>Twitter Integration</li>
+        <li>Instagram Integration</li>
+        <li>Advanced Dashboard</li>
+        <li>Acquisitions Dashboard <span style="background: gold; color: black; padding: 2px 4px; border-radius: 3px; font-size: 0.8rem;">New</span></li>
+        <li>Client Billing <span style="background: gold; color: black; padding: 2px 4px; border-radius: 3px; font-size: 0.8rem;">New</span></li>
+        <li>Client Dashboard</li>
+        <li>Reporting tool</li>
+        <li>Multiple accounts</li>
+        <li>Support</li>
+      </ul>
+    </suscripcion-vanilla>
+
+    <!-- Capturamos el evento "subscribe" enviado por cada <suscripcion> -->
+    <script>
+      document.querySelectorAll('suscripcion-vanilla').forEach(el => {
+        el.addEventListener('subscribe', (evt) => {
+          console.log('📢 [Vanilla] Suscribirse al plan:', evt.detail.plan);
+          alert(`Has hecho clic en Suscribirse al plan: ${evt.detail.plan} (versión Vanilla)`);
+        });
+        // Selección exclusiva al hacer clic en la tarjeta o el botón
+        el.addEventListener('click', (evt) => {
+          document.querySelectorAll('suscripcion-vanilla').forEach(card => {
+            card.setAttribute('highlight', 'false');
+          });
+          el.setAttribute('highlight', 'true');
+        });
+      });
+    </script>
+  </section>
+
+  <!-- =============================================== -->
+  <!-- 2. EJEMPLOS DE <suscripcion> (LitElement)         -->
+  <!-- =============================================== -->
+  <section>
+    <h2>2. Suscripción con LitElement + lit-html</h2>
+
+    <suscripcion-lit
+      plan="Business"
+      price="49"
+      price-vat="$56 incl. 21% Vat"
+      description="Business tariff is tailored exactly for fast growing companies and startups who needs deep analytics insights."
+      button-text="Get started"
+      highlight="false"
+    >
+      <ul>
+        <li>Competitor Dashboard</li>
+        <li>Behavior Dashboard</li>
+        <li>SEO Dashboard</li>
+        <li>Full API control</li>
+        <li>Advanced Reporting <span style="background: gold; color: black; padding: 2px 4px; border-radius: 3px; font-size: 0.8rem;">New</span></li>
+        <li>User permissions</li>
+        <li>Advanced Support</li>
+      </ul>
+    </suscripcion-lit>
+
+    <br />
+
+    <suscripcion-lit
+      plan="Enterprise"
+      price="129"
+      price-vat="$146 incl. 21% Vat"
+      description="Basic tarif is built for those users who want to try and grow with our app without paying. It's like 'grow with us package'."
+      button-text="Get started"
+      highlight="false"
+    >
+      <ul>
+        <li>Custom Domain</li>
+        <li>White Label solution</li>
+        <li>Rich Snippets</li>
+        <li>Team Insights Dashboard</li>
+        <li>24/7 Support <span style="background: gold; color: black; padding: 2px 4px; border-radius: 3px; font-size: 0.8rem;">New</span></li>
+      </ul>
+    </suscripcion-lit>
+
+    <!-- Capturamos el evento "subscribe" enviado por cada <suscripcion-lit> -->
+    <script>
+      document.querySelectorAll('suscripcion-lit').forEach(el => {
+        el.addEventListener('subscribe', (evt) => {
+          console.log('📢 [Lit] Suscribirse al plan:', evt.detail.plan);
+          alert(`Has hecho clic en Suscribirse al plan: ${evt.detail.plan} (versión Lit)`);
+        });
+        // Selección exclusiva al hacer clic en la tarjeta o el botón
+        el.addEventListener('click', (evt) => {
+          document.querySelectorAll('suscripcion-lit').forEach(card => {
+            card.setAttribute('highlight', 'false');
+          });
+          el.setAttribute('highlight', 'true');
+        });
+      });
+    </script>
+  </section>
+
+  <!-- =============================================== -->
+  <!-- 3. EJEMPLOS DE <acordion> (Vanilla)              -->
+  <!-- =============================================== -->
+  <section>
+    <h2>3. Acordeón con Web Components "Vanilla"</h2>
+
+    <!-- Uso básico de <acordion> vanilla:
+         Se colocan <div data-title="…"> dentro de la etiqueta <acordion>.
+         El componente se encarga de renderizar la cabecera y el contendido. -->
+    <acordion-vanilla>
+      <div data-title="▶ The first item">
+        <p>Los componentes Web Components nativos permiten encapsular estilo y lógica
+           de forma manual. Aquí ves un primer ítem con contenido sencillo.</p>
+      </div>
+      <div data-title="▶ The second item">
+        <p>A este segundo ítem le puedes pasar HTML arbitrario. El componente Vanilla
+           se encargará de cerrar los demás ítems cuando abras uno nuevo.</p>
+      </div>
+      <div data-title="▶ The third, longer item">
+        <p>El tercer ítem muestra cómo se gestiona contenido más largo. Todo está
+           aislado en su Shadow DOM.</p>
+      </div>
+    </acordion-vanilla>
+  </section>
+
+  <!-- =============================================== -->
+  <!-- 4. EJEMPLOS DE <acordion> (LitElement)            -->
+  <!-- =============================================== -->
+  <section>
+    <h2>4. Acordeón con LitElement + lit-html</h2>
+
+    <acordion-lit>
+      <div data-title="▶ The first item">
+        <p>Con LitElement el renderizado de cada sección es más declarativo, y el diff
+           de lit-html solo actualiza lo necesario.</p>
+      </div>
+      <div data-title="▶ The second item">
+        <p>Observa cómo cada hijo <div data-title="..."> se transforma en un ítem
+           de acordeón. Solo se abre uno a la vez.</p>
+      </div>
+      <div data-title="▶ The third, longer item">
+        <p>Al abrir uno nuevo, el lit-element cierra automáticamente los demás. Esto se
+           logra con una propiedad reactiva que almacena el índice activo.</p>
+      </div>
+    </acordion-lit>
+  </section>
+
+</body>
+</html>

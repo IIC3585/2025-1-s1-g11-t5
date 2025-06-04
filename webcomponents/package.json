@@ -1,0 +1,21 @@
+{
+    "name": "webcomponents",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "vite": "^4.5.14"
+    },
+    "dependencies": {
+        "lit": "^2.8.0",
+        "lit-html": "^2.8.0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
