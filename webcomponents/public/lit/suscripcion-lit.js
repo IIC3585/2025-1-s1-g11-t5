@@ -97,16 +97,17 @@ export class SuscripcionLit extends LitElement {
     button.subscribe-btn {
       margin-top: auto;
       padding: 0.5rem 0.75rem;
-      background: var(--button-bg);
-      color: var(--button-text);
-      border: none;
+      background: white;
+      color: var(--highlight-border-color);
+      border: 2px solid var(--highlight-border-color);
       border-radius: 4px;
       font-size: 0.9rem;
       cursor: pointer;
-      transition: background 0.2s;
+      transition: all 0.2s;
     }
     button.subscribe-btn:hover {
-      filter: brightness(1.1);
+      background: var(--highlight-border-color);
+      color: white;
     }
   `;
 
