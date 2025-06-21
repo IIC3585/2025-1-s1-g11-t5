@@ -1,0 +1,154 @@
+{
+  "id": 1087891,
+  "title": "The Amateur",
+  "originalTitle": "The Amateur",
+  "overview": "After his life is turned upside down when his wife is killed in a London terrorist attack, a brilliant but introverted CIA decoder takes matters into his own hands when his supervisors refuse to take action.",
+  "posterPath": "/SNEoUInCa5fAgwuEBMIMBGvkkh.jpg",
+  "backdropPath": "/6van4BavoNXaZhCPdzLHNQ4Uc8H.jpg",
+  "releaseDate": "2025-04-09",
+  "voteAverage": 6.93,
+  "voteCount": 567,
+  "runtime": 123,
+  "budget": 60000000,
+  "revenue": 95956038,
+  "genres": [
+    {
+      "id": 53,
+      "name": "Thriller"
+    },
+    {
+      "id": 28,
+      "name": "Action"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 17838,
+        "name": "Rami Malek",
+        "character": "Heller",
+        "profilePath": "/ewr46CGOdsx5NzAJdIzEBz2yIQh.jpg",
+        "order": 0
+      },
+      {
+        "id": 7497,
+        "name": "Holt McCallany",
+        "character": "Director Moore",
+        "profilePath": "/tnXVshv7CD9b53BRjYrLjVJvnDS.jpg",
+        "order": 1
+      },
+      {
+        "id": 165424,
+        "name": "Danny Sapani",
+        "character": "Caleb",
+        "profilePath": "/h6goTpKA74Z6ePB2BAEEyQnGtCF.jpg",
+        "order": 2
+      },
+      {
+        "id": 993774,
+        "name": "Rachel Brosnahan",
+        "character": "Sarah",
+        "profilePath": "/1f9NK43gWrXN2uMmYMlennB7jCC.jpg",
+        "order": 3
+      },
+      {
+        "id": 72873,
+        "name": "Michael Stuhlbarg",
+        "character": "Schiller",
+        "profilePath": "/aYB3SQm3h6ZyAdlbGyiNfakjx56.jpg",
+        "order": 4
+      },
+      {
+        "id": 2975,
+        "name": "Laurence Fishburne",
+        "character": "Henderson",
+        "profilePath": "/2GbXERENPpl5MmlqOLlPVaVtifD.jpg",
+        "order": 5
+      },
+      {
+        "id": 86034,
+        "name": "Julianne Nicholson",
+        "character": "Director O'Brien",
+        "profilePath": "/2RJ30pPSQQxteuoMjhN1FWTwxlZ.jpg",
+        "order": 6
+      },
+      {
+        "id": 147056,
+        "name": "Caitríona Balfe",
+        "character": "Inquiline",
+        "profilePath": "/6OrGRPRleWsouviVNUQpwC77X70.jpg",
+        "order": 7
+      },
+      {
+        "id": 19498,
+        "name": "Jon Bernthal",
+        "character": "The Bear",
+        "profilePath": "/o0t6EVkJOrFAjESDilZUlf46IbQ.jpg",
+        "order": 8
+      },
+      {
+        "id": 94432,
+        "name": "Adrian Martinez",
+        "character": "Carlos",
+        "profilePath": "/id70SLEpj9jelZZepJlapaXH8lR.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 30310,
+        "name": "James Hawes",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/9MmTr9DHvPPcAkRK0ddNxZs0gzS.jpg"
+      },
+      {
+        "id": 584598,
+        "name": "Hutch Parker",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/zbD6YCP2DahJEmpjUPWdExYWa79.jpg"
+      },
+      {
+        "id": 2479911,
+        "name": "Dan Wilson",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 12783,
+        "name": "Ken Nolan",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/fjHZJmDjqlKNI8nh9Dlj9gnYsPw.jpg"
+      },
+      {
+        "id": 1031259,
+        "name": "Gary Spinelli",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": null
+      },
+      {
+        "id": 17838,
+        "name": "Rami Malek",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/ewr46CGOdsx5NzAJdIzEBz2yIQh.jpg"
+      },
+      {
+        "id": 7228,
+        "name": "Joel B. Michaels",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 334.9235,
+  "status": "Released",
+  "tagline": "Don't underestimate him.",
+  "homepage": "https://www.20thcenturystudios.com/movies/the-amateur",
+  "imdbId": "tt0899043"
+}

@@ -1,0 +1,119 @@
+{
+  "id": 1403735,
+  "title": "Laila",
+  "originalTitle": "లైలా",
+  "overview": "Sonu Model, a renowned beautician from the old city, is forced to disguise himself as Laila, leading to a series of comedic, romantic, and action-packed events. Chaos ensues in this hilarious laugh riot",
+  "posterPath": "/l4gsNxFPGpzbq0D6QK1a8vO1lBz.jpg",
+  "backdropPath": "/vNUwK5P42m81uG57kKI1WxSZwIQ.jpg",
+  "releaseDate": "2025-02-14",
+  "voteAverage": 5.8,
+  "voteCount": 5,
+  "runtime": 134,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 10749,
+      "name": "Romance"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 1893251,
+        "name": "Vishwak Sen",
+        "character": "Sonu Model / Laila",
+        "profilePath": "/ffWsFHwde7M3W2IiIfn01htpALX.jpg",
+        "order": 0
+      },
+      {
+        "id": 3154351,
+        "name": "Akanksha Sharma",
+        "character": "Jenny",
+        "profilePath": "/aqPeJiZLSTDQnNmQPvchS1FlBVA.jpg",
+        "order": 1
+      },
+      {
+        "id": 584878,
+        "name": "Babloo Prithiveeraj",
+        "character": "Shankar \"Shanku\"",
+        "profilePath": "/lnRXcRebSmfJaSaRqTt91o1vkhE.jpg",
+        "order": 2
+      },
+      {
+        "id": 109743,
+        "name": "Abhimanyu Singh",
+        "character": "Rusthom",
+        "profilePath": "/ucGZIeHvG9SsW9B94InteMyOlpD.jpg",
+        "order": 3
+      },
+      {
+        "id": 312870,
+        "name": "Vineet Kumar",
+        "character": "Khaidi",
+        "profilePath": "/qAOIqG6kjysnSDlhkueQ7XaLc7t.jpg",
+        "order": 4
+      },
+      {
+        "id": 3237637,
+        "name": "Kamakshi Bhaskarla",
+        "character": "Sundari",
+        "profilePath": "/rS6eRKX0ZldriYdZjx6zf8faoHH.jpg",
+        "order": 5
+      },
+      {
+        "id": 3747367,
+        "name": "Surabhi Prabhavathi",
+        "character": "Subhaleka",
+        "profilePath": null,
+        "order": 6
+      },
+      {
+        "id": 223146,
+        "name": "Ravi Mariya",
+        "character": "Waseem",
+        "profilePath": "/2OKPiv0HobYPSrFMM6LZPxuLMgc.jpg",
+        "order": 7
+      },
+      {
+        "id": 1429160,
+        "name": "Prudhviraj",
+        "character": "",
+        "profilePath": "/fF5zEdi65qeyClLhjIuCmT5LdFb.jpg",
+        "order": 8
+      },
+      {
+        "id": 4477653,
+        "name": "Sunisith",
+        "character": "Sunisith",
+        "profilePath": "/3fdfMFnJNJPQ6jyhLLUNpCiwZhg.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 2279496,
+        "name": "Sahu Garapati",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 5240969,
+        "name": "Ram Narayan",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 96.7669,
+  "status": "Released",
+  "tagline": "",
+  "homepage": "",
+  "imdbId": "tt32831759"
+}

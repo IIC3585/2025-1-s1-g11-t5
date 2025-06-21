@@ -1,0 +1,144 @@
+{
+  "id": 986056,
+  "title": "Thunderbolts*",
+  "originalTitle": "Thunderbolts*",
+  "overview": "After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission that will force them to confront the darkest corners of their pasts.",
+  "posterPath": "/hBH50Mkcrc4m8x73CovLmY7vBx1.jpg",
+  "backdropPath": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+  "releaseDate": "2025-04-30",
+  "voteAverage": 7.403,
+  "voteCount": 1142,
+  "runtime": 127,
+  "budget": 180000000,
+  "revenue": 378445032,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 878,
+      "name": "Science Fiction"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 1373737,
+        "name": "Florence Pugh",
+        "character": "Yelena Belova",
+        "profilePath": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+        "order": 0
+      },
+      {
+        "id": 60898,
+        "name": "Sebastian Stan",
+        "character": "Bucky Barnes",
+        "profilePath": "/nKZgixTbHFXpkzzIpMFdLX98GYh.jpg",
+        "order": 1
+      },
+      {
+        "id": 15886,
+        "name": "Julia Louis-Dreyfus",
+        "character": "Valentina Allegra de Fontaine",
+        "profilePath": "/sXpjQoFoYqNehfWhlkScF8lo9vc.jpg",
+        "order": 2
+      },
+      {
+        "id": 1700685,
+        "name": "Lewis Pullman",
+        "character": "Robert Reynolds",
+        "profilePath": "/jAo0Rxl9EYVxLnhUlBww5Uxl89v.jpg",
+        "order": 3
+      },
+      {
+        "id": 35029,
+        "name": "David Harbour",
+        "character": "Alexei Shostakov",
+        "profilePath": "/tCbxqq6NUWVNoybztPsMwmJqwdI.jpg",
+        "order": 4
+      },
+      {
+        "id": 986808,
+        "name": "Wyatt Russell",
+        "character": "John Walker",
+        "profilePath": "/zIldBzXdBWskPZB7x35G2hYEVDo.jpg",
+        "order": 5
+      },
+      {
+        "id": 1408809,
+        "name": "Hannah John-Kamen",
+        "character": "Ava Starr",
+        "profilePath": "/V8P9EVelewGVXbuyEylqrzF6iG.jpg",
+        "order": 6
+      },
+      {
+        "id": 18182,
+        "name": "Olga Kurylenko",
+        "character": "Antonia Dreykov",
+        "profilePath": "/ei6eYUhQFw2AaV6U5fyPptBaPF0.jpg",
+        "order": 7
+      },
+      {
+        "id": 1803287,
+        "name": "Geraldine Viswanathan",
+        "character": "Mel",
+        "profilePath": "/aLg28ogJ2JYL2E38BHmXgCYYqmW.jpg",
+        "order": 8
+      },
+      {
+        "id": 17859,
+        "name": "Wendell Pierce",
+        "character": "Congressman Gary",
+        "profilePath": "/uOsldo9Pkl0E79UbIXX5tZZmC8F.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 10850,
+        "name": "Kevin Feige",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/2XZT80gR72to084pEj4f0SCDmDn.jpg"
+      },
+      {
+        "id": 836732,
+        "name": "Jake Schreier",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/fjspp1Tw7z1k5VhTTmMhjvg5Iew.jpg"
+      },
+      {
+        "id": 579281,
+        "name": "Eric Pearson",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/S2ZAnKX48e4yGZ8nb8f0f6fuTw.jpg"
+      },
+      {
+        "id": 579281,
+        "name": "Eric Pearson",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/S2ZAnKX48e4yGZ8nb8f0f6fuTw.jpg"
+      },
+      {
+        "id": 1407445,
+        "name": "Joanna Calo",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/cKvZKS44ouummWNmy0JO2DOxrqr.jpg"
+      }
+    ]
+  },
+  "popularity": 85.2164,
+  "status": "Released",
+  "tagline": "Everyone deserves a second shot.",
+  "homepage": "https://www.marvel.com/movies/thunderbolts",
+  "imdbId": "tt20969586"
+}

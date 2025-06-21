@@ -1,0 +1,151 @@
+{
+  "id": 1100988,
+  "title": "28 Years Later",
+  "originalTitle": "28 Years Later",
+  "overview": "Twenty-eight years since the rage virus escaped a biological weapons laboratory, now, still in a ruthlessly enforced quarantine, some have found ways to exist amidst the infected. One such group lives on a small island connected to the mainland by a single, heavily-defended causeway. When one member departs on a mission into the dark heart of the mainland, he discovers secrets, wonders, and horrors that have mutated not only the infected but other survivors as well.",
+  "posterPath": "/361hRZoG91Nw6qXaIKuGoogQjix.jpg",
+  "backdropPath": "/5z314zU4iraY1ZhbIvgfpbMRVA7.jpg",
+  "releaseDate": "2025-06-18",
+  "voteAverage": 7.4,
+  "voteCount": 116,
+  "runtime": 115,
+  "budget": 60000000,
+  "revenue": 5800000,
+  "genres": [
+    {
+      "id": 27,
+      "name": "Horror"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    },
+    {
+      "id": 878,
+      "name": "Science Fiction"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 5107934,
+        "name": "Alfie Williams",
+        "character": "Spike",
+        "profilePath": "/wqfyAhZH6uCu5J4THsz2gJxsizB.jpg",
+        "order": 0
+      },
+      {
+        "id": 27428,
+        "name": "Aaron Taylor-Johnson",
+        "character": "Jamie",
+        "profilePath": "/pFtHhih2XEaFaD3qOFyQW6q83br.jpg",
+        "order": 1
+      },
+      {
+        "id": 1388593,
+        "name": "Jodie Comer",
+        "character": "Isla",
+        "profilePath": "/iOP2tHyxtPiUzIBHzxxehBy9Khu.jpg",
+        "order": 2
+      },
+      {
+        "id": 5469,
+        "name": "Ralph Fiennes",
+        "character": "Dr. Ian Kelson",
+        "profilePath": "/u29BOqiV5GCQ8k8WUJM50i9xlBf.jpg",
+        "order": 3
+      },
+      {
+        "id": 997644,
+        "name": "Edvin Ryding",
+        "character": "Erik Sundqvist",
+        "profilePath": "/95mT0rw94k1MhrPRzdnEkokVXHQ.jpg",
+        "order": 4
+      },
+      {
+        "id": 6970,
+        "name": "Christopher Fulford",
+        "character": "Sam",
+        "profilePath": "/2n73aEyiU4fJprC2vHIf0M7YJ62.jpg",
+        "order": 5
+      },
+      {
+        "id": 134699,
+        "name": "Stella Gonet",
+        "character": "Jenny",
+        "profilePath": "/cUmDfX4fNvtAl5199HUc29ZDsAc.jpg",
+        "order": 6
+      },
+      {
+        "id": 1344320,
+        "name": "Chi Lewis-Parry",
+        "character": "'The Alpha'/'Samson'",
+        "profilePath": "/eS5mcqDMYtwHJ8lnwXkIjkz88WO.jpg",
+        "order": 7
+      },
+      {
+        "id": 85065,
+        "name": "Jack O'Connell",
+        "character": "Jimmy Crystal",
+        "profilePath": "/tCzR4clrIkbkijuJBYsNoEuwRDa.jpg",
+        "order": 8
+      },
+      {
+        "id": 1585961,
+        "name": "Kim Allan",
+        "character": "Jimmy's Mother",
+        "profilePath": "/lvFLHDgJvepgOZCCmH7ZruNPogq.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 2034,
+        "name": "Danny Boyle",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/b5qQpFHmgNyvV1t81ou17Jt2fRj.jpg"
+      },
+      {
+        "id": 2036,
+        "name": "Alex Garland",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/qSWzYnDw68xm4i5xprH9BwQ6q25.jpg"
+      },
+      {
+        "id": 2035,
+        "name": "Andrew Macdonald",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/j6C8BwvLK0R0rxYZI8sCU8KPkrd.jpg"
+      },
+      {
+        "id": 4474842,
+        "name": "Peter Rice",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/eSsmBBf59xWmn1oAKfXtf3F1vz6.jpg"
+      },
+      {
+        "id": 2034,
+        "name": "Danny Boyle",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/b5qQpFHmgNyvV1t81ou17Jt2fRj.jpg"
+      },
+      {
+        "id": 17599,
+        "name": "Bernard Bellew",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 181.447,
+  "status": "Released",
+  "tagline": "In 28 days it began. In 28 weeks it spread. In 28 years it evolved.",
+  "homepage": "https://28yearslater.movie",
+  "imdbId": "tt10548174"
+}

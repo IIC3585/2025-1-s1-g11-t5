@@ -1,0 +1,137 @@
+{
+  "id": 1239193,
+  "title": "Deep Cover",
+  "originalTitle": "Deep Cover",
+  "overview": "Kat is an improv comedy teacher beginning to question if she’s missed her shot at success. When an undercover cop offers her the role of a lifetime, she recruits two of her students to infiltrate London’s gangland by impersonating dangerous criminals.",
+  "posterPath": "/euM8fJvfH28xhjGy25LiygxfkWc.jpg",
+  "backdropPath": "/lOje1iz4VYWELYWRkZAwI7oIJd0.jpg",
+  "releaseDate": "2025-06-12",
+  "voteAverage": 6.773,
+  "voteCount": 163,
+  "runtime": 99,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 18997,
+        "name": "Bryce Dallas Howard",
+        "character": "Kat",
+        "profilePath": "/l9KTey4DqwazBkUgIEqfvMDCkaq.jpg",
+        "order": 0
+      },
+      {
+        "id": 114,
+        "name": "Orlando Bloom",
+        "character": "Marlon",
+        "profilePath": "/lwQoA0qJTCZ6l2FH6PjmhRQjiaB.jpg",
+        "order": 1
+      },
+      {
+        "id": 1509615,
+        "name": "Nick Mohammed",
+        "character": "Hugh",
+        "profilePath": "/2cFSHotCLLauzqq8iDKWK6meRAY.jpg",
+        "order": 2
+      },
+      {
+        "id": 14887,
+        "name": "Paddy Considine",
+        "character": "Fly",
+        "profilePath": "/96bZA8JRDjBgCE7ZHHgOMPmykc4.jpg",
+        "order": 3
+      },
+      {
+        "id": 1457238,
+        "name": "Sonoya Mizuno",
+        "character": "Shosh",
+        "profilePath": "/scbRPaGPw3VnR6mrmZQZi6Cuj1m.jpg",
+        "order": 4
+      },
+      {
+        "id": 6972,
+        "name": "Ian McShane",
+        "character": "Metcalfe",
+        "profilePath": "/qh9RTLbnr128TZLdGuXwUH9mdBM.jpg",
+        "order": 5
+      },
+      {
+        "id": 48,
+        "name": "Sean Bean",
+        "character": "Billings",
+        "profilePath": "/kTjiABk3TJ3yI0Cto5RsvyT6V3o.jpg",
+        "order": 6
+      },
+      {
+        "id": 1791508,
+        "name": "Freya Parker",
+        "character": "Harriet",
+        "profilePath": "/k2nXbHWHjrheQ1k4TdPpWeecGu3.jpg",
+        "order": 7
+      },
+      {
+        "id": 41379,
+        "name": "Omid Djalili",
+        "character": "Sagar",
+        "profilePath": "/lCgVvAw8EkIKbc93ZtINdwxH1CV.jpg",
+        "order": 8
+      },
+      {
+        "id": 2141561,
+        "name": "Ben Ashenden",
+        "character": "Dawes",
+        "profilePath": "/qwE3vNi5PDIQIOeTcYzR0iVWj8g.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 930707,
+        "name": "Colin Trevorrow",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/i0HBClPMPKn3aq8QeQqyThS67EK.jpg"
+      },
+      {
+        "id": 8701,
+        "name": "Laurie MacDonald",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/qmshY2CdaZKjl6s7K0fVWVFeO7p.jpg"
+      },
+      {
+        "id": 2212,
+        "name": "Walter F. Parkes",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/voOB5IhqOMvaweh44mfNnAYJBrq.jpg"
+      },
+      {
+        "id": 939336,
+        "name": "Tom Kingsley",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/tNh97HQjw71VaJJ3hD9Cuon73Om.jpg"
+      }
+    ]
+  },
+  "popularity": 219.3617,
+  "status": "Released",
+  "tagline": "If you want to survive, improvise.",
+  "homepage": "https://www.amazon.com/gp/video/detail/B0F3SQQ3BH",
+  "imdbId": "tt31121295"
+}

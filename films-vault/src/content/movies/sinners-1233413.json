@@ -1,0 +1,137 @@
+{
+  "id": 1233413,
+  "title": "Sinners",
+  "originalTitle": "Sinners",
+  "overview": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
+  "posterPath": "/yqsCU5XOP2mkbFamzAqbqntmfav.jpg",
+  "backdropPath": "/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
+  "releaseDate": "2025-04-16",
+  "voteAverage": 7.547,
+  "voteCount": 1570,
+  "runtime": 138,
+  "budget": 90000000,
+  "revenue": 362889145,
+  "genres": [
+    {
+      "id": 27,
+      "name": "Horror"
+    },
+    {
+      "id": 14,
+      "name": "Fantasy"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 135651,
+        "name": "Michael B. Jordan",
+        "character": "Smoke / Stack",
+        "profilePath": "/hz9AOUWZ2zzS0dpPJ1yQv2grA35.jpg",
+        "order": 0
+      },
+      {
+        "id": 130640,
+        "name": "Hailee Steinfeld",
+        "character": "Mary",
+        "profilePath": "/tb7zwVSmI2CDLU1Tc39c4ECO3jm.jpg",
+        "order": 1
+      },
+      {
+        "id": 4688032,
+        "name": "Miles Caton",
+        "character": "Sammie Moore",
+        "profilePath": "/yff2DK1Sc2baRGHbSfcmwMwX8HW.jpg",
+        "order": 2
+      },
+      {
+        "id": 85065,
+        "name": "Jack O'Connell",
+        "character": "Remmick",
+        "profilePath": "/tCzR4clrIkbkijuJBYsNoEuwRDa.jpg",
+        "order": 3
+      },
+      {
+        "id": 134774,
+        "name": "Wunmi Mosaku",
+        "character": "Annie",
+        "profilePath": "/wy02B2JkNIgK1DCkie1A98jCY77.jpg",
+        "order": 4
+      },
+      {
+        "id": 2455272,
+        "name": "Jayme Lawson",
+        "character": "Pearline",
+        "profilePath": "/ntwbhdUeW8K5KYJENqyiSZcsIj9.jpg",
+        "order": 5
+      },
+      {
+        "id": 334,
+        "name": "Omar Benson Miller",
+        "character": "Cornbread",
+        "profilePath": "/adlrkEpxDIcpxF7bpzMGErLxeHP.jpg",
+        "order": 6
+      },
+      {
+        "id": 18792,
+        "name": "Delroy Lindo",
+        "character": "Delta Slim",
+        "profilePath": "/kLwUBBmEIdchrLqwsYzgLB2B6q5.jpg",
+        "order": 7
+      },
+      {
+        "id": 1321015,
+        "name": "Li Jun Li",
+        "character": "Grace Chow",
+        "profilePath": "/n0Pys3SLZ56nM9FmBQYMVCbf9Jf.jpg",
+        "order": 8
+      },
+      {
+        "id": 3495960,
+        "name": "Yao",
+        "character": "Bo Chow",
+        "profilePath": "/hRMKy14F6zvDnwM3nRGOCVMTDmQ.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 1056121,
+        "name": "Ryan Coogler",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/dux4DCDaL6c639DTXGiV7nm1wcN.jpg"
+      },
+      {
+        "id": 2246303,
+        "name": "Zinzi Coogler",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/iRqdMOiuGy7vDJV5HcSW48jl8rr.jpg"
+      },
+      {
+        "id": 1639084,
+        "name": "Sev Ohanian",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/m13MHdV7OgmfB19YwoYehHMMsJO.jpg"
+      },
+      {
+        "id": 1056121,
+        "name": "Ryan Coogler",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/dux4DCDaL6c639DTXGiV7nm1wcN.jpg"
+      }
+    ]
+  },
+  "popularity": 197.5341,
+  "status": "Released",
+  "tagline": "Dance with the devil.",
+  "homepage": "https://www.sinnersmovie.com",
+  "imdbId": "tt31193180"
+}

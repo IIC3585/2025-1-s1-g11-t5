@@ -1,0 +1,137 @@
+{
+  "id": 870028,
+  "title": "The Accountant²",
+  "originalTitle": "The Accountant²",
+  "overview": "When an old acquaintance is murdered, Wolff is compelled to solve the case. Realizing more extreme measures are necessary, Wolff recruits his estranged and highly lethal brother, Brax, to help. In partnership with Marybeth Medina, they uncover a deadly conspiracy, becoming targets of a ruthless network of killers who will stop at nothing to keep their secrets buried.",
+  "posterPath": "/kMDUS7VmFhb2coRfVBoGLR8ADBt.jpg",
+  "backdropPath": "/yBDvgpyynDsbMyK21FoQu1c2wYR.jpg",
+  "releaseDate": "2025-04-23",
+  "voteAverage": 7.193,
+  "voteCount": 880,
+  "runtime": 133,
+  "budget": 80000000,
+  "revenue": 102123366,
+  "genres": [
+    {
+      "id": 9648,
+      "name": "Mystery"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 880,
+        "name": "Ben Affleck",
+        "character": "Christian Wolff",
+        "profilePath": "/aTcqu8cI4wMohU17xTdqmXKTGrw.jpg",
+        "order": 0
+      },
+      {
+        "id": 19498,
+        "name": "Jon Bernthal",
+        "character": "Braxton",
+        "profilePath": "/o0t6EVkJOrFAjESDilZUlf46IbQ.jpg",
+        "order": 1
+      },
+      {
+        "id": 182272,
+        "name": "Cynthia Addai-Robinson",
+        "character": "Marybeth Medina",
+        "profilePath": "/zJDl2ltnPPbvGINtQ3Vzq8dzHPS.jpg",
+        "order": 2
+      },
+      {
+        "id": 18999,
+        "name": "J.K. Simmons",
+        "character": "Ray King",
+        "profilePath": "/ScmKoJ9eiSUOthAt1PDNLi8Fkw.jpg",
+        "order": 3
+      },
+      {
+        "id": 5397272,
+        "name": "Allison Robertson",
+        "character": "Justine",
+        "profilePath": "/77b8MAHwK2RXBO5fC4nNayqo1X2.jpg",
+        "order": 4
+      },
+      {
+        "id": 1257565,
+        "name": "Alison Wright",
+        "character": "Justine (voice)",
+        "profilePath": "/yVdCk5eWk5syRrBdxjrnJ1O2Rpg.jpg",
+        "order": 5
+      },
+      {
+        "id": 1257819,
+        "name": "Daniella Pineda",
+        "character": "Anaïs",
+        "profilePath": "/o8h5qbyy8A0zKTRN57YOlQOafyQ.jpg",
+        "order": 6
+      },
+      {
+        "id": 75264,
+        "name": "Robert Morgan",
+        "character": "Burke",
+        "profilePath": "/dZhqn7yOmgetvM2mAWU7sEMmzu7.jpg",
+        "order": 7
+      },
+      {
+        "id": 1058027,
+        "name": "Grant Harvey",
+        "character": "Cobb",
+        "profilePath": "/sThJJbhgjQOZNvCkHVO0g3qy78j.jpg",
+        "order": 8
+      },
+      {
+        "id": 67206,
+        "name": "Andrew Howard",
+        "character": "Batu",
+        "profilePath": "/kba1JeCUYHufjB933G5xPRhO8lV.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 77003,
+        "name": "Gavin O'Connor",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/zf3MHvbf2uKC4UbsuFHQYLz48g.jpg"
+      },
+      {
+        "id": 53073,
+        "name": "Lynette Howell Taylor",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/zntIGGn7Y5r6AKAOkBOljArSinf.jpg"
+      },
+      {
+        "id": 880,
+        "name": "Ben Affleck",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/aTcqu8cI4wMohU17xTdqmXKTGrw.jpg"
+      },
+      {
+        "id": 206574,
+        "name": "Mark Williams",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/dmOeFb4qxG5TmDy1RW8CBzCCEOT.jpg"
+      }
+    ]
+  },
+  "popularity": 223.2411,
+  "status": "Released",
+  "tagline": "Do you like puzzles?",
+  "homepage": "https://www.amazon.com/salp/theaccountant2?hhf",
+  "imdbId": "tt7068946"
+}

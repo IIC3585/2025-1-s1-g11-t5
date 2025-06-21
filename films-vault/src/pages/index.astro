@@ -1,11 +1,103 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Professional Cinema Tracking">
+	<Header />
+	
+	<main>
+		<!-- Hero Section -->
+		<section class="relative py-24 px-6 overflow-hidden">
+			<!-- Background Gradient -->
+			<div class="absolute inset-0 bg-gradient-to-br from-vault-dark via-vault-dark to-vault-medium/20"></div>
+			
+			<div class="relative container mx-auto text-center">
+				<div class="max-w-4xl mx-auto">
+					<h1 class="text-5xl md:text-6xl font-bold mb-6 text-vault-cream leading-tight">
+						Professional Cinema
+						<span class="text-transparent bg-clip-text bg-gradient-to-r from-vault-light to-vault-medium">
+							Tracking Platform
+						</span>
+					</h1>
+					
+					<p class="text-xl text-vault-light/90 mb-8 max-w-2xl mx-auto leading-relaxed">
+						Advanced analytics, comprehensive tracking, and intelligent discovery for film professionals and enthusiasts.
+					</p>
+					
+					<div class="flex flex-col sm:flex-row gap-4 justify-center">
+						<a href="/movies" 
+						   class="bg-vault-medium hover:bg-vault-light text-vault-dark px-8 py-4 rounded-lg font-semibold transition-all duration-200 shadow-vault-lg transform hover:scale-105">
+							Explore Movies
+						</a>
+						<a href="/analytics" 
+						   class="border-2 border-vault-light/30 hover:border-vault-light hover:bg-vault-light/10 text-vault-cream px-8 py-4 rounded-lg font-semibold transition-all duration-200">
+							View Analytics
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Features Grid -->
+		<section class="py-24 px-6 bg-vault-dark/50">
+			<div class="container mx-auto">
+				<div class="text-center mb-16">
+					<h2 class="text-3xl md:text-4xl font-bold text-vault-cream mb-4">
+						Professional Features
+					</h2>
+					<p class="text-vault-light/80 text-lg max-w-2xl mx-auto">
+						Built for serious film tracking with advanced analytics and discovery tools.
+					</p>
+				</div>
+
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+					<!-- Feature 1 -->
+					<div class="bg-vault-dark/80 border border-vault-light/20 rounded-xl p-8 hover:border-vault-light/40 transition-all duration-300">
+						<div class="w-12 h-12 bg-vault-medium/20 rounded-lg flex items-center justify-center mb-6">
+							<svg class="w-6 h-6 text-vault-medium" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+							</svg>
+						</div>
+						<h3 class="text-xl font-semibold text-vault-cream mb-3">Advanced Analytics</h3>
+						<p class="text-vault-light/80">
+							Comprehensive viewing statistics, trends analysis, and personalized insights for your cinema journey.
+						</p>
+					</div>
+
+					<!-- Feature 2 -->
+					<div class="bg-vault-dark/80 border border-vault-light/20 rounded-xl p-8 hover:border-vault-light/40 transition-all duration-300">
+						<div class="w-12 h-12 bg-vault-medium/20 rounded-lg flex items-center justify-center mb-6">
+							<svg class="w-6 h-6 text-vault-medium" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+							</svg>
+						</div>
+						<h3 class="text-xl font-semibold text-vault-cream mb-3">Smart Discovery</h3>
+						<p class="text-vault-light/80">
+							AI-powered recommendations based on your viewing history, preferences, and professional interests.
+						</p>
+					</div>
+
+					<!-- Feature 3 -->
+					<div class="bg-vault-dark/80 border border-vault-light/20 rounded-xl p-8 hover:border-vault-light/40 transition-all duration-300">
+						<div class="w-12 h-12 bg-vault-medium/20 rounded-lg flex items-center justify-center mb-6">
+							<svg class="w-6 h-6 text-vault-medium" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path>
+							</svg>
+						</div>
+						<h3 class="text-xl font-semibold text-vault-cream mb-3">Professional Tracking</h3>
+						<p class="text-vault-light/80">
+							Organize watchlists, rate films, and maintain detailed viewing logs with professional-grade tools.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<Footer />
 </Layout>

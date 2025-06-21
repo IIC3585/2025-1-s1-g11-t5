@@ -1,0 +1,179 @@
+{
+  "id": 1197306,
+  "title": "A Working Man",
+  "originalTitle": "A Working Man",
+  "overview": "Levon Cade left behind a decorated military career in the black ops to live a simple life working construction. But when his boss's daughter, who is like family to him, is taken by human traffickers, his search to bring her home uncovers a world of corruption far greater than he ever could have imagined.",
+  "posterPath": "/6FRFIogh3zFnVWn7Z6zcYnIbRcX.jpg",
+  "backdropPath": "/fTrQsdMS2MUw00RnzH0r3JWHhts.jpg",
+  "releaseDate": "2025-03-26",
+  "voteAverage": 6.691,
+  "voteCount": 1269,
+  "runtime": 116,
+  "budget": 40000000,
+  "revenue": 99068160,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 976,
+        "name": "Jason Statham",
+        "character": "Levon Cade",
+        "profilePath": "/whNwkEQYWLFJA8ij0WyOOAD5xhQ.jpg",
+        "order": 0
+      },
+      {
+        "id": 973,
+        "name": "Jason Flemyng",
+        "character": "Wolo Kolisnyk",
+        "profilePath": "/nYl0180ACnLzVlGbaAfuPtdGr9K.jpg",
+        "order": 1
+      },
+      {
+        "id": 17817,
+        "name": "Merab Ninidze",
+        "character": "Yuri",
+        "profilePath": "/jnJ4lQULt6Ga3lXkIqAhMR7xYdE.jpg",
+        "order": 2
+      },
+      {
+        "id": 1011106,
+        "name": "Maximilian Osinski",
+        "character": "Dimi Kolisnyk",
+        "profilePath": "/wMRtFsZSR9FvYj1wzsziKQqpZ0C.jpg",
+        "order": 3
+      },
+      {
+        "id": 950125,
+        "name": "Cokey Falkow",
+        "character": "Dougie",
+        "profilePath": "/2VEMBUOHKZbpypEuso8jyxSo3Yc.jpg",
+        "order": 4
+      },
+      {
+        "id": 454,
+        "name": "Michael Peña",
+        "character": "Joe Garcia",
+        "profilePath": "/ft9e3EX4JG9MwK9pXwgbJ8ZvFoV.jpg",
+        "order": 5
+      },
+      {
+        "id": 35029,
+        "name": "David Harbour",
+        "character": "Gunny Lefferty",
+        "profilePath": "/tCbxqq6NUWVNoybztPsMwmJqwdI.jpg",
+        "order": 6
+      },
+      {
+        "id": 1862014,
+        "name": "Noemi Gonzalez",
+        "character": "Carla Garcia",
+        "profilePath": "/9BXgDrNRYy6wp0gxFP5qpqc6B5x.jpg",
+        "order": 7
+      },
+      {
+        "id": 3953574,
+        "name": "Arianna Rivas",
+        "character": "Jenny Garcia",
+        "profilePath": "/a4dRvxh2csK8pnMVz5Xrh8MrE8X.jpg",
+        "order": 8
+      },
+      {
+        "id": 3651199,
+        "name": "Isla Gie",
+        "character": "Merry Cade",
+        "profilePath": "/ebVVBTpJFiEyKoMwKnbPqLSbSUb.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 19769,
+        "name": "David Ayer",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/7JmWK2wg2StEc9eYjY96s7OJgb7.jpg"
+      },
+      {
+        "id": 19769,
+        "name": "David Ayer",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/7JmWK2wg2StEc9eYjY96s7OJgb7.jpg"
+      },
+      {
+        "id": 16483,
+        "name": "Sylvester Stallone",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/gn3pDWthJqR0VDYGViGD3048og7.jpg"
+      },
+      {
+        "id": 16483,
+        "name": "Sylvester Stallone",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/gn3pDWthJqR0VDYGViGD3048og7.jpg"
+      },
+      {
+        "id": 976,
+        "name": "Jason Statham",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/whNwkEQYWLFJA8ij0WyOOAD5xhQ.jpg"
+      },
+      {
+        "id": 4076474,
+        "name": "Chris Long",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/aiXrNt7XSt6MjG2dVCtuQycBtCc.jpg"
+      },
+      {
+        "id": 1533678,
+        "name": "John Friedberg",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 72102,
+        "name": "Bill Block",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/lIyEBU1aHtmSCgIue2hcgiYdDx6.jpg"
+      },
+      {
+        "id": 16486,
+        "name": "Kevin King Templeton",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/aG1wPhMwLoJD5pYVeylMQ45DoyT.jpg"
+      },
+      {
+        "id": 19769,
+        "name": "David Ayer",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/7JmWK2wg2StEc9eYjY96s7OJgb7.jpg"
+      }
+    ]
+  },
+  "popularity": 105.6752,
+  "status": "Released",
+  "tagline": "Human traffickers beware.",
+  "homepage": "https://www.amazon.com/salp/aworkingman?hhf",
+  "imdbId": "tt9150192"
+}

@@ -1,0 +1,130 @@
+{
+  "id": 11544,
+  "title": "Lilo & Stitch",
+  "originalTitle": "Lilo & Stitch",
+  "overview": "As Stitch, a runaway genetic experiment from a faraway planet, wreaks havoc on the Hawaiian Islands, he becomes the mischievous adopted alien \"puppy\" of an independent little girl named Lilo and learns about loyalty, friendship, and ʻohana, the Hawaiian tradition of family.",
+  "posterPath": "/d73UqZWyw3MUMpeaFcENgLZ2kWS.jpg",
+  "backdropPath": "/aIglP9Z5gtkQf7Fidb4NRv2gfDj.jpg",
+  "releaseDate": "2002-06-21",
+  "voteAverage": 7.555,
+  "voteCount": 6632,
+  "runtime": 85,
+  "budget": 80000000,
+  "revenue": 273144151,
+  "genres": [
+    {
+      "id": 16,
+      "name": "Animation"
+    },
+    {
+      "id": 10751,
+      "name": "Family"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 1580,
+        "name": "Daveigh Chase",
+        "character": "Lilo (voice)",
+        "profilePath": "/3PVQPEc6nXNX2eoW2UbsfVikc7H.jpg",
+        "order": 0
+      },
+      {
+        "id": 66193,
+        "name": "Chris Sanders",
+        "character": "Stitch (voice)",
+        "profilePath": "/6CtrIOCxggJ5eIAWeFQqd4Hs9FP.jpg",
+        "order": 1
+      },
+      {
+        "id": 13445,
+        "name": "Tia Carrere",
+        "character": "Nani (voice)",
+        "profilePath": "/rnHioNQkSmBAMgEBseu9bu6vw9l.jpg",
+        "order": 2
+      },
+      {
+        "id": 28010,
+        "name": "David Ogden Stiers",
+        "character": "Jumba (voice)",
+        "profilePath": "/cgCTQt3RZVkhkusG77l4HwHEH6A.jpg",
+        "order": 3
+      },
+      {
+        "id": 58955,
+        "name": "Kevin McDonald",
+        "character": "Pleakley (voice)",
+        "profilePath": "/ymwrW99x9gyN0zeRkqavt3lZMa9.jpg",
+        "order": 4
+      },
+      {
+        "id": 10182,
+        "name": "Ving Rhames",
+        "character": "Cobra Bubbles (voice)",
+        "profilePath": "/4gpLVNKPZlVucc4fT2fSZ7DksTK.jpg",
+        "order": 5
+      },
+      {
+        "id": 937681,
+        "name": "Zoe Caldwell",
+        "character": "Grand Councilwoman (voice)",
+        "profilePath": "/vukuSt1kVgGC8sTOU44BUrqiLhN.jpg",
+        "order": 6
+      },
+      {
+        "id": 58319,
+        "name": "Jason Scott Lee",
+        "character": "David Kawena (voice)",
+        "profilePath": "/7jObZCM3diuPV0WlKkzOd4uE2CJ.jpg",
+        "order": 7
+      },
+      {
+        "id": 24362,
+        "name": "Kevin Michael Richardson",
+        "character": "Captain Gantu (voice)",
+        "profilePath": "/xXt9Nh7RAT5bOen66TaXreNYmCl.jpg",
+        "order": 8
+      },
+      {
+        "id": 76003,
+        "name": "Susan Hegarty",
+        "character": "Rescue Lady (voice)",
+        "profilePath": null,
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 69798,
+        "name": "Clark Spencer",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/h14E5ieDoi3Sh7zLnkKQWblKO40.jpg"
+      },
+      {
+        "id": 66193,
+        "name": "Chris Sanders",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/6CtrIOCxggJ5eIAWeFQqd4Hs9FP.jpg"
+      },
+      {
+        "id": 69797,
+        "name": "Dean DeBlois",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/qdp7vc24XR836glg8mwHBEEZE6C.jpg"
+      }
+    ]
+  },
+  "popularity": 59.1293,
+  "status": "Released",
+  "tagline": "There's one in every family.",
+  "homepage": "https://movies.disney.com/lilo-stitch",
+  "imdbId": "tt0275847"
+}

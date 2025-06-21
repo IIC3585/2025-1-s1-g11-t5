@@ -1,0 +1,137 @@
+{
+  "id": 1087192,
+  "title": "How to Train Your Dragon",
+  "originalTitle": "How to Train Your Dragon",
+  "overview": "On the rugged isle of Berk, where Vikings and dragons have been bitter enemies for generations, Hiccup stands apart, defying centuries of tradition when he befriends Toothless, a feared Night Fury dragon. Their unlikely bond reveals the true nature of dragons, challenging the very foundations of Viking society.",
+  "posterPath": "/q5pXRYTycaeW6dEgsCrd4mYPmxM.jpg",
+  "backdropPath": "/7HqLLVjdjhXS0Qoz1SgZofhkIpE.jpg",
+  "releaseDate": "2025-06-06",
+  "voteAverage": 8.048,
+  "voteCount": 345,
+  "runtime": 125,
+  "budget": 150000000,
+  "revenue": 236807059,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 10751,
+      "name": "Family"
+    },
+    {
+      "id": 14,
+      "name": "Fantasy"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 2803710,
+        "name": "Mason Thames",
+        "character": "Hiccup Horrendous Haddock III",
+        "profilePath": "/2BLyvOUZbjsH83bdpFLqFkMY7pl.jpg",
+        "order": 0
+      },
+      {
+        "id": 2064124,
+        "name": "Nico Parker",
+        "character": "Astrid Hofferson",
+        "profilePath": "/gt0NJClVSCPCEfcPgcLj3f85uLa.jpg",
+        "order": 1
+      },
+      {
+        "id": 17276,
+        "name": "Gerard Butler",
+        "character": "Stoick the Vast",
+        "profilePath": "/n7sTgAGHyL3u9KIOVWjVLRA1fyi.jpg",
+        "order": 2
+      },
+      {
+        "id": 11109,
+        "name": "Nick Frost",
+        "character": "Gobber the Belch",
+        "profilePath": "/2CHS4t6miNGLgMQAjhFqb4fFuKS.jpg",
+        "order": 3
+      },
+      {
+        "id": 3792786,
+        "name": "Gabriel Howell",
+        "character": "Snoutlout Jorgenson",
+        "profilePath": "/u3PTI9FlrpGFZVMoHXZZBiYWMCl.jpg",
+        "order": 4
+      },
+      {
+        "id": 1139349,
+        "name": "Julian Dennison",
+        "character": "Fishlegs Ingerman",
+        "profilePath": "/sBvCEbO40SaPAHzWwYId63FqwuS.jpg",
+        "order": 5
+      },
+      {
+        "id": 1587577,
+        "name": "Bronwyn James",
+        "character": "Ruffnut Thorston",
+        "profilePath": "/clD8t9Oqu8mCTLsqjSTNWi6sSZC.jpg",
+        "order": 6
+      },
+      {
+        "id": 2104260,
+        "name": "Harry Trevaldwyn",
+        "character": "Tuffnut Thorston",
+        "profilePath": "/uYHekOiCHZoob1tW11vTceplA2e.jpg",
+        "order": 7
+      },
+      {
+        "id": 1216581,
+        "name": "Murray McArthur",
+        "character": "Hoark",
+        "profilePath": "/aW9Ib3PzKuWuSd0YrTIbFLGX877.jpg",
+        "order": 8
+      },
+      {
+        "id": 11115,
+        "name": "Peter Serafinowicz",
+        "character": "Spitelout Jorgenson",
+        "profilePath": "/atXOX0UQzIZkcnpNj1cluBdHwAE.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 73453,
+        "name": "Adam Siegel",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 69797,
+        "name": "Dean DeBlois",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/qdp7vc24XR836glg8mwHBEEZE6C.jpg"
+      },
+      {
+        "id": 23485,
+        "name": "Marc Platt",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/AdhoMikWWe1vjar68fuvekURno2.jpg"
+      },
+      {
+        "id": 69797,
+        "name": "Dean DeBlois",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/qdp7vc24XR836glg8mwHBEEZE6C.jpg"
+      }
+    ]
+  },
+  "popularity": 349.6505,
+  "status": "Released",
+  "tagline": "The legend is real.",
+  "homepage": "https://www.welcometoberk.com/",
+  "imdbId": "tt26743210"
+}

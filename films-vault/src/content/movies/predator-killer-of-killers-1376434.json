@@ -1,0 +1,165 @@
+{
+  "id": 1376434,
+  "title": "Predator: Killer of Killers",
+  "originalTitle": "Predator: Killer of Killers",
+  "overview": "While three of the fiercest warriors in human history—a Viking raider, a ninja in feudal Japan, and a WWII pilot—are killers in their own right, they are merely prey for their new opponent: the ultimate killer of killers.",
+  "posterPath": "/2XDQa6EmFHSA37j1t0w88vpWqj9.jpg",
+  "backdropPath": "/a3F9cXjRH488qcOqFmFZwqawBMU.jpg",
+  "releaseDate": "2025-06-05",
+  "voteAverage": 7.988,
+  "voteCount": 555,
+  "runtime": 85,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 16,
+      "name": "Animation"
+    },
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 878,
+      "name": "Science Fiction"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 1679770,
+        "name": "Lindsay LaVanchy",
+        "character": "Ursa (voice)",
+        "profilePath": "/izTspHKOpOAslVtlOsMv89o0rNe.jpg",
+        "order": 0
+      },
+      {
+        "id": 113308,
+        "name": "Louis Ozawa",
+        "character": "Kenji / Kiyoshi (voice)",
+        "profilePath": "/hPND74J7MQFUFCMS1zsDO7LSWzC.jpg",
+        "order": 1
+      },
+      {
+        "id": 53184,
+        "name": "Rick Gonzalez",
+        "character": "Torres (voice)",
+        "profilePath": "/pVHDPq1a2oCZktgI3VumMRzGBd3.jpg",
+        "order": 2
+      },
+      {
+        "id": 2712,
+        "name": "Michael Biehn",
+        "character": "Vandy (voice)",
+        "profilePath": "/9oFLsADWQm2TvU8XzLIzBbjdMkU.jpg",
+        "order": 3
+      },
+      {
+        "id": 1047370,
+        "name": "Doug Cockle",
+        "character": "Einar (voice)",
+        "profilePath": "/sQGrr2Sjn5o9hrKvcFEnCyTuNw4.jpg",
+        "order": 4
+      },
+      {
+        "id": 1445715,
+        "name": "Damien C. Haas",
+        "character": "Anders (voice)",
+        "profilePath": "/gOOCnM2q0bsY8FvjrLxCY4FlMGI.jpg",
+        "order": 5
+      },
+      {
+        "id": 1681573,
+        "name": "Lauren Holt",
+        "character": "Freya (voice)",
+        "profilePath": "/2dPQDpa9Q3tWUOlFiGspxFAOw6l.jpg",
+        "order": 6
+      },
+      {
+        "id": 1043835,
+        "name": "Jeff Leach",
+        "character": "Ivar (voice)",
+        "profilePath": null,
+        "order": 7
+      },
+      {
+        "id": 83272,
+        "name": "Cherami Leigh",
+        "character": "Young Ursa (voice)",
+        "profilePath": "/4Vko4QYXn3K8dhxbgAYGSwo8jjT.jpg",
+        "order": 8
+      },
+      {
+        "id": 5480011,
+        "name": "Alessa Luz Martinez",
+        "character": "Delgado (voice)",
+        "profilePath": null,
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 568322,
+        "name": "Dan Trachtenberg",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/crABZLMi5SAz7rKm0wV6JUOeKs5.jpg"
+      },
+      {
+        "id": 568322,
+        "name": "Dan Trachtenberg",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/crABZLMi5SAz7rKm0wV6JUOeKs5.jpg"
+      },
+      {
+        "id": 2043,
+        "name": "John Davis",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/kpXOBMUBZe8XpHYk7s0721kjjIk.jpg"
+      },
+      {
+        "id": 568322,
+        "name": "Dan Trachtenberg",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/crABZLMi5SAz7rKm0wV6JUOeKs5.jpg"
+      },
+      {
+        "id": 102630,
+        "name": "Marc Toberoff",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/tNgHmElWNYdstPhKqh6P78rDurZ.jpg"
+      },
+      {
+        "id": 1725893,
+        "name": "Ben Rosenblatt",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/yc5U3itbAwdajnZ75poz5zvNvZW.jpg"
+      },
+      {
+        "id": 112606,
+        "name": "Micho Rutare",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/y1Yoz5lHVdrBLSWSJn0tFdRRHjb.jpg"
+      },
+      {
+        "id": 112606,
+        "name": "Micho Rutare",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/y1Yoz5lHVdrBLSWSJn0tFdRRHjb.jpg"
+      }
+    ]
+  },
+  "popularity": 242.0604,
+  "status": "Released",
+  "tagline": "The hunt begins.",
+  "homepage": "https://www.20thcenturystudios.com/movies/predator-killer-of-killers",
+  "imdbId": "tt36463894"
+}

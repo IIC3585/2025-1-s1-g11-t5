@@ -1,0 +1,133 @@
+{
+  "id": 447273,
+  "title": "Snow White",
+  "originalTitle": "Snow White",
+  "overview": "Following the benevolent King's disappearance, the Evil Queen dominated the once fair land with a cruel streak. Princess Snow White flees the castle when the Queen, in her jealousy over Snow White's inner beauty, tries to kill her. Deep into the dark woods, she stumbles upon seven magical dwarves and a young bandit named Jonathan. Together, they strive to survive the Queen's relentless pursuit and aspire to take back the kingdom.",
+  "posterPath": "/xWWg47tTfparvjK0WJNX4xL8lW2.jpg",
+  "backdropPath": "/tyfO9jHgkhypUFizRVYD0bytPjP.jpg",
+  "releaseDate": "2025-03-12",
+  "voteAverage": 4.281,
+  "voteCount": 1155,
+  "runtime": 109,
+  "budget": 270000000,
+  "revenue": 205638736,
+  "genres": [
+    {
+      "id": 10751,
+      "name": "Family"
+    },
+    {
+      "id": 14,
+      "name": "Fantasy"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 2217977,
+        "name": "Rachel Zegler",
+        "character": "Snow White",
+        "profilePath": "/ycseVLFDnnTQ9QubleZjdbrGl4r.jpg",
+        "order": 0
+      },
+      {
+        "id": 90633,
+        "name": "Gal Gadot",
+        "character": "Evil Queen",
+        "profilePath": "/qCJB1ACi5VjtY4ypXuv3hjAvbSu.jpg",
+        "order": 1
+      },
+      {
+        "id": 1869968,
+        "name": "Andrew Burnap",
+        "character": "Jonathan",
+        "profilePath": "/SEFcP5hIIsmOE8G3SZxa2v8pyO.jpg",
+        "order": 2
+      },
+      {
+        "id": 3555,
+        "name": "Jeremy Swift",
+        "character": "Doc (voice)",
+        "profilePath": "/muRh4WbyEE4S2763bv777ywpKP3.jpg",
+        "order": 3
+      },
+      {
+        "id": 19978,
+        "name": "Jason Kravits",
+        "character": "Sneezy (voice)",
+        "profilePath": "/kTaZGtOP3SR6kosdRLyeQayfjcF.jpg",
+        "order": 4
+      },
+      {
+        "id": 4030,
+        "name": "Martin Klebba",
+        "character": "Grumpy (voice)",
+        "profilePath": "/schnhMaXtfv5EC7EJODTgMcfzPe.jpg",
+        "order": 5
+      },
+      {
+        "id": 1931568,
+        "name": "George Salazar",
+        "character": "Happy (voice)",
+        "profilePath": "/cWBFQH0r2SPGTQKskEHIA8WK1T6.jpg",
+        "order": 6
+      },
+      {
+        "id": 1394997,
+        "name": "Tituss Burgess",
+        "character": "Bashful (voice)",
+        "profilePath": "/aSgNPpLPp8Ou1X6qHdSP6Sq7Gju.jpg",
+        "order": 7
+      },
+      {
+        "id": 1653354,
+        "name": "Andy Grotelueschen",
+        "character": "Sleepy (voice)",
+        "profilePath": "/hYlCG3IJtXZ6ajqwmEQePwMwZde.jpg",
+        "order": 8
+      },
+      {
+        "id": 2914688,
+        "name": "Andrew Barth Feldman",
+        "character": "Dopey / Narrator (voice)",
+        "profilePath": "/17rLE4Q4gKejJp1TsByGnzMpK00.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 67796,
+        "name": "Erin Cressida Wilson",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/wR8K6Cb6Xqc41SXDjUaWSS5BqN3.jpg"
+      },
+      {
+        "id": 23485,
+        "name": "Marc Platt",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/AdhoMikWWe1vjar68fuvekURno2.jpg"
+      },
+      {
+        "id": 1974502,
+        "name": "Jared LeBoff",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/2uAA6kTR0YiwiqIoE4Nb1G7OVoo.jpg"
+      },
+      {
+        "id": 87742,
+        "name": "Marc Webb",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/95FAAT150Mi6DB8VcJgEeOplOsU.jpg"
+      }
+    ]
+  },
+  "popularity": 101.2814,
+  "status": "Released",
+  "tagline": "The classic tale comes to life.",
+  "homepage": "https://movies.disney.com/snow-white-2025",
+  "imdbId": "tt6208148"
+}

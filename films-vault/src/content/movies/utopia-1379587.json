@@ -1,0 +1,155 @@
+{
+  "id": 1379587,
+  "title": "Utopia",
+  "originalTitle": "Utopia",
+  "overview": "A soldier searching for his missing wife breaks into a high-tech facility, believing she's been caught in a human trafficking ring. But beyond its walls, he finds a surreal, futuristic fantasy park where reality and illusion blur. As he navigates this seductive and dangerous world, a shocking truth pulls him deeper into a deadly game where nothing is as it seems.",
+  "posterPath": "/yef0tY1Nw3BX8PJTfBLieqHj5Hw.jpg",
+  "backdropPath": "/79tWkw0oc4Az96bzw5jGsMI05DS.jpg",
+  "releaseDate": "2024-12-09",
+  "voteAverage": 5.447,
+  "voteCount": 38,
+  "runtime": 93,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 9648,
+      "name": "Mystery"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    },
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 878,
+      "name": "Science Fiction"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 1288730,
+        "name": "Moe Dunford",
+        "character": "Damon",
+        "profilePath": "/tJ64S9CzXXuVQQo6jpxLool6okw.jpg",
+        "order": 0
+      },
+      {
+        "id": 1262750,
+        "name": "Charlotte Vega",
+        "character": "Alexis",
+        "profilePath": "/legWa5GpB82M3KunyFjXPopkSc7.jpg",
+        "order": 1
+      },
+      {
+        "id": 2196042,
+        "name": "Michael D. Xavier",
+        "character": "Jeremy Zenner",
+        "profilePath": "/kfyljSkwsq6DYbtg9l8fGN52Y3q.jpg",
+        "order": 2
+      },
+      {
+        "id": 9452,
+        "name": "Daniel Bernhardt",
+        "character": "",
+        "profilePath": "/b59qhg5VJOCypx9eMXrXHAjauLd.jpg",
+        "order": 3
+      },
+      {
+        "id": 973,
+        "name": "Jason Flemyng",
+        "character": "",
+        "profilePath": "/nYl0180ACnLzVlGbaAfuPtdGr9K.jpg",
+        "order": 4
+      },
+      {
+        "id": 3719592,
+        "name": "Wanda Banda",
+        "character": "Joan",
+        "profilePath": "/usnpARPQcgPJNIs3huMz3ShmhB5.jpg",
+        "order": 5
+      },
+      {
+        "id": 130391,
+        "name": "Lucy Akhurst",
+        "character": "Miss Becker",
+        "profilePath": "/o7NxnyYFZGV0K0wQhPTTv13yHeM.jpg",
+        "order": 6
+      },
+      {
+        "id": 4111701,
+        "name": "Maddy Ambus",
+        "character": "Adelaide",
+        "profilePath": null,
+        "order": 7
+      },
+      {
+        "id": 5030158,
+        "name": "Jade Coatsworth",
+        "character": "Azumi",
+        "profilePath": "/tzNtJhGQpNlNtcHLIn5uA9pOysh.jpg",
+        "order": 8
+      },
+      {
+        "id": 4361551,
+        "name": "Sean Sutton",
+        "character": "Karl Tubin",
+        "profilePath": null,
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 113194,
+        "name": "James Bamford",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/nINKWQ3ej0aYNsP1kmybVASObAE.jpg"
+      },
+      {
+        "id": 1355964,
+        "name": "Danail Hadzhiyski",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 1933445,
+        "name": "Vladimir Karanikolov",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 1014927,
+        "name": "Scott Karol",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/dZgFwxHZ7Mben5sPhUNraYUcalb.jpg"
+      },
+      {
+        "id": 2258633,
+        "name": "Kyle Otto",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/tuxjplh7z8Vv1UGb89KzDoBx5fw.jpg"
+      },
+      {
+        "id": 16838,
+        "name": "Steven Paul",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/r3QqlY7B8sefjiCUAJhREuA5NJB.jpg"
+      }
+    ]
+  },
+  "popularity": 186.4278,
+  "status": "Released",
+  "tagline": "",
+  "homepage": "",
+  "imdbId": "tt32001464"
+}

@@ -1,0 +1,144 @@
+{
+  "id": 605722,
+  "title": "Distant",
+  "originalTitle": "Distant",
+  "overview": "After crash-landing on an alien planet, an asteroid miner must contend with the challenges of his new surroundings, while making his way across the harsh terrain to the only other survivor – a woman who is trapped in her escape pod.",
+  "posterPath": "/czh8HOhsbBUKoKsmRmLQMCLHUev.jpg",
+  "backdropPath": "/xVoj3HrOsnjOyyhqRD9jt5kTPc4.jpg",
+  "releaseDate": "2024-07-12",
+  "voteAverage": 6.2,
+  "voteCount": 118,
+  "runtime": 87,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 878,
+      "name": "Science Fiction"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 28,
+      "name": "Action"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 1560244,
+        "name": "Anthony Ramos",
+        "character": "Andy Ramirez",
+        "profilePath": "/2Stnm8PQI7xHkVwINb4MhS7LOuR.jpg",
+        "order": 0
+      },
+      {
+        "id": 240724,
+        "name": "Naomi Scott",
+        "character": "Naomi Calloway",
+        "profilePath": "/d140yTWCle6rYUGE9GIVZVPaPng.jpg",
+        "order": 1
+      },
+      {
+        "id": 571418,
+        "name": "Kristofer Hivju",
+        "character": "Dwayne",
+        "profilePath": "/bACL39GihNmBnFRay78rS3PUHsH.jpg",
+        "order": 2
+      },
+      {
+        "id": 17306,
+        "name": "Zachary Quinto",
+        "character": "L.E.O.N.A.R.D. (voice)",
+        "profilePath": "/ouIlxtf3xjiQmwYlp7OESxLg9O.jpg",
+        "order": 3
+      },
+      {
+        "id": 3624700,
+        "name": "Izzy Jones",
+        "character": "Mia Ramirez",
+        "profilePath": null,
+        "order": 4
+      },
+      {
+        "id": 4920162,
+        "name": "Leon Nurse-Joseph",
+        "character": "Caleb Ramirez",
+        "profilePath": null,
+        "order": 5
+      },
+      {
+        "id": 4920164,
+        "name": "Milan Walls-Smith",
+        "character": "A.M.I.E. (voice)",
+        "profilePath": null,
+        "order": 6
+      },
+      {
+        "id": 4920166,
+        "name": "Paisley Roemer",
+        "character": "Borealis Computer (voice)",
+        "profilePath": null,
+        "order": 7
+      },
+      {
+        "id": 60922,
+        "name": "Josh Gordon",
+        "character": "Dead Body in Pod",
+        "profilePath": "/z6KBPmop2V1Affmwr1qnkBP1ZP6.jpg",
+        "order": 8
+      }
+    ],
+    "crew": [
+      {
+        "id": 60922,
+        "name": "Josh Gordon",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/z6KBPmop2V1Affmwr1qnkBP1ZP6.jpg"
+      },
+      {
+        "id": 60923,
+        "name": "Will Speck",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/mTOCnOOKkvCzjdVQpWzykNrytUe.jpg"
+      },
+      {
+        "id": 999763,
+        "name": "Brian Kavanaugh-Jones",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/tzuxnnZdOVEGl4Hc3qby6D1Wn6d.jpg"
+      },
+      {
+        "id": 1638298,
+        "name": "Fred Berger",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/7ZnEZ8DVEBtpuNLXTNMj9T4ERb9.jpg"
+      },
+      {
+        "id": 2093324,
+        "name": "Anna Halberg",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/pLObowRMNx7ZMRYFWFcQHCfEVvp.jpg"
+      },
+      {
+        "id": 1651531,
+        "name": "Spenser Cohen",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/lEoJJcHUz3dPxyERQKJgR07on4T.jpg"
+      }
+    ]
+  },
+  "popularity": 173.8234,
+  "status": "Released",
+  "tagline": "Right girl. Wrong world.",
+  "homepage": "",
+  "imdbId": "tt9883398"
+}

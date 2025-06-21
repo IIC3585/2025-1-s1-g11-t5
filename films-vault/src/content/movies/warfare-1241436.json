@@ -1,0 +1,147 @@
+{
+  "id": 1241436,
+  "title": "Warfare",
+  "originalTitle": "Warfare",
+  "overview": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
+  "posterPath": "/srj9rYrjefyWqkLc6l2xjTGeBGO.jpg",
+  "backdropPath": "/cJvUJEEQ86LSjl4gFLkYpdCJC96.jpg",
+  "releaseDate": "2025-04-09",
+  "voteAverage": 7.186,
+  "voteCount": 598,
+  "runtime": 95,
+  "budget": 20000000,
+  "revenue": 31896828,
+  "genres": [
+    {
+      "id": 10752,
+      "name": "War"
+    },
+    {
+      "id": 28,
+      "name": "Action"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 2710333,
+        "name": "D'Pharaoh Woon-A-Tai",
+        "character": "Ray",
+        "profilePath": "/ozEGeNK9r2EFn4rNU0DSuNQaia0.jpg",
+        "order": 0
+      },
+      {
+        "id": 93491,
+        "name": "Will Poulter",
+        "character": "Erik",
+        "profilePath": "/9blYMaj79VGC6BHTLmJp3V5S8r3.jpg",
+        "order": 1
+      },
+      {
+        "id": 1363054,
+        "name": "Cosmo Jarvis",
+        "character": "Elliott",
+        "profilePath": "/1kgghZ558CxZCJip5ufO6BAqUGp.jpg",
+        "order": 2
+      },
+      {
+        "id": 1538851,
+        "name": "Kit Connor",
+        "character": "Tommy",
+        "profilePath": "/xjvVNB4N0p0zZSDzz5Ra8LmAzEy.jpg",
+        "order": 3
+      },
+      {
+        "id": 1512452,
+        "name": "Finn Bennett",
+        "character": "John",
+        "profilePath": "/fdKerNjJ0gIjqcbjYhNYBRVGNzs.jpg",
+        "order": 4
+      },
+      {
+        "id": 1369329,
+        "name": "Taylor John Smith",
+        "character": "Frank",
+        "profilePath": "/6dXZRf8ePa1oxQN9a5hFGEjDoI0.jpg",
+        "order": 5
+      },
+      {
+        "id": 1900369,
+        "name": "Michael Gandolfini",
+        "character": "Lt. MacDonald",
+        "profilePath": "/28b4ER8m7AJ40vsgocFIhwTKkzp.jpg",
+        "order": 6
+      },
+      {
+        "id": 2120814,
+        "name": "Adain Bradley",
+        "character": "Sgt Laerrus",
+        "profilePath": "/qPe2AgBrIIOOv4uLK984dxgGzxE.jpg",
+        "order": 7
+      },
+      {
+        "id": 1253353,
+        "name": "Noah Centineo",
+        "character": "Brian",
+        "profilePath": "/kXLuzSWRqM2P45uNcgb0v3H8dnE.jpg",
+        "order": 8
+      },
+      {
+        "id": 1734935,
+        "name": "Evan Holtzman",
+        "character": "Brock",
+        "profilePath": "/6bMtNQloX5g4d1xNa4QLKaQKL0z.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 4474842,
+        "name": "Peter Rice",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/eSsmBBf59xWmn1oAKfXtf3F1vz6.jpg"
+      },
+      {
+        "id": 3608245,
+        "name": "Ray Mendoza",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/4WBfSzOyG5TsSOmB3ssSd0SKfmR.jpg"
+      },
+      {
+        "id": 2035,
+        "name": "Andrew Macdonald",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/j6C8BwvLK0R0rxYZI8sCU8KPkrd.jpg"
+      },
+      {
+        "id": 17600,
+        "name": "Allon Reich",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/3JfsrlA7pfl8EDpVdrcUlp6NouJ.jpg"
+      },
+      {
+        "id": 2036,
+        "name": "Alex Garland",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/qSWzYnDw68xm4i5xprH9BwQ6q25.jpg"
+      },
+      {
+        "id": 1767889,
+        "name": "Matthew Penry-Davey",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 81.8966,
+  "status": "Released",
+  "tagline": "Everything is based on memory.",
+  "homepage": "https://a24films.com/films/warfare",
+  "imdbId": "tt31434639"
+}

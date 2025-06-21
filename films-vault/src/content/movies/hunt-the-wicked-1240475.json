@@ -1,0 +1,115 @@
+{
+  "id": 1240475,
+  "title": "Hunt the Wicked",
+  "originalTitle": "缉恶",
+  "overview": "The film tells the story of narcotics police officer Huang Mingjin and the \"mysterious figure\" Wei Yunzhou. Through completely different means and methods, in the process of calculating and wrestling with each other, they tear apart the facade of urban tranquility, exposing the underground drug network woven by the hidden hand \"Long Wang\", and ultimately eradicate the darkness with the sword of justice, revealing the dawn of light.",
+  "posterPath": "/m5UBHbEjQJx3AkRZWRY6A4l4ZDT.jpg",
+  "backdropPath": "/eRNMOrA6Bigonug3dT1R7aLZQaq.jpg",
+  "releaseDate": "2024-02-12",
+  "voteAverage": 5.571,
+  "voteCount": 7,
+  "runtime": 103,
+  "budget": 2107575,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 83487,
+        "name": "Xie Miao",
+        "character": "Huang Mingjin",
+        "profilePath": "/8bwYSkseRMrwZxD9pS9mQlS0bDR.jpg",
+        "order": 0
+      },
+      {
+        "id": 63585,
+        "name": "Andy On",
+        "character": "Wei Yunzhou",
+        "profilePath": "/zbH0l4V3QJdvkLKPhBr5EB5JWnB.jpg",
+        "order": 1
+      },
+      {
+        "id": 130562,
+        "name": "Andrew Lin Hoi",
+        "character": "Song Pa / Long Wang",
+        "profilePath": "/nt1UAs1IY0WQlIeaHjbCfkY0XAR.jpg",
+        "order": 2
+      },
+      {
+        "id": 2982520,
+        "name": "Hong Shuang",
+        "character": "Na Mei",
+        "profilePath": "/oBnSLS9gHhys53aY7ydh7pOqyjQ.jpg",
+        "order": 3
+      },
+      {
+        "id": 3261205,
+        "name": "Gu Jing",
+        "character": "Tian Yu",
+        "profilePath": "/8YlJvbrWEZnHsXnT2sT3cEKDEEp.jpg",
+        "order": 4
+      },
+      {
+        "id": 64383,
+        "name": "Anson Leung Chun-Yat",
+        "character": "Professor Li Qing",
+        "profilePath": "/sL6zxNX34EkXfiRKSkBgUSHceBT.jpg",
+        "order": 5
+      },
+      {
+        "id": 2084004,
+        "name": "Han Rui",
+        "character": "Police Chief",
+        "profilePath": "/qP1HSBwsXyWinDfo8OdY1WSgAI9.jpg",
+        "order": 6
+      },
+      {
+        "id": 4006999,
+        "name": "Liu Sasa",
+        "character": "Mayor's Secretary",
+        "profilePath": "/jRkxA6X5aE6sjgCvBgxItmL7zXn.jpg",
+        "order": 7
+      },
+      {
+        "id": 2585271,
+        "name": "Jane Wu",
+        "character": "Na Tili",
+        "profilePath": "/dnuORhTBcJuU8IsAJeJdqzZnJe8.jpg",
+        "order": 8
+      },
+      {
+        "id": 4533653,
+        "name": "Yin Cong",
+        "character": "A Tai",
+        "profilePath": "/1jpDwEjjnDqUTcAblv1KJqEQ6dN.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 2363550,
+        "name": "Chris Huo",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/yIeQ8RisAZiGFPTU5gAE1uli44j.jpg"
+      },
+      {
+        "id": 5251961,
+        "name": "Deng Xiao",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 270.7634,
+  "status": "Released",
+  "tagline": "",
+  "homepage": "",
+  "imdbId": "tt31704401"
+}

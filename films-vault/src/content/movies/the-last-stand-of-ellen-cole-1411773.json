@@ -1,0 +1,168 @@
+{
+  "id": 1411773,
+  "title": "The Last Stand of Ellen Cole",
+  "originalTitle": "The Last Stand of Ellen Cole",
+  "overview": "When an evil contractor goes to extreme measures to evict a testy tenant who is standing in the way of his new project, he fails to take into account that this seemingly harmless old woman is a trained killer and will do anything to protect her beloved home.",
+  "posterPath": "/oq1pGVQ2t3Cy4v7sA4LRhNjtZuJ.jpg",
+  "backdropPath": "/rRIz3KweJDjnJ4GtCZJT3JPEYgL.jpg",
+  "releaseDate": "2024-10-18",
+  "voteAverage": 8.023,
+  "voteCount": 22,
+  "runtime": 92,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 7401,
+        "name": "Lin Shaye",
+        "character": "Ellen",
+        "profilePath": "/aL87Za52elH81zMiXQn5C7AXAeg.jpg",
+        "order": 0
+      },
+      {
+        "id": 3514776,
+        "name": "Liz Caribel Sierra",
+        "character": "Abby",
+        "profilePath": "/o19U0aAcLwvf6mYtD4VpmKkNtqH.jpg",
+        "order": 1
+      },
+      {
+        "id": 1299192,
+        "name": "Craig Tate",
+        "character": "Clay",
+        "profilePath": "/509fvrZgzAcXrJ3zKSIvwb7J3Ck.jpg",
+        "order": 2
+      },
+      {
+        "id": 42711,
+        "name": "Ty Olsson",
+        "character": "Winston",
+        "profilePath": "/7vxoASi2aZZzw6c4guFSaPdE45y.jpg",
+        "order": 3
+      },
+      {
+        "id": 2717380,
+        "name": "Karan Gill",
+        "character": "Dhar",
+        "profilePath": "/7aPMmDXhW1u0HHL0RVyXVUbIBWK.jpg",
+        "order": 4
+      },
+      {
+        "id": 7678,
+        "name": "Hart Bochner",
+        "character": "Duke",
+        "profilePath": "/nfC2ByTNS3xoygwYVbUYsx2Zae6.jpg",
+        "order": 5
+      },
+      {
+        "id": 110476,
+        "name": "Sean Owen Roberts",
+        "character": "Kyle",
+        "profilePath": "/ykpWkvdUJZ7kkhpsrBuzEQUohIG.jpg",
+        "order": 6
+      },
+      {
+        "id": 3128008,
+        "name": "Tanner Bornowsky",
+        "character": "Duane",
+        "profilePath": null,
+        "order": 7
+      },
+      {
+        "id": 565222,
+        "name": "Matthew Kevin Anderson",
+        "character": "Deputy Floyd",
+        "profilePath": "/lSCwDQjV2qaPapwq5q77aQW2Ndv.jpg",
+        "order": 8
+      },
+      {
+        "id": 1569339,
+        "name": "Agnes Tong",
+        "character": "Deputy Wu",
+        "profilePath": null,
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 3602565,
+        "name": "Derek Lee",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": null
+      },
+      {
+        "id": 1194749,
+        "name": "Clif Prowse",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": null
+      },
+      {
+        "id": 1637338,
+        "name": "Tim Walker",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": null
+      },
+      {
+        "id": 376,
+        "name": "Arnon Milchan",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/b2hBExX4NnczNAnLuTBF4kmNhZm.jpg"
+      },
+      {
+        "id": 145228,
+        "name": "Jalmari Helander",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/vqmzsl8dQpjiFklM40HGCSRAcis.jpg"
+      },
+      {
+        "id": 228399,
+        "name": "Petri Jokiranta",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": null
+      },
+      {
+        "id": 999763,
+        "name": "Brian Kavanaugh-Jones",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/tzuxnnZdOVEGl4Hc3qby6D1Wn6d.jpg"
+      },
+      {
+        "id": 1211214,
+        "name": "Chris Ferguson",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/1MUsbhEwS9y1hEC4aVVesOznpe9.jpg"
+      },
+      {
+        "id": 999764,
+        "name": "Ben Pugh",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 58.2783,
+  "status": "Released",
+  "tagline": "",
+  "homepage": "",
+  "imdbId": "tt15682498"
+}

@@ -1,0 +1,127 @@
+{
+  "id": 1284120,
+  "title": "The Ugly Stepsister",
+  "originalTitle": "Den stygge stesøsteren",
+  "overview": "In a fairy-tale kingdom where beauty is a brutal business, Elvira battles to compete with her incredibly beautiful stepsister, and she will go to any length to catch the prince’s eye.",
+  "posterPath": "/crX9rSg9EohybhkEe8iTQUCe55y.jpg",
+  "backdropPath": "/eQV9rSQ6S1ja4lGTwHTnQuVhoG.jpg",
+  "releaseDate": "2025-03-07",
+  "voteAverage": 7.1,
+  "voteCount": 190,
+  "runtime": 109,
+  "budget": 4250000,
+  "revenue": 884602,
+  "genres": [
+    {
+      "id": 27,
+      "name": "Horror"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 14,
+      "name": "Fantasy"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 2890913,
+        "name": "Lea Myren",
+        "character": "Elvira",
+        "profilePath": "/wRsFFN1lhGcVM5kQFnLRW0wlQXR.jpg",
+        "order": 0
+      },
+      {
+        "id": 63769,
+        "name": "Ane Dahl Torp",
+        "character": "Rebekka",
+        "profilePath": "/t3hvq05o8oz9qJSI3KelxSkGXXO.jpg",
+        "order": 1
+      },
+      {
+        "id": 1384976,
+        "name": "Thea Sofie Loch Næss",
+        "character": "Agnes",
+        "profilePath": "/oUMhTs33MbqukeC6wJ5xghwIQD4.jpg",
+        "order": 2
+      },
+      {
+        "id": 3126191,
+        "name": "Flo Fagerli",
+        "character": "Alma",
+        "profilePath": "/yem43JCCG9xpjTT1IuosGtmZVNA.jpg",
+        "order": 3
+      },
+      {
+        "id": 3676023,
+        "name": "Isac Calmroth",
+        "character": "Prince Julian",
+        "profilePath": "/doyeUwvMsSkNuNzak9kBt26fNuP.jpg",
+        "order": 4
+      },
+      {
+        "id": 2984635,
+        "name": "Malte Gårdinger",
+        "character": "Isak",
+        "profilePath": "/vDtILRvipBzF2bVqZBiqMQ1HehP.jpg",
+        "order": 5
+      },
+      {
+        "id": 114580,
+        "name": "Ralph Carlsson",
+        "character": "Otto",
+        "profilePath": "/iTvT8uyyVrWbyczhSGRYHeOmb9Z.jpg",
+        "order": 6
+      },
+      {
+        "id": 213487,
+        "name": "Cecilia Forss",
+        "character": "Sophie von Kronenberg",
+        "profilePath": "/mutGaRS2YbySqxyUvGQNYWLeJKX.jpg",
+        "order": 7
+      },
+      {
+        "id": 968176,
+        "name": "Katarzyna Herman",
+        "character": "Madam Vanja",
+        "profilePath": "/5KyOEkFWHzEmlILlsnEW9EbThp9.jpg",
+        "order": 8
+      },
+      {
+        "id": 526011,
+        "name": "Adam Lundgren",
+        "character": "Dr. Esthétique",
+        "profilePath": "/hB62780sPK5HpHBylShEsrtfIh1.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 1365899,
+        "name": "Maria Ekerhovd",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/miwESw9dFupTTLaSyQNZvQ8ueSC.jpg"
+      },
+      {
+        "id": 1480411,
+        "name": "Emilie Blichfeldt",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/7sMDeTqW5ZXztzhHi54c2FqSVbz.jpg"
+      }
+    ]
+  },
+  "popularity": 106.4595,
+  "status": "Released",
+  "tagline": "If the shoe dosen't fit...",
+  "homepage": "https://www.uglystepsister.movie",
+  "imdbId": "tt29344903"
+}

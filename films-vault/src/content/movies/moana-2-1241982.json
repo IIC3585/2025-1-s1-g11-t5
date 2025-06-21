@@ -1,0 +1,183 @@
+{
+  "id": 1241982,
+  "title": "Moana 2",
+  "originalTitle": "Moana 2",
+  "overview": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
+  "posterPath": "/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
+  "backdropPath": "/zo8CIjJ2nfNOevqNajwMRO6Hwka.jpg",
+  "releaseDate": "2024-11-21",
+  "voteAverage": 7.075,
+  "voteCount": 2486,
+  "runtime": 100,
+  "budget": 150000000,
+  "revenue": 1059242164,
+  "genres": [
+    {
+      "id": 16,
+      "name": "Animation"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 10751,
+      "name": "Family"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 1564846,
+        "name": "Auliʻi Cravalho",
+        "character": "Moana (voice)",
+        "profilePath": "/vEroqcnM2g6yY7qXDAie7hx2Cyp.jpg",
+        "order": 0
+      },
+      {
+        "id": 18918,
+        "name": "Dwayne Johnson",
+        "character": "Maui (voice)",
+        "profilePath": "/5QApZVV8FUFlVxQpIK3Ew6cqotq.jpg",
+        "order": 1
+      },
+      {
+        "id": 4775908,
+        "name": "Hualālai Chung",
+        "character": "Moni (voice)",
+        "profilePath": "/x2g5fdHqETY9dZgL4aB0QDP0boR.jpg",
+        "order": 2
+      },
+      {
+        "id": 1868823,
+        "name": "Rose Matafeo",
+        "character": "Loto (voice)",
+        "profilePath": "/zQa39fMjbOTIsovbh1TBTJVlToz.jpg",
+        "order": 3
+      },
+      {
+        "id": 55937,
+        "name": "David Fane",
+        "character": "Kele (voice)",
+        "profilePath": "/tcozyaTgAa8rRmzc5qeht0loni6.jpg",
+        "order": 4
+      },
+      {
+        "id": 3819173,
+        "name": "Awhimai Fraser",
+        "character": "Matangi (voice)",
+        "profilePath": "/276OUDPl2iIsz772HQw3tiz2JN2.jpg",
+        "order": 5
+      },
+      {
+        "id": 4775906,
+        "name": "Khaleesi Lambert-Tsuda",
+        "character": "Simea (voice)",
+        "profilePath": "/3LHXDjy9UijbtR7X2EReX5H57kk.jpg",
+        "order": 6
+      },
+      {
+        "id": 7242,
+        "name": "Temuera Morrison",
+        "character": "Chief Tui (voice)",
+        "profilePath": "/1ckHDFgKXJ8pazmvLCW7DeOKqA0.jpg",
+        "order": 7
+      },
+      {
+        "id": 151246,
+        "name": "Nicole Scherzinger",
+        "character": "Sina (voice)",
+        "profilePath": "/kKG7zJvVReTipBYDD3aqHj4uPBe.jpg",
+        "order": 8
+      },
+      {
+        "id": 15298,
+        "name": "Rachel House",
+        "character": "Gramma Tala (voice)",
+        "profilePath": "/2LCQF7Bn0I91o17GGkox0ZhhbE7.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 4524084,
+        "name": "David G. Derrick Jr.",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/j5JOtRua5KduoPsQVix0rwY3jOo.jpg"
+      },
+      {
+        "id": 1999218,
+        "name": "Yvett Merino Flores",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/lWDGq9RsYDayXIqdyXz1yHzo2tU.jpg"
+      },
+      {
+        "id": 4496979,
+        "name": "Christina Chen",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 1461394,
+        "name": "Jason Hand",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/gepbkgavGdDXdNbQzdFaxayTpoH.jpg"
+      },
+      {
+        "id": 1513971,
+        "name": "Dana Ledoux Miller",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/1I3PoFUABjxIxuPQKI9zAaoyMj3.jpg"
+      },
+      {
+        "id": 2197774,
+        "name": "Bek Smith",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": null
+      },
+      {
+        "id": 1513971,
+        "name": "Dana Ledoux Miller",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/1I3PoFUABjxIxuPQKI9zAaoyMj3.jpg"
+      },
+      {
+        "id": 1318201,
+        "name": "Jared Bush",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/2gIwj1cnqZIKWaFg0ihmZnuZypR.jpg"
+      },
+      {
+        "id": 1318201,
+        "name": "Jared Bush",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/2gIwj1cnqZIKWaFg0ihmZnuZypR.jpg"
+      },
+      {
+        "id": 1513971,
+        "name": "Dana Ledoux Miller",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/1I3PoFUABjxIxuPQKI9zAaoyMj3.jpg"
+      }
+    ]
+  },
+  "popularity": 91.1579,
+  "status": "Released",
+  "tagline": "The ocean is calling them back.",
+  "homepage": "https://movies.disney.com/moana-2",
+  "imdbId": "tt13622970"
+}

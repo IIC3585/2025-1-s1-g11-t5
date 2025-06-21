@@ -1,0 +1,123 @@
+{
+  "id": 1311844,
+  "title": "The Twisters",
+  "originalTitle": "The Twisters",
+  "overview": "A deadly patchwork of destructive cyclones is on an apocalyptic path of convergence at a populated Midwest city center. There, the twisters will merge into one mega tornado that threatens to obliterate the cities for hundreds of miles around.",
+  "posterPath": "/8OP3h80BzIDgmMNANVaYlQ6H4Oc.jpg",
+  "backdropPath": "/xtnfoFs9vOLBF7Ox13mFmFUovey.jpg",
+  "releaseDate": "2024-06-28",
+  "voteAverage": 4.1,
+  "voteCount": 9,
+  "runtime": 87,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 148120,
+        "name": "Tiffany",
+        "character": "Dr. Janet Evans",
+        "profilePath": "/xbwtRSKZBi0CcwBqqDm9xBzOkv7.jpg",
+        "order": 0
+      },
+      {
+        "id": 1545371,
+        "name": "Mark Justice",
+        "character": "Dr. James Garland",
+        "profilePath": "/8QEynj64MxUBYWQpsyNOpwcH7At.jpg",
+        "order": 1
+      },
+      {
+        "id": 1936485,
+        "name": "Kayla Fields",
+        "character": "Dr. Erica Garland",
+        "profilePath": "/sDukIYZ7ISb6AEM06hX6IbJX61c.jpg",
+        "order": 2
+      },
+      {
+        "id": 98157,
+        "name": "Paul Logan",
+        "character": "Doug Cameron",
+        "profilePath": "/ahVtxgcNuQm1js7gmbVR6tQYhTE.jpg",
+        "order": 3
+      },
+      {
+        "id": 4807269,
+        "name": "Curtis Strong",
+        "character": "General Murphy",
+        "profilePath": null,
+        "order": 4
+      },
+      {
+        "id": 4303015,
+        "name": "Sofia Riba",
+        "character": "Claudia Santiago",
+        "profilePath": null,
+        "order": 5
+      },
+      {
+        "id": 99684,
+        "name": "Corbin Timbrook",
+        "character": "Professor Bennett",
+        "profilePath": null,
+        "order": 6
+      },
+      {
+        "id": 3636916,
+        "name": "Vinney Pugliese",
+        "character": "Steve Manley",
+        "profilePath": "/s8CwNlzF0hTuGr2AWIT8kHcX2jM.jpg",
+        "order": 7
+      },
+      {
+        "id": 5230210,
+        "name": "Donna Kim",
+        "character": "Captain Morales",
+        "profilePath": null,
+        "order": 8
+      },
+      {
+        "id": 4219053,
+        "name": "Cali Saylor",
+        "character": "Background",
+        "profilePath": null,
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 30053,
+        "name": "David Michael Latt",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/cBkmGgFkGFFyyE6aWDYovvaHL0g.jpg"
+      },
+      {
+        "id": 1768215,
+        "name": "Michael Su",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/yNvnLqEHb2FtdB7AW2O0lZelKBO.jpg"
+      }
+    ]
+  },
+  "popularity": 177.4494,
+  "status": "Released",
+  "tagline": "When Two Become One",
+  "homepage": "",
+  "imdbId": "tt31828378"
+}

@@ -1,0 +1,88 @@
+{
+  "id": 666154,
+  "title": "Kayara",
+  "originalTitle": "Kayara",
+  "overview": "A courageous and athletic teenager, Kayara dreams that she is destined to be the first female to break into the league of Chasquis - the official messengers of the Incan empire. As she learns what it takes to be a Chasqui along with its challenges, she tackles every mission she gets and discovers the ancient stories of her land and her people.",
+  "posterPath": "/tpZdjnoJ6Z3NsSxI6HjAIggrcEv.jpg",
+  "backdropPath": "/6YaTxghwL1HFBjcj43UHlP3zv5P.jpg",
+  "releaseDate": "2025-01-02",
+  "voteAverage": 7.557,
+  "voteCount": 53,
+  "runtime": 81,
+  "budget": 8000000,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 16,
+      "name": "Animation"
+    },
+    {
+      "id": 10751,
+      "name": "Family"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 2907003,
+        "name": "Naomi Serrano",
+        "character": "Kayara (voice)",
+        "profilePath": "/wpS5sLVriFIIhXvss2qUZIZFgGY.jpg",
+        "order": 0
+      },
+      {
+        "id": 2749594,
+        "name": "Nate Begle",
+        "character": "Martin (voice)",
+        "profilePath": "/wKiMFMmxiqrd2DE3dIbcmzuhk2D.jpg",
+        "order": 1
+      },
+      {
+        "id": 4829658,
+        "name": "Charles Gonzales",
+        "character": "Paullu",
+        "profilePath": null,
+        "order": 2
+      }
+    ],
+    "crew": [
+      {
+        "id": 2267529,
+        "name": "José Zelada",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/8IIMBwnhasLbOvEfRTZKTRLzMAA.jpg"
+      },
+      {
+        "id": 2267537,
+        "name": "Sergio Zelada",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 2267536,
+        "name": "Cesar Zelada",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/pdDjUtnbWdZRU6tOIMczAnojYib.jpg"
+      },
+      {
+        "id": 3249894,
+        "name": "Dirk Hampel",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 145.089,
+  "status": "Released",
+  "tagline": "",
+  "homepage": "http://www.cinemamanagementgroup.com/film/kayara/",
+  "imdbId": "tt11846550"
+}

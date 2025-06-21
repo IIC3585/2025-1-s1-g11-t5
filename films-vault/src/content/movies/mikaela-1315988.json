@@ -1,0 +1,133 @@
+{
+  "id": 1315988,
+  "title": "Mikaela",
+  "originalTitle": "Mikaela",
+  "overview": "During the eve of the 6th of January, a record-breaking snowstorm sweeps across Spain. In the midst of its chaos, a group of robbers seizes the opportunity to hijack an armoured van. A few meters away is Leo, a finished policeman who has nothing to lose. With the unexpected aid of a young woman, he will try to stop the band from running away with their loot.",
+  "posterPath": "/xG8olkWOmoW78GbozKbS2UxYGEo.jpg",
+  "backdropPath": "/8SaEH4kYCy7JlviyhKtSVsMkt4r.jpg",
+  "releaseDate": "2025-01-31",
+  "voteAverage": 6.163,
+  "voteCount": 52,
+  "runtime": 90,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 37569,
+        "name": "Antonio Resines",
+        "character": "Leo",
+        "profilePath": "/jm4yMnneOWa5diykiBV13qbMsS2.jpg",
+        "order": 0
+      },
+      {
+        "id": 3247405,
+        "name": "Natalia Azahara",
+        "character": "Mikaela",
+        "profilePath": "/ccsb7gTOsUcWLctzT9bfSBj7OkW.jpg",
+        "order": 1
+      },
+      {
+        "id": 17007,
+        "name": "Roger Casamajor",
+        "character": "Jon",
+        "profilePath": "/1UQozr5Y4C9HlFAWvsjsLPvThLF.jpg",
+        "order": 2
+      },
+      {
+        "id": 1446798,
+        "name": "Adriana Torrebejano",
+        "character": "Alicia",
+        "profilePath": "/68ke6bCR7sVz9YpVLdnqQMBhiNC.jpg",
+        "order": 3
+      },
+      {
+        "id": 4093284,
+        "name": "Pavel Anton",
+        "character": "Erik",
+        "profilePath": "/9nN7UxRgeJDxXtIzIqU0rd3ydFD.jpg",
+        "order": 4
+      },
+      {
+        "id": 589004,
+        "name": "Javier Albalá",
+        "character": "Carlos",
+        "profilePath": "/p9vOw5Rpjftx5PtIsp31VOsNjzv.jpg",
+        "order": 5
+      },
+      {
+        "id": 1243743,
+        "name": "Patricia Vico",
+        "character": "Laura",
+        "profilePath": "/96lZIgbJJHlobSvRIn1VT0X2kAW.jpg",
+        "order": 6
+      },
+      {
+        "id": 3941447,
+        "name": "Cristina Kovani",
+        "character": "Ivana",
+        "profilePath": "/q4QqK8lmLllrLAjzekYsbuq97k5.jpg",
+        "order": 7
+      },
+      {
+        "id": 1111242,
+        "name": "Oleg Kricunova",
+        "character": "Pavel",
+        "profilePath": "/vENlNK4kOk2HyTspWGl62OgYWhk.jpg",
+        "order": 8
+      },
+      {
+        "id": 2013149,
+        "name": "Peter Nikolas",
+        "character": "Roman",
+        "profilePath": "/4b8ugGK6TsVvGGjTCqA7MchBYoh.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 212687,
+        "name": "Daniel Calparsoro",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/m0mDreWr2QmrOCBI4JhSNh82gUO.jpg"
+      },
+      {
+        "id": 1362766,
+        "name": "Jaime Ortiz de Artiñano",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 2246067,
+        "name": "Jorge Sánchez Gallo",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 979785,
+        "name": "Javier Ugarte",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 136.4305,
+  "status": "Released",
+  "tagline": "A storm. A heist. A cop on the edge.",
+  "homepage": "",
+  "imdbId": "tt32095441"
+}

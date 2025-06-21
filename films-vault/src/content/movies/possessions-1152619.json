@@ -1,0 +1,94 @@
+{
+  "id": 1152619,
+  "title": "Possessions",
+  "originalTitle": "Possessions",
+  "overview": "Follows a father who seeks a fresh start with his son after the loss of his wife, and purchased a storage unit facility sight unseen, but secrets buried behind the metal doors become a parent's worst nightmare.",
+  "posterPath": "/39a7zYZvkGfs7EOVVK3dQlWyYJ0.jpg",
+  "backdropPath": "/4uEVhE07sSEg3t9MdudCjXWt9fG.jpg",
+  "releaseDate": "2024-04-12",
+  "voteAverage": 4,
+  "voteCount": 18,
+  "runtime": 90,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 27,
+      "name": "Horror"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 85977,
+        "name": "Clive Standen",
+        "character": "Pete",
+        "profilePath": "/8cxLoC2qnzk0FvuLFLRGxYSq9i9.jpg",
+        "order": 0
+      },
+      {
+        "id": 5586,
+        "name": "Yeardley Smith",
+        "character": "Dr. Young",
+        "profilePath": "/9AjPwbb3uz4GfgOPBYsy2ILvwkB.jpg",
+        "order": 1
+      },
+      {
+        "id": 3890363,
+        "name": "Mason Wells",
+        "character": "Tyler",
+        "profilePath": null,
+        "order": 2
+      },
+      {
+        "id": 33294,
+        "name": "K.C. Clyde",
+        "character": "Father Mann",
+        "profilePath": "/3Yug5axLRvnmuJHHlomDj06SSFH.jpg",
+        "order": 3
+      },
+      {
+        "id": 3508619,
+        "name": "Reynada Robinson",
+        "character": "Yvonne",
+        "profilePath": "/yyQzEgYaRxnwzFHd4gOqMo6V1cL.jpg",
+        "order": 4
+      },
+      {
+        "id": 2796100,
+        "name": "Dustin Wilson",
+        "character": "Steve",
+        "profilePath": "/twwuRhi6ColvcR9U02MIry28XB9.jpg",
+        "order": 5
+      }
+    ],
+    "crew": [
+      {
+        "id": 2486442,
+        "name": "Jordan Foley",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 1696119,
+        "name": "Brent Cote",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": null
+      },
+      {
+        "id": 2562543,
+        "name": "Ben Cornwell",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/g6kT1YzP179MCJXMbIiEeUVuewO.jpg"
+      }
+    ]
+  },
+  "popularity": 133.4634,
+  "status": "Released",
+  "tagline": "",
+  "homepage": "",
+  "imdbId": "tt14853700"
+}

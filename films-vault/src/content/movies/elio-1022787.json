@@ -1,0 +1,187 @@
+{
+  "id": 1022787,
+  "title": "Elio",
+  "originalTitle": "Elio",
+  "overview": "Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with eccentric alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant to be.",
+  "posterPath": "/w2ARwtc1zoh0pyfwmyhpZHwuXgK.jpg",
+  "backdropPath": "/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
+  "releaseDate": "2025-06-18",
+  "voteAverage": 6.851,
+  "voteCount": 37,
+  "runtime": 99,
+  "budget": 150000000,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 10751,
+      "name": "Family"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 16,
+      "name": "Animation"
+    },
+    {
+      "id": 878,
+      "name": "Science Fiction"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 2986863,
+        "name": "Yonas Kibreab",
+        "character": "Elio / Other Elio (voice)",
+        "profilePath": "/vp7wBIQ4MkfJJ5KfN8bMOLxdSJE.jpg",
+        "order": 0
+      },
+      {
+        "id": 8691,
+        "name": "Zoe Saldaña",
+        "character": "Olga Solís (voice)",
+        "profilePath": "/vQBwmsSOAd0JDaEcZ5p43J9xzsY.jpg",
+        "order": 1
+      },
+      {
+        "id": 3455058,
+        "name": "Remy Edgerly",
+        "character": "Glordon (voice)",
+        "profilePath": "/ik41sbEMHnoAT3LMIv7f0krXRwB.jpg",
+        "order": 2
+      },
+      {
+        "id": 5077775,
+        "name": "Brandon Moon",
+        "character": "Ambassador Helix (voice)",
+        "profilePath": "/ocSrdXMrKNMLSJZLTrIxMaU53ie.jpg",
+        "order": 3
+      },
+      {
+        "id": 18,
+        "name": "Brad Garrett",
+        "character": "Lord Grigon (voice)",
+        "profilePath": "/wGklfTf3zpTegGoV1jOi5NzpZnd.jpg",
+        "order": 4
+      },
+      {
+        "id": 1624816,
+        "name": "Jameela Jamil",
+        "character": "Ambassador Questa (voice)",
+        "profilePath": "/2LdfSQHnvv9blDL9EDVhddh5GlZ.jpg",
+        "order": 5
+      },
+      {
+        "id": 2443561,
+        "name": "Young Dylan",
+        "character": "Bryce (voice)",
+        "profilePath": "/5o563nn5z5YSLo09oK4bhG2ENxj.jpg",
+        "order": 6
+      },
+      {
+        "id": 1600724,
+        "name": "Jake T. Getman",
+        "character": "Caleb (voice)",
+        "profilePath": "/aBDawwQUOqKMCyGzrXcU1d0zNzX.jpg",
+        "order": 7
+      },
+      {
+        "id": 16808,
+        "name": "Matthias Schweighöfer",
+        "character": "Ambassador Tegmen (voice)",
+        "profilePath": "/i4c5JjvC5EpecZbp4J96mFmtm0Z.jpg",
+        "order": 8
+      },
+      {
+        "id": 57409,
+        "name": "Ana de la Reguera",
+        "character": "Ambassador Turais (voice)",
+        "profilePath": "/hE8W86SKgIzoVsukTnL0VeGeYwB.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 61292,
+        "name": "Mary Alice Drumm",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 2009739,
+        "name": "Domee Shi",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/ozvZZFyQsKC3UjDGN0UqvYLrXhf.jpg"
+      },
+      {
+        "id": 1171950,
+        "name": "Madeline Sharafian",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/gi4yU1ZxsFivjfL9c3NuJC24JTm.jpg"
+      },
+      {
+        "id": 1684652,
+        "name": "Adrian Molina",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/aFSYItLNBrY3zrPr69YqYwezj7D.jpg"
+      },
+      {
+        "id": 1226604,
+        "name": "Julia Cho",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/w404lpFYcQMbYuL4paKKoVF0ktD.jpg"
+      },
+      {
+        "id": 1368145,
+        "name": "Mark Hammer",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": null
+      },
+      {
+        "id": 2808625,
+        "name": "Mike Jones",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/7Dk5PsOjWK3HvYZSVvKq2NQvhVX.jpg"
+      },
+      {
+        "id": 1684652,
+        "name": "Adrian Molina",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/aFSYItLNBrY3zrPr69YqYwezj7D.jpg"
+      },
+      {
+        "id": 1171950,
+        "name": "Madeline Sharafian",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/gi4yU1ZxsFivjfL9c3NuJC24JTm.jpg"
+      },
+      {
+        "id": 2009739,
+        "name": "Domee Shi",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/ozvZZFyQsKC3UjDGN0UqvYLrXhf.jpg"
+      }
+    ]
+  },
+  "popularity": 77.796,
+  "status": "Released",
+  "tagline": "They asked for our leader. They got... him.",
+  "homepage": "https://movies.disney.com/elio",
+  "imdbId": "tt4900148"
+}

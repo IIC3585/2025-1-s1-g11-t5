@@ -1,0 +1,121 @@
+{
+  "id": 1421982,
+  "title": "Kiff Lore of the Ring Light",
+  "originalTitle": "Kiff Lore of the Ring Light",
+  "overview": "Kiff and her friends go on an adventure to destroy a ring light of immense power.",
+  "posterPath": "/tfdzBx8on6mHdXusi08ZEEPSFqx.jpg",
+  "backdropPath": "/uFOw4HdEf8I4Uw3Q2md7IJf6WXr.jpg",
+  "releaseDate": "2025-01-21",
+  "voteAverage": 6.857,
+  "voteCount": 7,
+  "runtime": 24,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 16,
+      "name": "Animation"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 14,
+      "name": "Fantasy"
+    },
+    {
+      "id": 10751,
+      "name": "Family"
+    },
+    {
+      "id": 10402,
+      "name": "Music"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 1443708,
+        "name": "Kimiko Glenn",
+        "character": "Kiff Chatterley",
+        "profilePath": "/6QnVIyHKbzx0ZsUr3BmIwnZxujL.jpg",
+        "order": 0
+      },
+      {
+        "id": 1465278,
+        "name": "H Michael Croner",
+        "character": "Barry Buns",
+        "profilePath": "/9QyfK6baeazngIuItoU4AmdGcPB.jpg",
+        "order": 1
+      },
+      {
+        "id": 89599,
+        "name": "Eric Bauza",
+        "character": "Reggie",
+        "profilePath": "/afOlsVPQxbtkom604MeCemjlwEV.jpg",
+        "order": 2
+      },
+      {
+        "id": 1579806,
+        "name": "Vella Lovell",
+        "character": "Candle Fox",
+        "profilePath": "/parPBtWN9ooQ8E2s31rm7XiYda4.jpg",
+        "order": 3
+      },
+      {
+        "id": 3253821,
+        "name": "Nic Smal",
+        "character": "Principal Secretary",
+        "profilePath": "/9bQKEgSSCnZeQTSL4gNUql38dnr.jpg",
+        "order": 4
+      },
+      {
+        "id": 3253817,
+        "name": "Lucy Heavens",
+        "character": "Helen",
+        "profilePath": "/bsRRurMO59C1QX3cYJhAeTr3tvY.jpg",
+        "order": 5
+      },
+      {
+        "id": 78798,
+        "name": "Tom Kenny",
+        "character": "Trevor",
+        "profilePath": "/dKOxpGnRkIMaPkZSHKIns99WxQa.jpg",
+        "order": 6
+      },
+      {
+        "id": 2506479,
+        "name": "Mary Mack",
+        "character": "Renée",
+        "profilePath": "/a1rFLfcxzxmfAz178mFKFIQ8wIT.jpg",
+        "order": 7
+      },
+      {
+        "id": 1217614,
+        "name": "Deedee Magno",
+        "character": "Miss Deer Teacher",
+        "profilePath": "/7YE7BszWB45woWAzrBomXu4TgCE.jpg",
+        "order": 8
+      }
+    ],
+    "crew": [
+      {
+        "id": 1056784,
+        "name": "Allison Craig",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 60.1852,
+  "status": "Released",
+  "tagline": "",
+  "homepage": "https://disneynow.com/show/ddcd18e0-c7d7-44b0-b2e5-d8e5a1b7f391",
+  "imdbId": "tt31909472"
+}

@@ -1,0 +1,175 @@
+{
+  "id": 1127110,
+  "title": "Diablo",
+  "originalTitle": "Diablo",
+  "overview": "Ex-con Kris Chaney seizes the daughter of a Colombian gangster to fulfill a noble promise to the young girl's mother. When her father enlists both the criminal underworld and a psychotic killer to exact his revenge, Kris relies on everything he's ever learned to stay alive and keep his word.",
+  "posterPath": "/uFQduVyYIinJy3eLjozgfl6Xtcn.jpg",
+  "backdropPath": "/fPWJn5pqBr8n4h0YxW3QuasdvoI.jpg",
+  "releaseDate": "2025-06-13",
+  "voteAverage": 7,
+  "voteCount": 32,
+  "runtime": 91,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 78110,
+        "name": "Scott Adkins",
+        "character": "Kris Chaney",
+        "profilePath": "/9NRr2a1riIn5CWn5McZLJlk4vxR.jpg",
+        "order": 0
+      },
+      {
+        "id": 118370,
+        "name": "Marko Zaror",
+        "character": "El Corvo",
+        "profilePath": "/rQ8XFdLmnfXs5x8FsttdOUrFLWa.jpg",
+        "order": 1
+      },
+      {
+        "id": 5428036,
+        "name": "Alanna de la Rosa",
+        "character": "Elisa",
+        "profilePath": "/p9nQfqFW8vollYkdCAW8uADj5Wa.jpg",
+        "order": 2
+      },
+      {
+        "id": 2851847,
+        "name": "Diana Hoyos",
+        "character": "Alex",
+        "profilePath": "/fjyHzQHJb9O43vXagG4WVzzPtK7.jpg",
+        "order": 3
+      },
+      {
+        "id": 1905760,
+        "name": "Lucho Velasco",
+        "character": "Vincente",
+        "profilePath": "/spQR7Ru9lMheoQn4wNyAEWN30SD.jpg",
+        "order": 4
+      },
+      {
+        "id": 3862081,
+        "name": "María del Rosario",
+        "character": "Policewoman",
+        "profilePath": "/ln83cpcticvSWbEMVUD3NtmmLCA.jpg",
+        "order": 5
+      },
+      {
+        "id": 1105832,
+        "name": "Jason Gurvitz",
+        "character": "Zapho",
+        "profilePath": null,
+        "order": 6
+      },
+      {
+        "id": 2090268,
+        "name": "Juan Camilo Castillo",
+        "character": "Large",
+        "profilePath": "/A09k9OnXnhiHkGpJqrEUABVl8fp.jpg",
+        "order": 7
+      },
+      {
+        "id": 1105832,
+        "name": "Jason Gurvitz",
+        "character": "Nick",
+        "profilePath": null,
+        "order": 8
+      },
+      {
+        "id": 3021879,
+        "name": "Jaime Correa",
+        "character": "The Bookkeeper",
+        "profilePath": null,
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 118369,
+        "name": "Ernesto Díaz Espinoza",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/cKl78o9FX3alrymep8jYzFArEMj.jpg"
+      },
+      {
+        "id": 14695,
+        "name": "Craig Baumgarten",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 1015898,
+        "name": "Clay Epstein",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 78110,
+        "name": "Scott Adkins",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/9NRr2a1riIn5CWn5McZLJlk4vxR.jpg"
+      },
+      {
+        "id": 118370,
+        "name": "Marko Zaror",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/rQ8XFdLmnfXs5x8FsttdOUrFLWa.jpg"
+      },
+      {
+        "id": 1105832,
+        "name": "Jason Gurvitz",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 5453986,
+        "name": "Alvaro Gutierrez",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 5453990,
+        "name": "Mat Sansom",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": null
+      },
+      {
+        "id": 78110,
+        "name": "Scott Adkins",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/9NRr2a1riIn5CWn5McZLJlk4vxR.jpg"
+      },
+      {
+        "id": 118370,
+        "name": "Marko Zaror",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/rQ8XFdLmnfXs5x8FsttdOUrFLWa.jpg"
+      }
+    ]
+  },
+  "popularity": 236.7301,
+  "status": "Released",
+  "tagline": "There'll be hell to pay.",
+  "homepage": "",
+  "imdbId": "tt27757546"
+}

@@ -1,0 +1,108 @@
+{
+  "id": 1395724,
+  "title": "Chijin no Ai",
+  "originalTitle": "痴人の愛",
+  "overview": "Kawai Joji, an aspiring screenwriter who has won a screenplay competition but has yet to make his professional debut, meets a beautiful woman, Naomi, in a rundown bar one day. Naomi says she is working at the bar while aiming to become an actress. On another day, Joji is asked by his screenplay instructor if he would like to write a screenplay for a film based on Tanizaki Junichiro's \"A Fool's Love\" on his behalf. Joji is determined to succeed this time, but struggles to write the script. Meanwhile, Joji meets Naomi again, and the two of them quickly become closer, but...",
+  "posterPath": "/fKNBwFKX4VMC73hJr81GpsoUsQO.jpg",
+  "backdropPath": "/eW2e6xkVNkWanabMkuYmF9jwgW9.jpg",
+  "releaseDate": "2024-11-29",
+  "voteAverage": 6,
+  "voteCount": 1,
+  "runtime": 106,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 134845,
+        "name": "Shima Onishi",
+        "character": "Joji Kawai",
+        "profilePath": "/9jCtUe8mf3dhBHaolV8Cj0leRkO.jpg",
+        "order": 0
+      },
+      {
+        "id": 2657490,
+        "name": "Sena Natsuki",
+        "character": "Naomi",
+        "profilePath": "/wHTdQH2KSRXHfLMYFIW9e72HwDo.jpg",
+        "order": 1
+      },
+      {
+        "id": 1395639,
+        "name": "Shiori Doi",
+        "character": "",
+        "profilePath": "/ooW1oY0jLRlVdMyxiM4xSlXbg8Y.jpg",
+        "order": 2
+      },
+      {
+        "id": 4074516,
+        "name": "Shunsuke Sato",
+        "character": "",
+        "profilePath": null,
+        "order": 3
+      },
+      {
+        "id": 4951683,
+        "name": "Yohei Shibayama",
+        "character": "",
+        "profilePath": null,
+        "order": 4
+      },
+      {
+        "id": 66152,
+        "name": "Takehiro Murata",
+        "character": "椿",
+        "profilePath": "/he1V9AFAS0rKIy94WnpKN8YxHWW.jpg",
+        "order": 5
+      },
+      {
+        "id": 1159338,
+        "name": "Miyoko Yoshimoto",
+        "character": "",
+        "profilePath": "/jei7hXljXux67TEBIyI828S0dVW.jpg",
+        "order": 6
+      },
+      {
+        "id": 1029726,
+        "name": "Hiroko Nakajima",
+        "character": "",
+        "profilePath": "/9zfLO9cumgCfgzckkX1Gxriy5yn.jpg",
+        "order": 7
+      },
+      {
+        "id": 1078683,
+        "name": "Yohta Kawase",
+        "character": "",
+        "profilePath": "/aPjf57B380k929h2OZ6FT0RLS4w.jpg",
+        "order": 8
+      },
+      {
+        "id": 842578,
+        "name": "Mutsuo Yoshioka",
+        "character": "",
+        "profilePath": "/8yUiaPP8EwUAQDav6U5oQqiphmD.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 1134228,
+        "name": "Kishū Izuchi",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 61.3042,
+  "status": "Released",
+  "tagline": "",
+  "homepage": "",
+  "imdbId": null
+}

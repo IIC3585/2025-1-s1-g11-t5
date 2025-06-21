@@ -1,0 +1,52 @@
+---
+interface Props {
+  title: string;
+  year?: string;
+  rating?: number;
+  image?: string;
+  href: string;
+}
+
+const { title, year, rating, image, href } = Astro.props;
+---
+
+<article class="group">
+  <a href={href} class="block">
+    <div class="bg-vault-dark/60 border border-vault-light/20 rounded-xl overflow-hidden hover:border-vault-light/40 transition-all duration-300 hover:transform hover:scale-105">
+      <!-- Image Container -->
+      <div class="aspect-[2/3] bg-vault-medium/20 relative overflow-hidden">
+        {image ? (
+          <img 
+            src={image} 
+            alt={title}
+            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            loading="lazy"
+          />
+        ) : (
+          <div class="w-full h-full flex items-center justify-center">
+            <svg class="w-16 h-16 text-vault-light/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2h3a1 1 0 110 2h-1v12a2 2 0 01-2 2H6a2 2 0 01-2-2V6H3a1 1 0 010-2h4z"></path>
+            </svg>
+          </div>
+        )}
+        
+        <!-- Rating Badge -->
+        {rating && (
+          <div class="absolute top-3 right-3 bg-vault-dark/90 text-vault-cream px-2 py-1 rounded-lg text-sm font-medium">
+            {rating.toFixed(1)}
+          </div>
+        )}
+      </div>
+      
+      <!-- Content -->
+      <div class="p-4">
+        <h3 class="font-semibold text-vault-cream group-hover:text-vault-light transition-colors line-clamp-2">
+          {title}
+        </h3>
+        {year && (
+          <p class="text-vault-light/60 text-sm mt-1">{year}</p>
+        )}
+      </div>
+    </div>
+  </a>
+</article> 

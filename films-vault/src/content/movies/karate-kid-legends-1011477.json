@@ -1,0 +1,123 @@
+{
+  "id": 1011477,
+  "title": "Karate Kid: Legends",
+  "originalTitle": "Karate Kid: Legends",
+  "overview": "After a family tragedy, kung fu prodigy Li Fong is uprooted from his home in Beijing and forced to move to New York City with his mother. When a new friend needs his help, Li enters a karate competition – but his skills alone aren't enough. Li's kung fu teacher Mr. Han enlists original Karate Kid Daniel LaRusso for help, and Li learns a new way to fight, merging their two styles into one for the ultimate martial arts showdown.",
+  "posterPath": "/c90Lt7OQGsOmhv6x4JoFdoHzw5l.jpg",
+  "backdropPath": "/lAnkMSDISzMYLWICS7m16rSTUHD.jpg",
+  "releaseDate": "2025-05-08",
+  "voteAverage": 6.9,
+  "voteCount": 151,
+  "runtime": 94,
+  "budget": 45000000,
+  "revenue": 92775853,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 18897,
+        "name": "Jackie Chan",
+        "character": "Mr. Han",
+        "profilePath": "/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg",
+        "order": 0
+      },
+      {
+        "id": 3033265,
+        "name": "Ben Wang",
+        "character": "Li Fong",
+        "profilePath": "/5A6JgNR9nlFVjuzJ1oOXyj2hfJo.jpg",
+        "order": 1
+      },
+      {
+        "id": 2877,
+        "name": "Ralph Macchio",
+        "character": "Daniel LaRusso",
+        "profilePath": "/8zw5vcKlg05Is12Fww4QxRjO1f3.jpg",
+        "order": 2
+      },
+      {
+        "id": 11866,
+        "name": "Joshua Jackson",
+        "character": "Victor Lipani",
+        "profilePath": "/mH2a5YFd8J7upjjWwEzM75vitA2.jpg",
+        "order": 3
+      },
+      {
+        "id": 2030076,
+        "name": "Sadie Stanley",
+        "character": "Mia Lipani",
+        "profilePath": "/zfjr9nkUTWJ2EekyiWmYdxscrSJ.jpg",
+        "order": 4
+      },
+      {
+        "id": 21702,
+        "name": "Ming-Na Wen",
+        "character": "Li Fong's Mother",
+        "profilePath": "/eqCzFF83It56cUdjpskzvg8jgq.jpg",
+        "order": 5
+      },
+      {
+        "id": 204191,
+        "name": "Aramis Knight",
+        "character": "Conor Day",
+        "profilePath": "/l1w7atqr6aJuxwzcM4soZ9ZWBJc.jpg",
+        "order": 6
+      },
+      {
+        "id": 1148455,
+        "name": "Wyatt Oleff",
+        "character": "Alan",
+        "profilePath": "/9i2EuZz7Oh2zOV6Y2ijThW94MeM.jpg",
+        "order": 7
+      },
+      {
+        "id": 1787399,
+        "name": "Shaunette Renée Wilson",
+        "character": "Ms Morgan",
+        "profilePath": "/fPjeTxxE2sB0bQUcAoO13mKsKK5.jpg",
+        "order": 8
+      },
+      {
+        "id": 56124,
+        "name": "William Zabka",
+        "character": "Johnny Lawrence",
+        "profilePath": "/AoTxNif6Kv5KtIk3YdfQUxLrLeR.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 10569,
+        "name": "Karen Rosenfelt",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/oLPdV2FysVgAbIKURSA9SiYPwMJ.jpg"
+      },
+      {
+        "id": 1674284,
+        "name": "Jonathan Entwistle",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/d4fX4VcnkSQcqYWukzDE5Nm7wGp.jpg"
+      }
+    ]
+  },
+  "popularity": 68.2342,
+  "status": "Released",
+  "tagline": "When masters unite a new legacy begins.",
+  "homepage": "https://karatekid.movie",
+  "imdbId": "tt1674782"
+}

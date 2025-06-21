@@ -1,0 +1,140 @@
+{
+  "id": 1097311,
+  "title": "Echo Valley",
+  "originalTitle": "Echo Valley",
+  "overview": "Kate lives a secluded life—until her troubled daughter shows up, frightened and covered in someone else's blood. As Kate unravels the shocking truth, she learns just how far a mother will go to try to save her child.",
+  "posterPath": "/3Ey3HuqZdrx1rfxRkfiOXDFtvtl.jpg",
+  "backdropPath": "/aQ5nvQGT6mM6TliOM5iSgrKVF4C.jpg",
+  "releaseDate": "2025-06-13",
+  "voteAverage": 6.426,
+  "voteCount": 121,
+  "runtime": 105,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 53,
+      "name": "Thriller"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 1231,
+        "name": "Julianne Moore",
+        "character": "Kate Garrett",
+        "profilePath": "/3YF19rWusxWfEI59ZM33dFhasRq.jpg",
+        "order": 0
+      },
+      {
+        "id": 115440,
+        "name": "Sydney Sweeney",
+        "character": "Claire Garrett",
+        "profilePath": "/uDnIdU4KGjQg7liFvb9wnALvg95.jpg",
+        "order": 1
+      },
+      {
+        "id": 93210,
+        "name": "Domhnall Gleeson",
+        "character": "Jackie",
+        "profilePath": "/uDbwncuKlqL0fAuucXSvgakJDrc.jpg",
+        "order": 2
+      },
+      {
+        "id": 6677,
+        "name": "Kyle MacLachlan",
+        "character": "Richard Garrett",
+        "profilePath": "/7gNyx8fYAUdOp2jpCEH3dyFbeV.jpg",
+        "order": 3
+      },
+      {
+        "id": 10981,
+        "name": "Fiona Shaw",
+        "character": "Jessie Oliver",
+        "profilePath": "/imZ9Ad2RIPmxHZjeflF9po4WVfO.jpg",
+        "order": 4
+      },
+      {
+        "id": 1508173,
+        "name": "Edmund Donovan",
+        "character": "Ryan",
+        "profilePath": "/7ETHPvdkEypL9vkxdQNHnE3S02a.jpg",
+        "order": 5
+      },
+      {
+        "id": 171649,
+        "name": "Rebecca Creskoff",
+        "character": "Emma Hanway",
+        "profilePath": "/w1zqSXx9F4c23bpzYU6rNfkeR7c.jpg",
+        "order": 6
+      },
+      {
+        "id": 1918851,
+        "name": "Audrey Grace Marshall",
+        "character": "Mallory Hanway",
+        "profilePath": "/uXCfmVLkrjYKNapiEWu4nXOL0Ic.jpg",
+        "order": 7
+      },
+      {
+        "id": 3247512,
+        "name": "Stella Chivee",
+        "character": "Harper",
+        "profilePath": null,
+        "order": 8
+      },
+      {
+        "id": 164382,
+        "name": "Albert Jones",
+        "character": "Detective Ballard",
+        "profilePath": "/tv3l8Lmvig9pHLmRUykOy4VPPDd.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 1527474,
+        "name": "Michael A. Pruss",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 1242110,
+        "name": "Kevin J. Walsh",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/huPBnjbZmjuvnDENzCFzDRiU66C.jpg"
+      },
+      {
+        "id": 1698778,
+        "name": "Michael Pearce",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/uWBbqMX1Kls7D6qcSg4nGMedHvM.jpg"
+      },
+      {
+        "id": 578,
+        "name": "Ridley Scott",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/zABJmN9opmqD4orWl3KSdCaSo7Q.jpg"
+      },
+      {
+        "id": 932432,
+        "name": "Brad Ingelsby",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/jNFjCenlEO3908lPZXAQLjHavnT.jpg"
+      }
+    ]
+  },
+  "popularity": 95.8215,
+  "status": "Released",
+  "tagline": "A mother and daughter are bound by a dark secret.",
+  "homepage": "https://tv.apple.com/movie/umc.cmc.1al6pi2y17htw3z98tbacgo55",
+  "imdbId": "tt27052633"
+}

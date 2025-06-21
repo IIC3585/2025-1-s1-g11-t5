@@ -1,0 +1,137 @@
+{
+  "id": 757725,
+  "title": "Shadow Force",
+  "originalTitle": "Shadow Force",
+  "overview": "Kyrah and Isaac were once the leaders of a multinational special forces group called Shadow Force. They broke the rules by falling in love, and in order to protect their son, they go underground. With a large bounty on their heads, and the vengeful Shadow Force hot on their trail, one family's fight becomes all-out war.",
+  "posterPath": "/7IEW24vBiZerZrDlgLVSUU3oT1C.jpg",
+  "backdropPath": "/v67tbCB03CMcJRWit8CS7JdJp6.jpg",
+  "releaseDate": "2025-05-01",
+  "voteAverage": 6.418,
+  "voteCount": 79,
+  "runtime": 103,
+  "budget": 60000000,
+  "revenue": 4307562,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 11703,
+        "name": "Kerry Washington",
+        "character": "Kyrah",
+        "profilePath": "/u6zfZGHabfSGIHDwbO7aI5Qg37L.jpg",
+        "order": 0
+      },
+      {
+        "id": 78423,
+        "name": "Omar Sy",
+        "character": "Isaac",
+        "profilePath": "/laNZay6AfEzvEvY1NUH9UFiSD0a.jpg",
+        "order": 1
+      },
+      {
+        "id": 3594874,
+        "name": "Jahleel Kamara",
+        "character": "Ky Sarr",
+        "profilePath": "/1MqmHDuz8tUgfSlZOhcYbkU2Mj5.jpg",
+        "order": 2
+      },
+      {
+        "id": 2983,
+        "name": "Mark Strong",
+        "character": "Jack Cinder",
+        "profilePath": "/3cNmatYsoifytg7TfQhI1EHow3v.jpg",
+        "order": 3
+      },
+      {
+        "id": 1180099,
+        "name": "Da'Vine Joy Randolph",
+        "character": "Auntie",
+        "profilePath": "/7RuYeGxTwFRt2q8fkT8nuEz1nIC.jpg",
+        "order": 4
+      },
+      {
+        "id": 5384,
+        "name": "Method Man",
+        "character": "Unc",
+        "profilePath": "/mYJFxOcrda410rS5JHPf0nPuimZ.jpg",
+        "order": 5
+      },
+      {
+        "id": 53922,
+        "name": "Ed Quinn",
+        "character": "Parker",
+        "profilePath": "/gqvAe9M9FyYiIltLxFUpJVlXRRP.jpg",
+        "order": 6
+      },
+      {
+        "id": 1596934,
+        "name": "Natalia Reyes",
+        "character": "Moriti",
+        "profilePath": "/9N7FNKUhjtinrNPy8ANvXrB7iEr.jpg",
+        "order": 7
+      },
+      {
+        "id": 1962692,
+        "name": "Marvin Jones III",
+        "character": "Cysgod",
+        "profilePath": "/nS4X8TP3idFsxDdV9UqTRbz585g.jpg",
+        "order": 8
+      },
+      {
+        "id": 1903679,
+        "name": "Jénel Stevens",
+        "character": "Anino",
+        "profilePath": "/rDluL1q4RTPY54J95NH7JAIq4ch.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 40223,
+        "name": "Joe Carnahan",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/e6cnnUqh6mGIjnRFI4xFc30AqVr.jpg"
+      },
+      {
+        "id": 11703,
+        "name": "Kerry Washington",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/u6zfZGHabfSGIHDwbO7aI5Qg37L.jpg"
+      },
+      {
+        "id": 2131739,
+        "name": "Stephen \"Dr\" Love",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 1225953,
+        "name": "Sterling K. Brown",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/vjFATaJfAyBie56J4Qv2DQ9Dyem.jpg"
+      }
+    ]
+  },
+  "popularity": 83.3835,
+  "status": "Released",
+  "tagline": "Family over everything.",
+  "homepage": "https://www.shadowforce.movie",
+  "imdbId": "tt11092020"
+}

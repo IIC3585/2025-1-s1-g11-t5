@@ -1,0 +1,98 @@
+{
+  "id": 1180648,
+  "title": "Mudbrick",
+  "originalTitle": "Kuća od blata",
+  "overview": "After inheriting an old mudbrick house in his home village in Eastern Europe, a man returns after spending his whole life in England, only to find out that inhabitants are hiding a dark secret about the pagan Slavic cult and his own past.",
+  "posterPath": "/paVJNyxq5odaAHC9YlmNUlceQpu.jpg",
+  "backdropPath": "/1X25DjYM0COPuGYcH17qJIt1OFQ.jpg",
+  "releaseDate": "2024-10-10",
+  "voteAverage": 4.5,
+  "voteCount": 6,
+  "runtime": 83,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 27,
+      "name": "Horror"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 67206,
+        "name": "Andrew Howard",
+        "character": "Jakov",
+        "profilePath": "/kba1JeCUYHufjB933G5xPRhO8lV.jpg",
+        "order": 0
+      },
+      {
+        "id": 208470,
+        "name": "Philip Brodie",
+        "character": "Paul",
+        "profilePath": "/1S4hzhYjgMRfjCNmJ2VCSij20hF.jpg",
+        "order": 1
+      },
+      {
+        "id": 585467,
+        "name": "Kamka Tocinovski",
+        "character": "Natalija",
+        "profilePath": "/e5YdMbkH1AspZHehheK9SwFhM2P.jpg",
+        "order": 2
+      },
+      {
+        "id": 2602918,
+        "name": "Joakim Tasić",
+        "character": "Bodin",
+        "profilePath": null,
+        "order": 3
+      },
+      {
+        "id": 1892225,
+        "name": "Dušica Nastova",
+        "character": "Ana",
+        "profilePath": null,
+        "order": 4
+      },
+      {
+        "id": 2239976,
+        "name": "Srđan Petrović",
+        "character": "Veles",
+        "profilePath": null,
+        "order": 5
+      },
+      {
+        "id": 1056308,
+        "name": "Predrag Momčilović",
+        "character": "Zvonko",
+        "profilePath": null,
+        "order": 6
+      }
+    ],
+    "crew": [
+      {
+        "id": 2495148,
+        "name": "John Henry Hinkel",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 2239956,
+        "name": "Nikola Petrović",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 111.3454,
+  "status": "Released",
+  "tagline": "",
+  "homepage": "",
+  "imdbId": "tt11344264"
+}

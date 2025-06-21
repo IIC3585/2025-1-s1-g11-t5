@@ -1,0 +1,175 @@
+{
+  "id": 574475,
+  "title": "Final Destination Bloodlines",
+  "originalTitle": "Final Destination Bloodlines",
+  "overview": "Plagued by a violent recurring nightmare, college student Stefanie heads home to track down the one person who might be able to break the cycle and save her family from the grisly demise that inevitably awaits them all.",
+  "posterPath": "/6WxhEvFsauuACfv8HyoVX6mZKFj.jpg",
+  "backdropPath": "/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
+  "releaseDate": "2025-05-14",
+  "voteAverage": 7.209,
+  "voteCount": 1064,
+  "runtime": 110,
+  "budget": 50000000,
+  "revenue": 277393717,
+  "genres": [
+    {
+      "id": 27,
+      "name": "Horror"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 3480304,
+        "name": "Kaitlyn Santa Juana",
+        "character": "Stefani Reyes",
+        "profilePath": "/75Tdc3wg9mklJHy5LEj8OMjcPw8.jpg",
+        "order": 0
+      },
+      {
+        "id": 1547148,
+        "name": "Teo Briones",
+        "character": "Charlie Reyes",
+        "profilePath": "/cyykbm4Xht2Pi7brr88FcmS1LPb.jpg",
+        "order": 1
+      },
+      {
+        "id": 58724,
+        "name": "Rya Kihlstedt",
+        "character": "Darlene Campbell",
+        "profilePath": "/86ysgxNPkckt8jp715X79CdopB7.jpg",
+        "order": 2
+      },
+      {
+        "id": 144852,
+        "name": "Richard Harmon",
+        "character": "Erik",
+        "profilePath": "/OMc1TCt9GEJddnVI1o5BPIAoLV.jpg",
+        "order": 3
+      },
+      {
+        "id": 1482198,
+        "name": "Owen Patrick Joyner",
+        "character": "Bobby",
+        "profilePath": "/eTZiPEsHZmmgQKEhC8HDf28sFmY.jpg",
+        "order": 4
+      },
+      {
+        "id": 1441215,
+        "name": "Anna Lore",
+        "character": "Julia",
+        "profilePath": "/zNurGVtAxvVGnpgyG9kvBUG4nVf.jpg",
+        "order": 5
+      },
+      {
+        "id": 62919,
+        "name": "Alex Zahara",
+        "character": "Uncle Howard",
+        "profilePath": "/8T6k1sBrWyLI368Mk9iyYuwpqv2.jpg",
+        "order": 6
+      },
+      {
+        "id": 19384,
+        "name": "Tony Todd",
+        "character": "William John Bludworth",
+        "profilePath": "/cNUIRoewwiLi8JxyA1J2zb1z5SN.jpg",
+        "order": 7
+      },
+      {
+        "id": 1469128,
+        "name": "Brec Bassinger",
+        "character": "Iris (1960's)",
+        "profilePath": "/6nphhVy6fCrcfdYktAzaiScUAMP.jpg",
+        "order": 8
+      },
+      {
+        "id": 45428,
+        "name": "April Telek",
+        "character": "Aunt Brenda",
+        "profilePath": "/2D80ewwe0KVbsyXRFIVoyzKbIe.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 1938317,
+        "name": "Adam B. Stein",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/aobQq1YDiny8Fmr9Sk1sh8SqcRM.jpg"
+      },
+      {
+        "id": 1181022,
+        "name": "Zach Lipovsky",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/hdRnSPmRjYpAEGrpddwxnfqGdmQ.jpg"
+      },
+      {
+        "id": 3379400,
+        "name": "Sheila Hanahan Taylor",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 1293994,
+        "name": "Jon Watts",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/fkXChMX6CUXY1yOxBehAzvaTCl7.jpg"
+      },
+      {
+        "id": 1661850,
+        "name": "Guy Busick",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/JREA3WijyjCgG70P8PI9OcngTg.jpg"
+      },
+      {
+        "id": 1293994,
+        "name": "Jon Watts",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/fkXChMX6CUXY1yOxBehAzvaTCl7.jpg"
+      },
+      {
+        "id": 3378351,
+        "name": "Dianne McGunigle",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 2198345,
+        "name": "Lori Evans Taylor",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": null
+      },
+      {
+        "id": 21585,
+        "name": "Craig Perry",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 1661850,
+        "name": "Guy Busick",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/JREA3WijyjCgG70P8PI9OcngTg.jpg"
+      }
+    ]
+  },
+  "popularity": 1179.7021,
+  "status": "Released",
+  "tagline": "Death runs in the family.",
+  "homepage": "https://www.finaldestinationmovie.com",
+  "imdbId": "tt9619824"
+}

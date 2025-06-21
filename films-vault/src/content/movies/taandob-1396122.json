@@ -1,0 +1,144 @@
+{
+  "id": 1396122,
+  "title": "Taandob",
+  "originalTitle": "তান্ডব",
+  "overview": "",
+  "posterPath": "/iplMLlXU1BgmTz4xviILTOlECYL.jpg",
+  "backdropPath": "/v1U3lht8yAgdL9FdpzxlznAqNWH.jpg",
+  "releaseDate": "2025-06-07",
+  "voteAverage": 8.8,
+  "voteCount": 4,
+  "runtime": 129,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    },
+    {
+      "id": 28,
+      "name": "Action"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 1682769,
+        "name": "Shakib Khan",
+        "character": "Mikhail/Shadhin",
+        "profilePath": "/pmJvt5SBS1AwJqMSx6Ix8VtdKqQ.jpg",
+        "order": 0
+      },
+      {
+        "id": 2119377,
+        "name": "Sabila Nur",
+        "character": "Nishat",
+        "profilePath": "/7xhYs2NQjQcNt1PChhK9FqbCWFr.jpg",
+        "order": 1
+      },
+      {
+        "id": 984984,
+        "name": "Jaya Ahsan",
+        "character": "Saira Ali",
+        "profilePath": "/v0L9LdN2M1cYfum0aR3WClC3Ala.jpg",
+        "order": 2
+      },
+      {
+        "id": 3151162,
+        "name": "Afzal Hossain",
+        "character": "Minister of Religion",
+        "profilePath": "/xRUVy1jGa7jPH8ZyGnjdriq0lq7.jpg",
+        "order": 3
+      },
+      {
+        "id": 1685296,
+        "name": "Shahiduzzaman Selim",
+        "character": "Former IGB",
+        "profilePath": "/2O6yfkpnBMxp1Q5CS649N310KPf.jpg",
+        "order": 4
+      },
+      {
+        "id": 985116,
+        "name": "Fazlur Rahman Babu",
+        "character": "IGB",
+        "profilePath": "/qB2xnqxVpYWh9amhyoVF7bIhnVC.jpg",
+        "order": 5
+      },
+      {
+        "id": 1628423,
+        "name": "Gazi Rakayet",
+        "character": "Head of Channel Bangla",
+        "profilePath": "/wUJfkHRcFgv2bvZd1g4VdmtDSW2.jpg",
+        "order": 6
+      },
+      {
+        "id": 3350250,
+        "name": "Fs Nayeem",
+        "character": "SWAT Officer",
+        "profilePath": "/u5aqBy5G323lj3ergBkR9XChiEd.jpg",
+        "order": 7
+      },
+      {
+        "id": 1327416,
+        "name": "Ejajul Islam",
+        "character": "Minister of Energy & Mineral",
+        "profilePath": "/lnt3bJvXw8dgvkxpqquXxBeSvuj.jpg",
+        "order": 8
+      },
+      {
+        "id": 2976830,
+        "name": "Sumon Anowar",
+        "character": "ADC Officer",
+        "profilePath": "/v73Cov2IUug3WhMGvKYPwRkjmLj.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 2139323,
+        "name": "Raihan Rafi",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/mmJAGzMuf4be130W0ZQZY3jxHBe.jpg"
+      },
+      {
+        "id": 3886104,
+        "name": "Shahriar Shakil",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/67S0UuPeKBV3OTPq9yHp3MilHrZ.jpg"
+      },
+      {
+        "id": 2139323,
+        "name": "Raihan Rafi",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/mmJAGzMuf4be130W0ZQZY3jxHBe.jpg"
+      },
+      {
+        "id": 3453725,
+        "name": "Adnan Adib Khan",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/fOyiAn3EtC55S3WeNF5ANZi2BgZ.jpg"
+      },
+      {
+        "id": 2139323,
+        "name": "Raihan Rafi",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/mmJAGzMuf4be130W0ZQZY3jxHBe.jpg"
+      }
+    ]
+  },
+  "popularity": 73.4328,
+  "status": "Released",
+  "tagline": "Chaos has a new name.",
+  "homepage": "",
+  "imdbId": "tt36293840"
+}

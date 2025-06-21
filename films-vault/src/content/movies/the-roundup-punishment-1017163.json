@@ -1,0 +1,138 @@
+{
+  "id": 1017163,
+  "title": "The Roundup: Punishment",
+  "originalTitle": "범죄도시 4",
+  "overview": "'Monster Cop' Ma Seok-do investigates an illegal online gambling business led by a former STS Baek and an IT genius CEO Chang. Ma proposes an unexpected alliance to Jang and begins hunting down the criminals.",
+  "posterPath": "/yk38mNoJpsswmk9o7i7eLhO4mc.jpg",
+  "backdropPath": "/mO9oOVXM8tTlC11VFM4FBBNnL3f.jpg",
+  "releaseDate": "2024-04-24",
+  "voteAverage": 6.854,
+  "voteCount": 140,
+  "runtime": 109,
+  "budget": 0,
+  "revenue": 83703350,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 1024395,
+        "name": "Don Lee",
+        "character": "Ma Seok-do",
+        "profilePath": "/zt1vx7FesNA4x6mTZtyzu2uco8E.jpg",
+        "order": 0
+      },
+      {
+        "id": 84788,
+        "name": "Kim Moo-yul",
+        "character": "Baek Chang-gi",
+        "profilePath": "/7SoxNZ826OzxV7WBplJWud8WhOr.jpg",
+        "order": 1
+      },
+      {
+        "id": 1078674,
+        "name": "Park Ji-hwan",
+        "character": "Jang I-soo",
+        "profilePath": "/yCxBKivLmLaoziCveVbo89aW0zW.jpg",
+        "order": 2
+      },
+      {
+        "id": 1418580,
+        "name": "Lee Dong-hwi",
+        "character": "Jang Dong-cheol",
+        "profilePath": "/cz4uBD589WZmEojzFC1p1OlP3YS.jpg",
+        "order": 3
+      },
+      {
+        "id": 2480883,
+        "name": "Lee Ju-bin",
+        "character": "Han Ji-su",
+        "profilePath": "/rO9UM65KgxfacCY3IsrHheOFBpZ.jpg",
+        "order": 4
+      },
+      {
+        "id": 86330,
+        "name": "Lee Beom-soo",
+        "character": "Jang Tae-su",
+        "profilePath": "/9CSDpnR1gjbulTQdusJMiGc59Ff.jpg",
+        "order": 5
+      },
+      {
+        "id": 573792,
+        "name": "Kim Min-jae",
+        "character": "Kim Man-jae",
+        "profilePath": "/iO6DazwKsFMfUMRbyTFkL70Rhun.jpg",
+        "order": 6
+      },
+      {
+        "id": 2159482,
+        "name": "Lee Ji-hoon",
+        "character": "Yang Jong-su",
+        "profilePath": "/nGEQUdliUgn5RuVivan3tmfIQAf.jpg",
+        "order": 7
+      },
+      {
+        "id": 2291087,
+        "name": "Kim Do-gun",
+        "character": "Jung Da-wit",
+        "profilePath": "/cchdKEF0Qw1twUQWu1Yu036hKSU.jpg",
+        "order": 8
+      },
+      {
+        "id": 2438094,
+        "name": "Kim Shin-bi",
+        "character": "Kang Nam-su",
+        "profilePath": "/or6KtPM9qvgBuiXsNImpCUBjMit.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 2879867,
+        "name": "Heo Myeong-haeng",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/l08CuexUYW8iZgLm864N9qzDmmY.jpg"
+      },
+      {
+        "id": 2299743,
+        "name": "Yoo Young-chae",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 3609976,
+        "name": "Kim Won-hun",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 144.8015,
+  "status": "Released",
+  "tagline": "Time for the ultimate wipeout.",
+  "homepage": "",
+  "imdbId": "tt27811040"
+}

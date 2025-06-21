@@ -1,0 +1,134 @@
+{
+  "id": 1232933,
+  "title": "Fear Below",
+  "originalTitle": "Fear Below",
+  "overview": "A rag-tag team of divers attempting to salvage a sunken car from a river are thwarted by a highly aggressive bull shark.",
+  "posterPath": "/obK2G8huZWeAQEgOz1I47AkzHYh.jpg",
+  "backdropPath": "/hr3yzjzfsiNxWqlDgRTSHgYB7fz.jpg",
+  "releaseDate": "2025-05-02",
+  "voteAverage": 6.698,
+  "voteCount": 63,
+  "runtime": 85,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 27,
+      "name": "Horror"
+    },
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 1345419,
+        "name": "Hermione Corfield",
+        "character": "Clara Bennett",
+        "profilePath": "/rX45K3pfyXDXruVRmlDmvMzCLvF.jpg",
+        "order": 0
+      },
+      {
+        "id": 1531206,
+        "name": "Jake Ryan",
+        "character": "Dylan 'Bull' Maddock",
+        "profilePath": "/3OO5qc1kj2ny7rCLjKYDdEzPBdJ.jpg",
+        "order": 1
+      },
+      {
+        "id": 1281967,
+        "name": "Josh McConville",
+        "character": "Janusz Wojcik",
+        "profilePath": "/3Au004X5BsV5KIpOLMB8g9DuevT.jpg",
+        "order": 2
+      },
+      {
+        "id": 108946,
+        "name": "Kevin Dee",
+        "character": "Dwight Lewis",
+        "profilePath": "/sjfypAWoYbhS6jFWPx2RF5QvfHf.jpg",
+        "order": 3
+      },
+      {
+        "id": 56347,
+        "name": "Clayton Watson",
+        "character": "Bob Drummond",
+        "profilePath": "/7T4RCGl5jfpB1XcjXywb6ZmwGUC.jpg",
+        "order": 4
+      },
+      {
+        "id": 110516,
+        "name": "Sam Parsonson",
+        "character": "Frank Sturgess",
+        "profilePath": "/ta9h0LYwhyDTjUDhtwCuA8B8R9I.jpg",
+        "order": 5
+      },
+      {
+        "id": 2516831,
+        "name": "Jacob Junior Nayinggul",
+        "character": "Jimmy Barriakada",
+        "profilePath": "/5ackR05aMPwz2LZnSbVVUFpBFdn.jpg",
+        "order": 6
+      },
+      {
+        "id": 107474,
+        "name": "Arthur Angel",
+        "character": "Ernie Morgan",
+        "profilePath": "/ds27HdKDhJaXdKnmT1iftzCPfaO.jpg",
+        "order": 7
+      },
+      {
+        "id": 2479415,
+        "name": "Maximillian Johnson",
+        "character": "Shaun Cullen",
+        "profilePath": "/sjlNcH8ftVnbYzMkVw2tB1CVYuC.jpg",
+        "order": 8
+      },
+      {
+        "id": 3142835,
+        "name": "Will Fletcher",
+        "character": "Sgt Potter",
+        "profilePath": "/muaodyITSCIODVh3xZvTd4OFy4x.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 1707753,
+        "name": "Matthew Holmes",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": null
+      },
+      {
+        "id": 2030697,
+        "name": "Blake Northfield",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 1707966,
+        "name": "Michael Favelle",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 66.7897,
+  "status": "Released",
+  "tagline": "You won't see it coming",
+  "homepage": "",
+  "imdbId": "tt13098590"
+}

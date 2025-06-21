@@ -1,0 +1,122 @@
+{
+  "id": 1199974,
+  "title": "Párvulos: Children of the Apocalypse",
+  "originalTitle": "Párvulos: Hijos Del Apocalipsis",
+  "overview": "In a dystopian future ravaged by a viral apocalypse, three young brothers—Salvador, Oliver, and Benjamin—find themselves isolated in a remote cabin deep within the woods. As they navigate this desolate world, they harbor a dark and disturbing secret in their basement, a presence they must feed to ensure their own survival.",
+  "posterPath": "/pHehmoG3gbTb5RsKWOdxqLmnhpD.jpg",
+  "backdropPath": "/mSIp4SUvsFOjA2vKnLTS5AnyR1A.jpg",
+  "releaseDate": "2024-10-18",
+  "voteAverage": 7.068,
+  "voteCount": 22,
+  "runtime": 120,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 27,
+      "name": "Horror"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 89445,
+        "name": "Noé Hernández",
+        "character": "Enoc",
+        "profilePath": "/l3NXUy1x5buKHawSw4xye5JW8pl.jpg",
+        "order": 0
+      },
+      {
+        "id": 2008873,
+        "name": "Carla Adell",
+        "character": "Valeria",
+        "profilePath": "/5KsLfVFMt0ESqCi8fgZEly6IdaI.jpg",
+        "order": 1
+      },
+      {
+        "id": 1186821,
+        "name": "Juan Carlos Remolina",
+        "character": "Rogelio",
+        "profilePath": "/i98MFVsum0M7JwcGAT4dBNlP9Ka.jpg",
+        "order": 2
+      },
+      {
+        "id": 4076912,
+        "name": "Mateo Ortega Casillas",
+        "character": "Benjamin",
+        "profilePath": "/5r0v04lG3VvwpRFv1jwbQTs8dE8.jpg",
+        "order": 3
+      },
+      {
+        "id": 1686246,
+        "name": "Horacio F. Lazo",
+        "character": "Papa",
+        "profilePath": null,
+        "order": 4
+      },
+      {
+        "id": 4354159,
+        "name": "Leonardo Cervantes",
+        "character": "Oliver",
+        "profilePath": "/pCL0VbPXSaKRGNmnrxptFkGV2eO.jpg",
+        "order": 5
+      },
+      {
+        "id": 4354161,
+        "name": "Norma Flores",
+        "character": "Mama",
+        "profilePath": null,
+        "order": 6
+      },
+      {
+        "id": 4354163,
+        "name": "Farid Escalante Correa",
+        "character": "Salvador",
+        "profilePath": null,
+        "order": 7
+      }
+    ],
+    "crew": [
+      {
+        "id": 1309478,
+        "name": "Isaac Ezban",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/g5QXsghqGNB6plqiG9bGSgDgmIw.jpg"
+      },
+      {
+        "id": 3442508,
+        "name": "Natalia Contreras",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 1309478,
+        "name": "Isaac Ezban",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/g5QXsghqGNB6plqiG9bGSgDgmIw.jpg"
+      },
+      {
+        "id": 1730595,
+        "name": "Javier Sepulveda",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/sPeSTSSiZnnNkIHQ51qEDfndNMk.jpg"
+      },
+      {
+        "id": 1831400,
+        "name": "Eduardo Lecuona",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/jI7LyJAr6qgcXKRtvbxqW3nncFp.jpg"
+      }
+    ]
+  },
+  "popularity": 62.6338,
+  "status": "Released",
+  "tagline": "Family is worth dying for.",
+  "homepage": "",
+  "imdbId": "tt28800662"
+}

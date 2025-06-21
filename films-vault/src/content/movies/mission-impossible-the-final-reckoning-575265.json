@@ -1,0 +1,137 @@
+{
+  "id": 575265,
+  "title": "Mission: Impossible - The Final Reckoning",
+  "originalTitle": "Mission: Impossible - The Final Reckoning",
+  "overview": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
+  "posterPath": "/z53D72EAOxGRqdr7KXXWp9dJiDe.jpg",
+  "backdropPath": "/aEG09hZZEDZ23Y9WYI701W6Gwnb.jpg",
+  "releaseDate": "2025-05-17",
+  "voteAverage": 7.162,
+  "voteCount": 823,
+  "runtime": 170,
+  "budget": 400000000,
+  "revenue": 509595983,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 500,
+        "name": "Tom Cruise",
+        "character": "Ethan Hunt",
+        "profilePath": "/eOh4ubpOm2Igdg0QH2ghj0mFtC.jpg",
+        "order": 0
+      },
+      {
+        "id": 39459,
+        "name": "Hayley Atwell",
+        "character": "Grace",
+        "profilePath": "/x57wXHexIjD2ywly9cRA4rov7cu.jpg",
+        "order": 1
+      },
+      {
+        "id": 10182,
+        "name": "Ving Rhames",
+        "character": "Luther Stickell",
+        "profilePath": "/4gpLVNKPZlVucc4fT2fSZ7DksTK.jpg",
+        "order": 2
+      },
+      {
+        "id": 11108,
+        "name": "Simon Pegg",
+        "character": "Benji Dunn",
+        "profilePath": "/jw8bEEoTOithyNf0qxu4Zt1yaKp.jpg",
+        "order": 3
+      },
+      {
+        "id": 65344,
+        "name": "Esai Morales",
+        "character": "Gabriel",
+        "profilePath": "/cNYciYzUzxraGlw0BPql1QePi5H.jpg",
+        "order": 4
+      },
+      {
+        "id": 139820,
+        "name": "Pom Klementieff",
+        "character": "Paris",
+        "profilePath": "/hfUKAI2kXTMMWjno0i4sLPJud5N.jpg",
+        "order": 5
+      },
+      {
+        "id": 15319,
+        "name": "Henry Czerny",
+        "character": "Kittridge",
+        "profilePath": "/zOWZzRmliKf9032IOOq0a3jXhVv.jpg",
+        "order": 6
+      },
+      {
+        "id": 7497,
+        "name": "Holt McCallany",
+        "character": "Serling",
+        "profilePath": "/tnXVshv7CD9b53BRjYrLjVJvnDS.jpg",
+        "order": 7
+      },
+      {
+        "id": 47627,
+        "name": "Janet McTeer",
+        "character": "Walters",
+        "profilePath": "/qOKAI6aunD4J5MXiwwomAhI3jI2.jpg",
+        "order": 8
+      },
+      {
+        "id": 17039,
+        "name": "Nick Offerman",
+        "character": "General Sidney",
+        "profilePath": "/f6z3mPVtaF40ewfdmZydprAjmYd.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 29608,
+        "name": "Jake Myers",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 9033,
+        "name": "Christopher McQuarrie",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/xVbQBRpqzKkllUAvjJbgnAmTwaZ.jpg"
+      },
+      {
+        "id": 500,
+        "name": "Tom Cruise",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/eOh4ubpOm2Igdg0QH2ghj0mFtC.jpg"
+      },
+      {
+        "id": 9033,
+        "name": "Christopher McQuarrie",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/xVbQBRpqzKkllUAvjJbgnAmTwaZ.jpg"
+      }
+    ]
+  },
+  "popularity": 124.8486,
+  "status": "Released",
+  "tagline": "Our lives are the sum of our choices.",
+  "homepage": "https://www.missionimpossible.com",
+  "imdbId": "tt9603208"
+}

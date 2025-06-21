@@ -1,0 +1,140 @@
+{
+  "id": 947891,
+  "title": "My Old Ass",
+  "originalTitle": "My Old Ass",
+  "overview": "An 18th birthday mushroom trip brings free-spirited Elliott face-to-face with her wisecracking 39-year-old self. But when Elliott’s \"old ass\" starts handing out warnings about what her younger self should and shouldn't do, Elliott realizes she has to rethink everything about family, love, and what's becoming a transformative summer.",
+  "posterPath": "/yUs4Sw9AyTg2sA1qWBkNpD2mGSj.jpg",
+  "backdropPath": "/iPHsjvbFyGbeCEDC7u8Ib8U1zS6.jpg",
+  "releaseDate": "2024-09-13",
+  "voteAverage": 6.868,
+  "voteCount": 338,
+  "runtime": 89,
+  "budget": 3000000,
+  "revenue": 5705895,
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 1104567,
+        "name": "Maisy Stella",
+        "character": "Elliott",
+        "profilePath": "/rXLaLZSdaCBpDJ4sS2stE2IK7nO.jpg",
+        "order": 0
+      },
+      {
+        "id": 119592,
+        "name": "Aubrey Plaza",
+        "character": "Older Elliott",
+        "profilePath": "/780BVfLoEv5jY4kuLH5vHEZj3oz.jpg",
+        "order": 1
+      },
+      {
+        "id": 1477961,
+        "name": "Percy Hynes White",
+        "character": "Chad",
+        "profilePath": "/lY5WDKbqTPI0GGhKwqM2P7bPEX4.jpg",
+        "order": 2
+      },
+      {
+        "id": 1483976,
+        "name": "Maddie Ziegler",
+        "character": "Ruthie",
+        "profilePath": "/hDzdA0IvoPpx5nmwL5Uu75rdfYh.jpg",
+        "order": 3
+      },
+      {
+        "id": 2813970,
+        "name": "Kerrice Brooks",
+        "character": "Ro",
+        "profilePath": "/AfVXStImMwjCfCqMTNdaraJNRme.jpg",
+        "order": 4
+      },
+      {
+        "id": 205797,
+        "name": "Maria Dizzia",
+        "character": "Kathy",
+        "profilePath": "/sMsBH9o1kuFeVgjX2QoXvxccKJQ.jpg",
+        "order": 5
+      },
+      {
+        "id": 21292,
+        "name": "Alain Goulem",
+        "character": "Tom",
+        "profilePath": "/q4mcnNmWyVnWNOH6VuWh7zRpFkt.jpg",
+        "order": 6
+      },
+      {
+        "id": 1428071,
+        "name": "Seth Isaac Johnson",
+        "character": "Max",
+        "profilePath": "/8L1vXNiNYx1jOHCuWhU8W1yghmy.jpg",
+        "order": 7
+      },
+      {
+        "id": 3903124,
+        "name": "Carter Trozzolo",
+        "character": "Spencer",
+        "profilePath": "/9oZ4pWKGXYba6KoC3c3URNyl4jc.jpg",
+        "order": 8
+      },
+      {
+        "id": 4861805,
+        "name": "Alexandria Rivera",
+        "character": "Chelsea",
+        "profilePath": null,
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 55615,
+        "name": "Megan Park",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/2tLqIOevl1UanuSNGSoCw3vM96k.jpg"
+      },
+      {
+        "id": 234352,
+        "name": "Margot Robbie",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/euDPyqLnuwaWMHajcU3oZ9uZezR.jpg"
+      },
+      {
+        "id": 1004836,
+        "name": "Steven M. Rales",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/60vVTltrIeNWjjzrqlxf8Lz9Udr.jpg"
+      },
+      {
+        "id": 1908039,
+        "name": "Josey McNamara",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/j2s7hKmP2GiUgufp4Zt7WUPgKoy.jpg"
+      },
+      {
+        "id": 1363079,
+        "name": "Tom Ackerley",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/vsBI8HSWhfUzGhUGZVUrKkaekAk.jpg"
+      }
+    ]
+  },
+  "popularity": 55.551,
+  "status": "Released",
+  "tagline": "What would you ask your older self?",
+  "homepage": "https://www.mgm.com/movies/my-old-ass",
+  "imdbId": "tt18559464"
+}

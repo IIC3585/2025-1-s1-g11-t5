@@ -1,0 +1,130 @@
+{
+  "id": 1181039,
+  "title": "Candle in the Tomb: The Worm Valley",
+  "originalTitle": "鬼吹灯：献王虫谷",
+  "overview": "Adapted from the 3rd volume in the novel series \"Candle in the Tomb\" by Zhang Mu Ye. Hu Bayi, Wang Kaixuan, and Shiely Yang, infected with a curse, embark on a journey to King Xian's tomb to retrieve the Haochen Bead and break the curse. They face ancient organs, ghostly visions, explosive bugs, and a massive salamander.",
+  "posterPath": "/7Hk1qxAvZi9H9cfBb4iHkoGjapH.jpg",
+  "backdropPath": "/9f06S7Uc1Xmnc3OYtK8UKu9o3Ox.jpg",
+  "releaseDate": "2023-09-22",
+  "voteAverage": 8,
+  "voteCount": 3,
+  "runtime": 94,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 27,
+      "name": "Horror"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 2143407,
+        "name": "Luo Liqun",
+        "character": "Hu Ba Yi",
+        "profilePath": "/xNYMy4UGZakrvlgkdMM3HpqIb1p.jpg",
+        "order": 0
+      },
+      {
+        "id": 3101781,
+        "name": "Zhang Weiwei",
+        "character": "Wang Kaixuan",
+        "profilePath": "/beXULMebpzIFmI8fzx18VHzVgNt.jpg",
+        "order": 1
+      },
+      {
+        "id": 2529346,
+        "name": "Hu Xue'er",
+        "character": "Shirley Yang",
+        "profilePath": "/9D27s9IwHmN8hS6hliRBzOqwzhQ.jpg",
+        "order": 2
+      },
+      {
+        "id": 942226,
+        "name": "Scotty Cox",
+        "character": "Scott",
+        "profilePath": "/uEQwygUisxKmk3bggyBqhANOf7Z.jpg",
+        "order": 3
+      },
+      {
+        "id": 3238981,
+        "name": "Song Jiateng",
+        "character": "Da Jin Ya",
+        "profilePath": "/d2xlaPPUl07P5NOHUI5jTdH9X17.jpg",
+        "order": 4
+      },
+      {
+        "id": 4280964,
+        "name": "Ti Aimin",
+        "character": "",
+        "profilePath": null,
+        "order": 5
+      },
+      {
+        "id": 2372164,
+        "name": "He Qiwei",
+        "character": "Doctor",
+        "profilePath": "/sNTSOgCX0g6J99eGS5O747FBCAd.jpg",
+        "order": 6
+      },
+      {
+        "id": 3826613,
+        "name": "Shang Na",
+        "character": "Nurse",
+        "profilePath": "/1s7SAgnNzi5icP6P30woXGpc0M3.jpg",
+        "order": 7
+      },
+      {
+        "id": 2521011,
+        "name": "Dai Yilin",
+        "character": "Patient #A",
+        "profilePath": null,
+        "order": 8
+      },
+      {
+        "id": 4853776,
+        "name": "Yang Chenlu",
+        "character": "Pregnant Teen",
+        "profilePath": "/4SQ5UJfwgwTxHl8GN8VHnkSRsrK.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 2521011,
+        "name": "Dai Yilin",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": null
+      },
+      {
+        "id": 2797408,
+        "name": "Lin Jianfeng",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": null
+      },
+      {
+        "id": 3870163,
+        "name": "Zhe Yang",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 327.0199,
+  "status": "Released",
+  "tagline": "",
+  "homepage": "",
+  "imdbId": "tt33293355"
+}

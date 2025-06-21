@@ -1,0 +1,37 @@
+{
+  "id": 1442776,
+  "title": "Crazy Lizard",
+  "originalTitle": "Kuang Bao Ju Xi",
+  "overview": "A young man climbs into the mountains to pick up a meteorite that has fallen there and is killed by something. The \"thing\" descends to the village and begins to eat the inhabitants one by one, terrorizing the entire island.",
+  "posterPath": "/9TFaFsSXedaALXTzba349euDeoY.jpg",
+  "backdropPath": "/zxjFabSJKMAvuu3acNg78nuTuCs.jpg",
+  "releaseDate": "2024-03-27",
+  "voteAverage": 6,
+  "voteCount": 1,
+  "runtime": 75,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    },
+    {
+      "id": 27,
+      "name": "Horror"
+    }
+  ],
+  "credits": {
+    "cast": [],
+    "crew": []
+  },
+  "popularity": 330.1801,
+  "status": "Released",
+  "tagline": "",
+  "homepage": "",
+  "imdbId": "tt32169142"
+}

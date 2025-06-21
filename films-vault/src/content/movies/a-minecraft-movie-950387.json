@@ -1,0 +1,183 @@
+{
+  "id": 950387,
+  "title": "A Minecraft Movie",
+  "originalTitle": "A Minecraft Movie",
+  "overview": "Four misfits find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they'll have to master this world while embarking on a magical quest with an unexpected, expert crafter, Steve.",
+  "posterPath": "/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+  "backdropPath": "/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+  "releaseDate": "2025-03-31",
+  "voteAverage": 6.504,
+  "voteCount": 1849,
+  "runtime": 101,
+  "budget": 150000000,
+  "revenue": 951514812,
+  "genres": [
+    {
+      "id": 10751,
+      "name": "Family"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 14,
+      "name": "Fantasy"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 117642,
+        "name": "Jason Momoa",
+        "character": "Garrett",
+        "profilePath": "/3troAR6QbSb6nUFMDu61YCCWLKa.jpg",
+        "order": 0
+      },
+      {
+        "id": 70851,
+        "name": "Jack Black",
+        "character": "Steve",
+        "profilePath": "/rtCx0fiYxJVhzXXdwZE2XRTfIKE.jpg",
+        "order": 1
+      },
+      {
+        "id": 2680307,
+        "name": "Sebastian Eugene Hansen",
+        "character": "Henry",
+        "profilePath": "/40HNkoB3RKPMPgLhTyKQU6kG0sc.jpg",
+        "order": 2
+      },
+      {
+        "id": 2604515,
+        "name": "Emma Myers",
+        "character": "Natalie",
+        "profilePath": "/v1Y8RP39135ZOary9M4MbkrCAdn.jpg",
+        "order": 3
+      },
+      {
+        "id": 1075037,
+        "name": "Danielle Brooks",
+        "character": "Dawn",
+        "profilePath": "/hwrMFbcALcqrV7S2pRP9C5BXrU0.jpg",
+        "order": 4
+      },
+      {
+        "id": 38334,
+        "name": "Jennifer Coolidge",
+        "character": "Vice Principal Marlene",
+        "profilePath": "/hcpbV0dY4ZJxmZi1WcAWe8euqV2.jpg",
+        "order": 5
+      },
+      {
+        "id": 15298,
+        "name": "Rachel House",
+        "character": "Malgosha (voice)",
+        "profilePath": "/2LCQF7Bn0I91o17GGkox0ZhhbE7.jpg",
+        "order": 6
+      },
+      {
+        "id": 1207281,
+        "name": "Allan Henry",
+        "character": "Malgosha (Creature Performer)",
+        "profilePath": "/iZKNvaQutjb5Otlb7IyYqdfWJ7d.jpg",
+        "order": 7
+      },
+      {
+        "id": 5345339,
+        "name": "Bram Scott-Breheny",
+        "character": "Young Steve",
+        "profilePath": "/kI51jREZQm4Gvlh4A0PzNmroU6M.jpg",
+        "order": 8
+      },
+      {
+        "id": 5345340,
+        "name": "Moana Williams",
+        "character": "Young Garrett",
+        "profilePath": "/xJnJYBEu2ATZetA6eqEDEDhNFUn.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 21036,
+        "name": "Roy Lee",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/fMY0MiVyrGaK44ejqWzT2txcRVI.jpg"
+      },
+      {
+        "id": 53925,
+        "name": "Jared Hess",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/xUob4AE9C39SsNfhE7z63bMJI75.jpg"
+      },
+      {
+        "id": 114408,
+        "name": "Mary Parent",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/jTh9ngfGF8DQvKwGM8rXSmfbQTj.jpg"
+      },
+      {
+        "id": 1726476,
+        "name": "Vu Bui",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/rGjsS4p6MxQeaEwI8KGNt9SAec1.jpg"
+      },
+      {
+        "id": 117642,
+        "name": "Jason Momoa",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/3troAR6QbSb6nUFMDu61YCCWLKa.jpg"
+      },
+      {
+        "id": 3917788,
+        "name": "Torfi Frans Ólafsson",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 17315,
+        "name": "Cale Boyter",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/meOn0PdVySILF4BmD8HqVAjRPUB.jpg"
+      },
+      {
+        "id": 56326,
+        "name": "Jill Messick",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/3vwDW6kvL4b4XrPxFPDtiwRSc8r.jpg"
+      },
+      {
+        "id": 82624,
+        "name": "Hubbel Palmer",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/qiN0sWAucjNQGOGgO5rQBZsg8tI.jpg"
+      },
+      {
+        "id": 1371386,
+        "name": "Chris Bowman",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/uEqgNHrT15G2wSxZlQozazZLHp4.jpg"
+      }
+    ]
+  },
+  "popularity": 178.9916,
+  "status": "Released",
+  "tagline": "Be there and be square.",
+  "homepage": "https://www.minecraft-movie.com",
+  "imdbId": "tt3566834"
+}

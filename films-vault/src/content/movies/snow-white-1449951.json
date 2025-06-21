@@ -1,0 +1,123 @@
+{
+  "id": 1449951,
+  "title": "Snow White",
+  "originalTitle": "Snow White",
+  "overview": "When the Queen’s jealousy turns deadly, Snow White must join forces with gnomes to fight back against her stepmother’s wrath.",
+  "posterPath": "/ilFLHU1OxUS1YDvUMCr8K3hW28r.jpg",
+  "backdropPath": "/9ayjPfWtDyooj4ErcgZcoC22dVJ.jpg",
+  "releaseDate": "2025-03-07",
+  "voteAverage": 7.429,
+  "voteCount": 7,
+  "runtime": 93,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 16,
+      "name": "Animation"
+    },
+    {
+      "id": 10751,
+      "name": "Family"
+    },
+    {
+      "id": 14,
+      "name": "Fantasy"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 75315,
+        "name": "Danny Bonaduce",
+        "character": "King Fredrick White (voice)",
+        "profilePath": "/A3TlkIbCKpYo4PF2BUEwVT0k63o.jpg",
+        "order": 0
+      },
+      {
+        "id": 2481064,
+        "name": "Jessica Chancellor",
+        "character": "Snow White (voice)",
+        "profilePath": "/bZZ8MXYKUMU3iHXHI47mH9yrMh3.jpg",
+        "order": 1
+      },
+      {
+        "id": 43961,
+        "name": "D. C. Douglas",
+        "character": "Mirror / Sedgwick (voice)",
+        "profilePath": "/suXu7UYETw3LINlZjedvpxbwtnD.jpg",
+        "order": 2
+      },
+      {
+        "id": 92027,
+        "name": "Kim Little",
+        "character": "Opal (voice)",
+        "profilePath": "/uDw7WsQcrwLtyvwFimtVfrOTi9Q.jpg",
+        "order": 3
+      },
+      {
+        "id": 3948292,
+        "name": "Andrew Fernie",
+        "character": "Wilhelm (voice)",
+        "profilePath": null,
+        "order": 4
+      },
+      {
+        "id": 2907351,
+        "name": "Austen Moret",
+        "character": "Huntsman Eckhart (voice)",
+        "profilePath": null,
+        "order": 5
+      },
+      {
+        "id": 3010962,
+        "name": "Bonnie Gordon",
+        "character": "Queen Hildegarde (voice)",
+        "profilePath": "/eGj4XjGkUd7ue1WSLR9xlhvU6cR.jpg",
+        "order": 6
+      },
+      {
+        "id": 2201804,
+        "name": "Thea Saccoliti",
+        "character": "Karnickle (voice)",
+        "profilePath": null,
+        "order": 7
+      },
+      {
+        "id": 225642,
+        "name": "Brandon Gibson",
+        "character": "Vogel (voice)",
+        "profilePath": "/6umvHyH27rcjkRdVUkzJiULNZT5.jpg",
+        "order": 8
+      },
+      {
+        "id": 97697,
+        "name": "John Henry Richardson",
+        "character": "Jasper (voice)",
+        "profilePath": "/eOV6fq0FKW937OA7oPuEcKc2grP.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 1011818,
+        "name": "Erica Duke",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/14LVo30I7lonRERZFneBhTqV6pe.jpg"
+      },
+      {
+        "id": 1742305,
+        "name": "Michael Johnson",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": null
+      }
+    ]
+  },
+  "popularity": 101.6234,
+  "status": "Released",
+  "tagline": "Only one can be the fairest.",
+  "homepage": "",
+  "imdbId": "tt35983585"
+}

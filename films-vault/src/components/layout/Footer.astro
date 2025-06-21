@@ -1,0 +1,60 @@
+---
+// Professional footer component
+---
+
+<footer class="bg-vault-dark border-t border-vault-light/20 mt-24">
+  <div class="container mx-auto px-6 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      
+      <!-- Brand Section -->
+      <div class="md:col-span-2">
+        <div class="flex items-center space-x-3 mb-4">
+          <div class="w-8 h-8 bg-gradient-to-br from-vault-medium to-vault-light rounded-lg flex items-center justify-center">
+            <svg class="w-5 h-5 text-vault-dark" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M2 6a2 2 0 012-2h6l2 2h6a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path>
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-vault-cream">FilmVault</h3>
+        </div>
+        <p class="text-vault-light/80 max-w-md mb-4">
+          Professional cinema tracking platform for film enthusiasts and industry professionals.
+        </p>
+        <p class="text-sm text-vault-light/60">
+          Data provided by The Movie Database (TMDB)
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h4 class="text-vault-cream font-medium mb-4">Platform</h4>
+        <ul class="space-y-2 text-vault-light/80">
+          <li><a href="/movies" class="hover:text-vault-light transition-colors">Movies</a></li>
+          <li><a href="/series" class="hover:text-vault-light transition-colors">TV Series</a></li>
+          <li><a href="/watchlist" class="hover:text-vault-light transition-colors">Watchlist</a></li>
+          <li><a href="/stats" class="hover:text-vault-light transition-colors">Analytics</a></li>
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div>
+        <h4 class="text-vault-cream font-medium mb-4">Resources</h4>
+        <ul class="space-y-2 text-vault-light/80">
+          <li><a href="/about" class="hover:text-vault-light transition-colors">About</a></li>
+          <li><a href="/api" class="hover:text-vault-light transition-colors">API</a></li>
+          <li><a href="/privacy" class="hover:text-vault-light transition-colors">Privacy</a></li>
+          <li><a href="/terms" class="hover:text-vault-light transition-colors">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t border-vault-light/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+      <p class="text-vault-light/60 text-sm">
+        © 2025 FilmVault. All rights reserved.
+      </p>
+      <p class="text-vault-light/60 text-sm mt-2 md:mt-0">
+        Built with Astro and modern web technologies
+      </p>
+    </div>
+  </div>
+</footer> 

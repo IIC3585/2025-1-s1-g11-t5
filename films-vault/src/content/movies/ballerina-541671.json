@@ -1,0 +1,137 @@
+{
+  "id": 541671,
+  "title": "Ballerina",
+  "originalTitle": "Ballerina",
+  "overview": "Taking place during the events of John Wick: Chapter 3 – Parabellum, Eve Macarro begins her training in the assassin traditions of the Ruska Roma.",
+  "posterPath": "/mKp4euM5Cv3m2U1Vmby3OGwcD5y.jpg",
+  "backdropPath": "/sItIskd5xpiE64bBWYwZintkGf3.jpg",
+  "releaseDate": "2025-06-04",
+  "voteAverage": 7.088,
+  "voteCount": 335,
+  "runtime": 125,
+  "budget": 90000000,
+  "revenue": 96283159,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 224513,
+        "name": "Ana de Armas",
+        "character": "Eve Macarro",
+        "profilePath": "/3vxvsmYLTf4jnr163SUlBIw51ee.jpg",
+        "order": 0
+      },
+      {
+        "id": 5657,
+        "name": "Anjelica Huston",
+        "character": "The Director",
+        "profilePath": "/6hnYeHa7Rc1w1MmQ3JsLSIb7yCX.jpg",
+        "order": 1
+      },
+      {
+        "id": 6384,
+        "name": "Keanu Reeves",
+        "character": "John Wick",
+        "profilePath": "/8RZLOyYGsoRe9p44q3xin9QkMHv.jpg",
+        "order": 2
+      },
+      {
+        "id": 4886,
+        "name": "Norman Reedus",
+        "character": "Daniel Pine",
+        "profilePath": "/ozHPdO5jAt7ozzdZUgyRAMNPSDW.jpg",
+        "order": 3
+      },
+      {
+        "id": 129101,
+        "name": "Lance Reddick",
+        "character": "Charon",
+        "profilePath": "/22mVtEXZbpt0J7S0LhIhdkfRrZV.jpg",
+        "order": 4
+      },
+      {
+        "id": 5887,
+        "name": "Catalina Sandino Moreno",
+        "character": "Lena",
+        "profilePath": "/78V4H40NXJ6dzqFZaEe1fBelw56.jpg",
+        "order": 5
+      },
+      {
+        "id": 6972,
+        "name": "Ian McShane",
+        "character": "Winston",
+        "profilePath": "/qh9RTLbnr128TZLdGuXwUH9mdBM.jpg",
+        "order": 6
+      },
+      {
+        "id": 5168,
+        "name": "Gabriel Byrne",
+        "character": "The Chancellor",
+        "profilePath": "/9r9oDGENg92VYYFMkV4C09IUlrb.jpg",
+        "order": 7
+      },
+      {
+        "id": 195666,
+        "name": "Sharon Duncan-Brewster",
+        "character": "Nogi",
+        "profilePath": "/gp5h6rOrqBrIGgID4AMd58O6Ow6.jpg",
+        "order": 8
+      },
+      {
+        "id": 1464090,
+        "name": "Robert Maaser",
+        "character": "Dex",
+        "profilePath": "/A1YhyTwttU94AsaA2zktcEeDMmz.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 67759,
+        "name": "Basil Iwanyk",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/pvHAcYM1UC30XMqOSOF7Gc2nmBh.jpg"
+      },
+      {
+        "id": 3950,
+        "name": "Len Wiseman",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/aXsTPBb6dQ2T3PxLqy2ijf2nxrG.jpg"
+      },
+      {
+        "id": 1932093,
+        "name": "Erica Lee",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/pJwTBgsAUrITBRmi0WIKanwDN5P.jpg"
+      },
+      {
+        "id": 40644,
+        "name": "Chad Stahelski",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/eRCryGwKDH4XqUlrdkERmeBWPo8.jpg"
+      }
+    ]
+  },
+  "popularity": 124.3866,
+  "status": "Released",
+  "tagline": "Vengeance has a new face.",
+  "homepage": "https://johnwick.movie/film/ballerina",
+  "imdbId": "tt7181546"
+}

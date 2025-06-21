@@ -1,0 +1,173 @@
+{
+  "id": 803796,
+  "title": "KPop Demon Hunters",
+  "originalTitle": "KPop Demon Hunters",
+  "overview": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats.",
+  "posterPath": "/jfS5KEfiwsS35ieZvdUdJKkwLlZ.jpg",
+  "backdropPath": "/n7z6rHymrRdZL0ZDZS4aL1JUbLq.jpg",
+  "releaseDate": "2025-06-20",
+  "voteAverage": 8.782,
+  "voteCount": 39,
+  "runtime": 95,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 16,
+      "name": "Animation"
+    },
+    {
+      "id": 14,
+      "name": "Fantasy"
+    },
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 10402,
+      "name": "Music"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 144279,
+        "name": "Arden Cho",
+        "character": "Rumi (voice)",
+        "profilePath": "/63lrHyH6cl6MaELaPNmT9jEeJ7b.jpg",
+        "order": 0
+      },
+      {
+        "id": 1948606,
+        "name": "May Hong",
+        "character": "Mira (voice)",
+        "profilePath": "/hnWIn2hxnJt16j0rDTiqdbG5LQo.jpg",
+        "order": 1
+      },
+      {
+        "id": 2983147,
+        "name": "Ji-young Yoo",
+        "character": "Zoey (voice)",
+        "profilePath": "/4jgtqpNWhMx8XOKQ9qQJvDdzbxG.jpg",
+        "order": 2
+      },
+      {
+        "id": 1571598,
+        "name": "Ahn Hyo-seop",
+        "character": "Jinu (voice)",
+        "profilePath": "/ynu1x6RQnpKvsOLTvB2WhDo26D9.jpg",
+        "order": 3
+      },
+      {
+        "id": 28662,
+        "name": "Yunjin Kim",
+        "character": "Celine (voice)",
+        "profilePath": "/lu1cdgeSURI8DpU5fNIKbFDlZcK.jpg",
+        "order": 4
+      },
+      {
+        "id": 18307,
+        "name": "Daniel Dae Kim",
+        "character": "Healer Han (voice)",
+        "profilePath": "/aXbTKgL4u6oVumQ459B9VkGTn4A.jpg",
+        "order": 5
+      },
+      {
+        "id": 83586,
+        "name": "Ken Jeong",
+        "character": "Bobby (voice)",
+        "profilePath": "/dfuDZ2m2A8nBb0TdyeqmlPOobJA.jpg",
+        "order": 6
+      },
+      {
+        "id": 25002,
+        "name": "Lee Byung-hun",
+        "character": "Gwi-Ma (voice)",
+        "profilePath": "/pY4pwYO8qwtzvuzpzRczDACDiVA.jpg",
+        "order": 7
+      },
+      {
+        "id": 2371545,
+        "name": "Joel Kim Booster",
+        "character": "Variety Show Host 1 / Idol Host / Romance Saja (voice)",
+        "profilePath": "/gKJHnWnnEoN85aC9UzAlg7XFnSG.jpg",
+        "order": 8
+      },
+      {
+        "id": 1700631,
+        "name": "Liza Koshy",
+        "character": "Host (voice)",
+        "profilePath": "/pPu4TYkuNGmPEykWzFwCz55pAWB.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 1453550,
+        "name": "Chris Appelhans",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/kpJNpRP4Yvdxm7O6AtpAywn6KNd.jpg"
+      },
+      {
+        "id": 3003169,
+        "name": "Maggie Kang",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/vy6bJbypv01SdXIbXyH0534TOx3.jpg"
+      },
+      {
+        "id": 3003169,
+        "name": "Maggie Kang",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/vy6bJbypv01SdXIbXyH0534TOx3.jpg"
+      },
+      {
+        "id": 2512183,
+        "name": "Danya Jimenez",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": null
+      },
+      {
+        "id": 2512184,
+        "name": "Hannah McMechan",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": null
+      },
+      {
+        "id": 1453550,
+        "name": "Chris Appelhans",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/kpJNpRP4Yvdxm7O6AtpAywn6KNd.jpg"
+      },
+      {
+        "id": 3003169,
+        "name": "Maggie Kang",
+        "job": "Story",
+        "department": "Writing",
+        "profilePath": "/vy6bJbypv01SdXIbXyH0534TOx3.jpg"
+      },
+      {
+        "id": 2014727,
+        "name": "Michelle Wong",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/3eFh3ZwVm1HEEzSzCoF5p8IcGv7.jpg"
+      }
+    ]
+  },
+  "popularity": 95.2883,
+  "status": "Released",
+  "tagline": "They sing. They dance. They battle demons.",
+  "homepage": "https://www.netflix.com/title/81498621",
+  "imdbId": "tt14205554"
+}

@@ -1,0 +1,116 @@
+{
+  "id": 1450599,
+  "title": "K.O.",
+  "originalTitle": "K.O.",
+  "overview": "A former fighter must find the missing son of an opponent he accidentally killed years ago, taking on a brutally violent crime gang in Marseille.",
+  "posterPath": "/qcM2sUiAeP4zXwx4ADSvgc9S58k.jpg",
+  "backdropPath": "/rU9kRB3rBU5O7AMReZCiuIy7zmE.jpg",
+  "releaseDate": "2025-06-05",
+  "voteAverage": 6.599,
+  "voteCount": 136,
+  "runtime": 84,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 2384368,
+        "name": "Ciryl Gane",
+        "character": "Bastien",
+        "profilePath": "/qa0zK3XEeaV1PekSgnRo9Fr7iDj.jpg",
+        "order": 0
+      },
+      {
+        "id": 935241,
+        "name": "Alice Belaïdi",
+        "character": "Kenza Alaoui",
+        "profilePath": "/oT8nc5Fokqd90I6HwIQcH4jG2Zw.jpg",
+        "order": 1
+      },
+      {
+        "id": 1819836,
+        "name": "Maleaume Paquin",
+        "character": "Léo",
+        "profilePath": "/toxR9L1dVXNcwixCzPksbVjNw66.jpg",
+        "order": 2
+      },
+      {
+        "id": 1609912,
+        "name": "Foued Nabba",
+        "character": "Abdel Manchour",
+        "profilePath": "/iOvDItJylmOWEdlNBkvMfJu9okv.jpg",
+        "order": 3
+      },
+      {
+        "id": 3936690,
+        "name": "Mathieu Lestrade",
+        "character": "",
+        "profilePath": null,
+        "order": 4
+      },
+      {
+        "id": 1136891,
+        "name": "Anne Azoulay",
+        "character": "Emma",
+        "profilePath": "/eqwsTTjZRXOH0RiWGQWVeiW5R0m.jpg",
+        "order": 5
+      },
+      {
+        "id": 223325,
+        "name": "Samuel Jouy",
+        "character": "Commissaire Daniel Canistra",
+        "profilePath": "/kNJWfwSMX4cwz8CduxGNtb4MSlw.jpg",
+        "order": 6
+      },
+      {
+        "id": 133257,
+        "name": "Virgile Bramly",
+        "character": "Capitaine Vasseur",
+        "profilePath": "/1bbSzSPfT61YV2SI7cgTkbVPMeK.jpg",
+        "order": 7
+      },
+      {
+        "id": 3870817,
+        "name": "Malone Ettori",
+        "character": "Capitaine Benoît Sarkissian",
+        "profilePath": null,
+        "order": 8
+      }
+    ],
+    "crew": [
+      {
+        "id": 544034,
+        "name": "Antoine Blossier",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/pcGhGW21jc2iML0hToid2JuF8nW.jpg"
+      },
+      {
+        "id": 544034,
+        "name": "Antoine Blossier",
+        "job": "Screenplay",
+        "department": "Writing",
+        "profilePath": "/pcGhGW21jc2iML0hToid2JuF8nW.jpg"
+      }
+    ]
+  },
+  "popularity": 141.2367,
+  "status": "Released",
+  "tagline": "",
+  "homepage": "https://www.netflix.com/title/81745661",
+  "imdbId": "tt36240772"
+}

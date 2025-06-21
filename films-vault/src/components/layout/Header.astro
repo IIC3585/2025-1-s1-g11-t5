@@ -1,0 +1,57 @@
+---
+// Professional navigation header
+---
+
+<header class="bg-vault-dark/95 backdrop-blur-sm border-b border-vault-light/20 sticky top-0 z-50">
+  <nav class="container mx-auto px-6 py-4">
+    <div class="flex items-center justify-between">
+      <!-- Logo Section -->
+      <div class="flex items-center space-x-3">
+        <div class="w-8 h-8 bg-gradient-to-br from-vault-medium to-vault-light rounded-lg flex items-center justify-center">
+          <svg class="w-5 h-5 text-vault-dark" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M2 6a2 2 0 012-2h6l2 2h6a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path>
+          </svg>
+        </div>
+        <div>
+          <h1 class="text-xl font-semibold text-vault-cream">
+            <a href="/" class="hover:text-vault-light transition-colors">FilmVault</a>
+          </h1>
+          <p class="text-xs text-vault-light/60">Professional Cinema Tracking</p>
+        </div>
+      </div>
+      
+      <!-- Navigation Links -->
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="/movies" 
+           class="text-vault-cream hover:text-vault-light transition-colors font-medium">
+          Movies
+        </a>
+        <a href="/series" 
+           class="text-vault-cream hover:text-vault-light transition-colors font-medium">
+          Series
+        </a>
+        <a href="/watchlist" 
+           class="text-vault-cream hover:text-vault-light transition-colors font-medium">
+          Watchlist
+        </a>
+        <a href="/stats" 
+           class="text-vault-cream hover:text-vault-light transition-colors font-medium">
+          Analytics
+        </a>
+        
+        <!-- CTA Button -->
+        <a href="/discover" 
+           class="bg-vault-medium hover:bg-vault-light text-vault-dark px-4 py-2 rounded-lg font-medium transition-all duration-200 shadow-vault">
+          Discover
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden text-vault-cream hover:text-vault-light">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </nav>
+</header> 

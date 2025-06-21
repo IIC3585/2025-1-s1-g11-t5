@@ -1,0 +1,137 @@
+{
+  "id": 1426776,
+  "title": "STRAW",
+  "originalTitle": "STRAW",
+  "overview": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
+  "posterPath": "/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
+  "backdropPath": "/wnnu8htEZBLtwrke9QYfLKx6zjp.jpg",
+  "releaseDate": "2025-06-05",
+  "voteAverage": 8.039,
+  "voteCount": 567,
+  "runtime": 105,
+  "budget": 0,
+  "revenue": 0,
+  "genres": [
+    {
+      "id": 53,
+      "name": "Thriller"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "credits": {
+    "cast": [
+      {
+        "id": 40036,
+        "name": "Taraji P. Henson",
+        "character": "Janiyah Wiltkinson",
+        "profilePath": "/jUU2X9mDwJaAniEmJOfvImBS9qb.jpg",
+        "order": 0
+      },
+      {
+        "id": 109561,
+        "name": "Sherri Shepherd",
+        "character": "Nicole",
+        "profilePath": "/65YoJG1wCvumUfi38pRlMBx4Zhe.jpg",
+        "order": 1
+      },
+      {
+        "id": 964679,
+        "name": "Teyana Taylor",
+        "character": "Detective Kay Raymond",
+        "profilePath": "/wVHbluUvjKl0NucSeuAhAJAr2oc.jpg",
+        "order": 2
+      },
+      {
+        "id": 57119,
+        "name": "Sinbad",
+        "character": "Benny",
+        "profilePath": "/gRGiBhtNCX6Oje76CmDMaIteW8d.jpg",
+        "order": 3
+      },
+      {
+        "id": 17345,
+        "name": "Rockmond Dunbar",
+        "character": "Chief Wilson",
+        "profilePath": "/gim7zIrYkbKWsp2Kod7fp74fWyI.jpg",
+        "order": 4
+      },
+      {
+        "id": 4315355,
+        "name": "Ashley Versher",
+        "character": "Tessa George",
+        "profilePath": "/35y3tRQG5T0sY4ab51EizwGNccI.jpg",
+        "order": 5
+      },
+      {
+        "id": 2593122,
+        "name": "Mike Merrill",
+        "character": "Detective Grimes",
+        "profilePath": "/s3Ssbi7CdfJnAFSYNNkMPtID85Q.jpg",
+        "order": 6
+      },
+      {
+        "id": 114674,
+        "name": "Glynn Turman",
+        "character": "Richard",
+        "profilePath": "/ac5gjylih4RTCGf2HWuSnoZWDus.jpg",
+        "order": 7
+      },
+      {
+        "id": 3144286,
+        "name": "Shalet Monique",
+        "character": "Rayah Dunnam",
+        "profilePath": "/qgDOowBMY4NCapJXXkQKTwvmx9n.jpg",
+        "order": 8
+      },
+      {
+        "id": 1546659,
+        "name": "Diva Tyler",
+        "character": "Isabella",
+        "profilePath": "/vY8dQOeOLN2VIBjP0HGDqhz7Eqm.jpg",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "id": 80602,
+        "name": "Tyler Perry",
+        "job": "Director",
+        "department": "Directing",
+        "profilePath": "/8KU0OizemVLrERXt5HJIa0PAkIN.jpg"
+      },
+      {
+        "id": 3832069,
+        "name": "Tony Strickland",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 2106207,
+        "name": "Angi Bones",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": null
+      },
+      {
+        "id": 80602,
+        "name": "Tyler Perry",
+        "job": "Producer",
+        "department": "Production",
+        "profilePath": "/8KU0OizemVLrERXt5HJIa0PAkIN.jpg"
+      }
+    ]
+  },
+  "popularity": 345.6187,
+  "status": "Released",
+  "tagline": "This is her last.",
+  "homepage": "https://www.netflix.com/title/81774713",
+  "imdbId": "tt32550101"
+}
