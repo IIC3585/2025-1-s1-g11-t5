@@ -1,0 +1,127 @@
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+import { getPosterUrl, getPlaceholderImage } from '../../utils/image';
+
+export async function getStaticPaths() {
+  const genres = await getCollection('genres');
+  
+  return genres.map((genre) => ({
+    params: { slug: genre.data.slug },
+    props: { genre }
+  }));
+}
+
+const { genre } = Astro.props;
+const { data: genreData } = genre;
+
+// Get movies for this genre
+const allMovies = await getCollection('movies');
+const genreMovies = allMovies
+  .filter(movie => movie.data.genres.some(g => g.id === genreData.id))
+  .sort((a, b) => b.data.voteAverage - a.data.voteAverage)
+  .slice(0, 24); // Show top 24 movies
+
+<Layout title={`${genreData.name} Movies`} description={`Discover the best ${genreData.name.toLowerCase()} movies in our collection.`}>
+  <Header />
+  
+  <main class="container mx-auto px-6 py-8">
+    <!-- Page Header -->
+    <div class="mb-12">
+      <!-- Breadcrumb -->
+      <nav class="flex items-center space-x-2 text-sm text-vault-light/60 mb-4">
+        <a href="/" class="hover:text-vault-light transition-colors">Home</a>
+        <span>/</span>
+        <a href="/movies" class="hover:text-vault-light transition-colors">Movies</a>
+        <span>/</span>
+        <span class="text-vault-cream">Genres</span>
+        <span>/</span>
+        <span class="text-vault-cream">{genreData.name}</span>
+      </nav>
+
+      <h1 class="text-4xl font-bold text-vault-cream mb-4">{genreData.name} Movies</h1>
+      <p class="text-vault-light/80 text-lg">
+        Discover {genreMovies.length} amazing {genreData.name.toLowerCase()} films in our collection.
+      </p>
+    </div>
+
+    <!-- Genre Stats -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+      <div class="bg-vault-dark/60 border border-vault-light/20 rounded-lg p-6">
+        <h3 class="text-vault-cream font-medium mb-2">Total Movies</h3>
+        <p class="text-3xl font-bold text-vault-medium">{genreMovies.length}</p>
+      </div>
+      
+      <div class="bg-vault-dark/60 border border-vault-light/20 rounded-lg p-6">
+        <h3 class="text-vault-cream font-medium mb-2">Average Rating</h3>
+        <p class="text-3xl font-bold text-vault-medium">
+          {genreMovies.length > 0 
+            ? (genreMovies.reduce((sum, movie) => sum + movie.data.voteAverage, 0) / genreMovies.length).toFixed(1)
+            : '0.0'
+          }
+        </p>
+      </div>
+      
+      <div class="bg-vault-dark/60 border border-vault-light/20 rounded-lg p-6">
+        <h3 class="text-vault-cream font-medium mb-2">Top Rated</h3>
+        <p class="text-lg font-semibold text-vault-medium">
+          {genreMovies[0]?.data.title || 'N/A'}
+        </p>
+      </div>
+    </div>
+
+    <!-- Movies Grid -->
+    {genreMovies.length > 0 ? (
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6">
+        {genreMovies.map(movie => {
+          const posterUrl = getPosterUrl(movie.data.posterPath) || getPlaceholderImage(movie.data.title);
+          const movieSlug = `${movie.data.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${movie.data.id}`;
+          
+          return (
+            <article class="group">
+              <a href={`/movies/${movieSlug}`} class="block">
+                <div class="bg-vault-dark/60 border border-vault-light/20 rounded-xl overflow-hidden hover:border-vault-light/40 transition-all duration-300 hover:transform hover:scale-105">
+                  <!-- Poster -->
+                  <div class="aspect-[2/3] relative overflow-hidden">
+                    <img 
+                      src={posterUrl} 
+                      alt={movie.data.title}
+                      class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                    
+                    <!-- Rating Badge -->
+                    <div class="absolute top-3 right-3 bg-vault-dark/90 text-vault-cream px-2 py-1 rounded-lg text-sm font-medium">
+                      {movie.data.voteAverage.toFixed(1)}
+                    </div>
+                  </div>
+                  
+                  <!-- Content -->
+                  <div class="p-4">
+                    <h3 class="font-semibold text-vault-cream group-hover:text-vault-light transition-colors line-clamp-2 text-sm">
+                      {movie.data.title}
+                    </h3>
+                    <p class="text-vault-light/60 text-xs mt-1">
+                      {new Date(movie.data.releaseDate).getFullYear()}
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </article>
+          );
+        })}
+      </div>
+    ) : (
+      <div class="text-center py-16">
+        <p class="text-vault-light/60 text-lg">No movies found in this genre.</p>
+        <a href="/movies" 
+           class="inline-block mt-4 bg-vault-medium hover:bg-vault-light text-vault-dark px-6 py-3 rounded-lg font-semibold transition-colors">
+          Browse All Movies
+        </a>
+      </div>
+    )}
+  </main>
+  
+  <Footer />
+</Layout> 

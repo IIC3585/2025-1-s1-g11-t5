@@ -1,0 +1,104 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+
+const genres = await getCollection('genres');
+const allMovies = await getCollection('movies');
+
+// Count movies per genre and add sample movies
+const genresWithData = await Promise.all(
+  genres.map(async (genre) => {
+    const genreMovies = allMovies.filter(movie => 
+      movie.data.genres.some(g => g.id === genre.data.id)
+    );
+    
+    return {
+      ...genre,
+      movieCount: genreMovies.length,
+      sampleMovies: genreMovies.slice(0, 3),
+      averageRating: genreMovies.length > 0 
+        ? genreMovies.reduce((sum, movie) => sum + movie.data.voteAverage, 0) / genreMovies.length 
+        : 0
+    };
+  })
+);
+
+// Sort by movie count
+const sortedGenres = genresWithData
+  .filter(genre => genre.movieCount > 0)
+  .sort((a, b) => b.movieCount - a.movieCount);
+---
+
+<Layout title="Movie Genres" description="Browse movies by genre and discover your next favorite film.">
+  <Header />
+  
+  <main class="container mx-auto px-6 py-8">
+    <!-- Page Header -->
+    <div class="mb-12">
+      <h1 class="text-4xl font-bold text-vault-cream mb-4">Movie Genres</h1>
+      <p class="text-vault-light/80 text-lg">
+        Explore our collection organized by {sortedGenres.length} different genres.
+      </p>
+    </div>
+
+    <!-- Genres Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {sortedGenres.map(genre => (
+        <article class="group">
+          <a href={`/genres/${genre.data.slug}`} class="block">
+            <div class="bg-vault-dark/60 border border-vault-light/20 rounded-xl p-6 hover:border-vault-light/40 transition-all duration-300 hover:transform hover:scale-105">
+              
+              <!-- Genre Header -->
+              <div class="flex items-center justify-between mb-4">
+                <h2 class="text-xl font-bold text-vault-cream group-hover:text-vault-light transition-colors">
+                  {genre.data.name}
+                </h2>
+                <span class="bg-vault-medium/20 text-vault-medium px-3 py-1 rounded-lg text-sm font-medium">
+                  {genre.movieCount} movies
+                </span>
+              </div>
+
+              <!-- Genre Stats -->
+              <div class="grid grid-cols-2 gap-4 mb-4">
+                <div>
+                  <p class="text-vault-light/60 text-xs uppercase tracking-wide">Average Rating</p>
+                  <p class="text-vault-cream font-semibold">{genre.averageRating.toFixed(1)}</p>
+                </div>
+                <div>
+                  <p class="text-vault-light/60 text-xs uppercase tracking-wide">Total Films</p>
+                  <p class="text-vault-cream font-semibold">{genre.movieCount}</p>
+                </div>
+              </div>
+
+              <!-- Sample Movies -->
+              {genre.sampleMovies.length > 0 && (
+                <div>
+                  <p class="text-vault-light/60 text-xs uppercase tracking-wide mb-2">Popular Movies</p>
+                  <div class="space-y-1">
+                    {genre.sampleMovies.map(movie => (
+                      <p class="text-vault-light/80 text-sm truncate">
+                        {movie.data.title} ({new Date(movie.data.releaseDate).getFullYear()})
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              <!-- Arrow Icon -->
+              <div class="flex justify-end mt-4">
+                <svg class="w-5 h-5 text-vault-medium group-hover:text-vault-light transition-colors" 
+                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </div>
+            </div>
+          </a>
+        </article>
+      ))}
+    </div>
+  </main>
+  
+  <Footer />
+</Layout> 
