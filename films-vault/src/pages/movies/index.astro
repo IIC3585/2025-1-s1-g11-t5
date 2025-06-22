@@ -1,13 +1,14 @@
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/layout/Header.astro';
-import Footer from '../components/layout/Footer.astro';
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
 import { getCollection } from 'astro:content';
-import { getPosterUrl, getPlaceholderImage } from '../utils/movie-utils';
+import { getPosterUrl, getPlaceholderImage } from '../../utils/image';
 
 const movies = await getCollection('movies');
 const genres = await getCollection('genres');
 const featuredMovies = movies.slice(0, 12);
-
+---
 <Layout title="Movies Collection">
   <Header />
   

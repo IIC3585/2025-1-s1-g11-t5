@@ -1,3 +1,4 @@
+---
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/layout/Header.astro';
@@ -23,6 +24,7 @@ const genreMovies = allMovies
   .sort((a, b) => b.data.voteAverage - a.data.voteAverage)
   .slice(0, 24); // Show top 24 movies
 
+---
 <Layout title={`${genreData.name} Movies`} description={`Discover the best ${genreData.name.toLowerCase()} movies in our collection.`}>
   <Header />
   
