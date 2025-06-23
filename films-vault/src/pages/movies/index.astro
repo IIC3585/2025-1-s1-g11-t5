@@ -5,10 +5,15 @@ import Footer from '../../components/layout/Footer.astro';
 import { getCollection } from 'astro:content';
 import { getPosterUrl, getPlaceholderImage } from '../../utils/image';
 
+import SearchComponent from '../../components/react/SearchComponent.jsx';
+import FilterBar from '../../components/react/FilterBar.jsx';
+import FavoriteButton from '../../components/react/FavoriteButton.jsx';
+
 const movies = await getCollection('movies');
 const genres = await getCollection('genres');
 const featuredMovies = movies.slice(0, 12);
 ---
+
 <Layout title="Movies Collection">
   <Header />
   
@@ -21,7 +26,20 @@ const featuredMovies = movies.slice(0, 12);
       </p>
     </div>
 
-    <!-- Genre Filter Tabs -->
+    <!-- COMPONENTE REACT: Búsqueda -->
+    <div class="mb-8">
+      <SearchComponent client:load />
+    </div>
+
+    <!-- COMPONENTE REACT: Barra de Filtros -->
+    <div class="mb-8">
+      <FilterBar 
+        client:load 
+        genres={genres.map(g => ({ id: g.data.id, name: g.data.name }))}
+      />
+    </div>
+
+    <!-- Genre Filter Tabs (mantener como fallback) -->
     <div class="mb-8">
       <div class="flex flex-wrap gap-2">
         <a href="/movies" 
@@ -44,7 +62,7 @@ const featuredMovies = movies.slice(0, 12);
         const movieSlug = `${movie.data.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${movie.data.id}`;
         
         return (
-          <article class="group">
+          <article class="group relative">
             <a href={`/movies/${movieSlug}`} class="block">
               <div class="bg-vault-dark/60 border border-vault-light/20 rounded-xl overflow-hidden hover:border-vault-light/40 transition-all duration-300 hover:transform hover:scale-105">
                 <!-- Poster -->
@@ -59,6 +77,16 @@ const featuredMovies = movies.slice(0, 12);
                   <!-- Rating Badge -->
                   <div class="absolute top-3 right-3 bg-vault-dark/90 text-vault-cream px-2 py-1 rounded-lg text-sm font-medium">
                     {movie.data.voteAverage.toFixed(1)}
+                  </div>
+
+                  <!-- COMPONENTE REACT: Botón de Favoritos -->
+                  <div class="absolute top-3 left-3">
+                    <FavoriteButton 
+                      client:idle
+                      movieId={movie.data.id}
+                      movieTitle={movie.data.title}
+                      moviePoster={posterUrl}
+                    />
                   </div>
                 </div>
                 
@@ -90,4 +118,4 @@ const featuredMovies = movies.slice(0, 12);
   </main>
   
   <Footer />
-</Layout> 
+</Layout>
