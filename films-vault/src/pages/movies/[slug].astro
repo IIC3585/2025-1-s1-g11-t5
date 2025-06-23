@@ -5,6 +5,13 @@ import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
 import { getPosterUrl, getBackdropUrl, getProfileUrl, getPlaceholderImage } from '../../utils/image';
 
+// COMPONENTES REACT
+import FavoriteButton from '../../components/react/FavoriteButton.jsx';
+import MovieCarousel from '../../components/react/MovieCarousel.jsx';
+
+// COMPONENTE SVELTE
+import WatchlistManager from '../../components/svelte/WatchlistManager.svelte';
+
 export async function getStaticPaths() {
   const movies = await getCollection('movies');
   
@@ -20,6 +27,46 @@ export async function getStaticPaths() {
 const { movie } = Astro.props;
 const { data } = movie;
 
+// Cargar todas las películas para encontrar relacionadas
+const allMovies = await getCollection('movies');
+
+// Encontrar películas relacionadas (mismo género)
+const relatedMovies = allMovies
+  .filter(m => 
+    m.data.id !== data.id && 
+    m.data.genres.some(g => data.genres.some(mg => mg.id === g.id))
+  )
+  .slice(0, 12)
+  .map(m => ({
+    id: m.data.id,
+    title: m.data.title,
+    poster_path: m.data.posterPath,
+    release_date: m.data.releaseDate,
+    vote_average: m.data.voteAverage,
+    overview: m.data.overview
+  }));
+
+// Películas del mismo director si existe
+const directorMovies = data.credits?.crew?.find(person => person.job === 'Director')
+  ? allMovies
+      .filter(m => 
+        m.data.id !== data.id &&
+        m.data.credits?.crew?.some(c => 
+          c.job === 'Director' && 
+          c.name === data.credits.crew.find(p => p.job === 'Director')?.name
+        )
+      )
+      .slice(0, 8)
+      .map(m => ({
+        id: m.data.id,
+        title: m.data.title,
+        poster_path: m.data.posterPath,
+        release_date: m.data.releaseDate,
+        vote_average: m.data.voteAverage,
+        overview: m.data.overview
+      }))
+  : [];
+
 // Generate URLs
 const posterUrl = getPosterUrl(data.posterPath, 'w500') || getPlaceholderImage(data.title);
 const backdropUrl = getBackdropUrl(data.backdropPath, 'w1280');
@@ -34,6 +81,16 @@ const formattedRevenue = data.revenue ? new Intl.NumberFormat('en-US', { style: 
 const mainCast = data.credits?.cast?.slice(0, 8) || [];
 const director = data.credits?.crew?.find(person => person.job === 'Director');
 const producers = data.credits?.crew?.filter(person => person.job === 'Producer').slice(0, 3) || [];
+
+// Preparar datos de la película para WatchlistManager
+const movieForWatchlist = {
+  id: data.id,
+  title: data.title,
+  poster_path: data.posterPath,
+  release_date: data.releaseDate,
+  vote_average: data.voteAverage,
+  overview: data.overview
+};
 ---
 
 <Layout title={data.title} description={data.overview}>
@@ -68,12 +125,22 @@ const producers = data.credits?.crew?.filter(person => person.job === 'Producer'
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 -mt-32 relative z-10">
         <!-- Poster -->
         <div class="lg:col-span-1">
-          <div class="bg-vault-dark/80 border border-vault-light/20 rounded-xl overflow-hidden shadow-vault-lg backdrop-blur-sm">
+          <div class="bg-vault-dark/80 border border-vault-light/20 rounded-xl overflow-hidden shadow-vault-lg backdrop-blur-sm relative">
             <img 
               src={posterUrl} 
               alt={data.title}
               class="w-full aspect-[2/3] object-cover"
             />
+            
+            <!-- COMPONENTE REACT: Botón de Favoritos -->
+            <div class="absolute top-4 right-4">
+              <FavoriteButton 
+                client:idle
+                movieId={data.id}
+                movieTitle={data.title}
+                moviePoster={posterUrl}
+              />
+            </div>
           </div>
         </div>
 
@@ -142,6 +209,14 @@ const producers = data.credits?.crew?.filter(person => person.job === 'Producer'
           </div>
         </div>
       </div>
+
+      <!-- COMPONENTE SVELTE: Watchlist Manager -->
+      <section class="mt-12">
+        <WatchlistManager 
+          client:load
+          movie={movieForWatchlist}
+        />
+      </section>
 
       <!-- Cast Section -->
       {mainCast.length > 0 && (
@@ -228,8 +303,32 @@ const producers = data.credits?.crew?.filter(person => person.job === 'Producer'
           )}
         </div>
       </section>
+
+      <!-- COMPONENTE REACT: Películas Relacionadas -->
+      {relatedMovies.length > 0 && (
+        <section class="mt-16">
+          <MovieCarousel 
+            client:visible
+            movies={relatedMovies}
+            title="More Like This"
+            showViewAll={true}
+          />
+        </section>
+      )}
+
+      <!-- COMPONENTE REACT: Más del mismo Director -->
+      {directorMovies.length > 0 && director && (
+        <section class="mt-16">
+          <MovieCarousel 
+            client:visible
+            movies={directorMovies}
+            title={`More from ${director.name}`}
+            showViewAll={false}
+          />
+        </section>
+      )}
     </div>
   </main>
   
   <Footer />
-</Layout> 
+</Layout>

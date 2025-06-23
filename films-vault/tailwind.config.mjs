@@ -5,20 +5,21 @@ export default {
     extend: {
       colors: {
         'vault': {
-          'dark': '#213448',
-          'medium': '#547792', 
-          'light': '#94B4C1',
-          'cream': '#ECEFCA'
+          'bg': 'var(--vault-bg)',
+          'dark': 'var(--vault-dark)',
+          'medium': 'var(--vault-medium)', 
+          'light': 'var(--vault-light)',
+          'cream': 'var(--vault-cream)'
         }
       },
       fontFamily: {
         'sans': ['Inter', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
-        'vault': '0 4px 6px -1px rgba(33, 52, 72, 0.1), 0 2px 4px -1px rgba(33, 52, 72, 0.06)',
-        'vault-lg': '0 10px 15px -3px rgba(33, 52, 72, 0.1), 0 4px 6px -2px rgba(33, 52, 72, 0.05)',
+        'vault': 'var(--vault-shadow)',
+        'vault-lg': 'var(--vault-shadow-lg)',
       }
     },
   },
   plugins: [],
-} 
+}

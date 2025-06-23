@@ -1,11 +1,13 @@
 <script>
   import { onMount, createEventDispatcher } from 'svelte';
-  import { tmdbService } from '../../services/tmdb';
+  import { tmdbService } from '../../services/tmdb.ts';
   
+  // Props
   export let genres = [];
   
   const dispatch = createEventDispatcher();
   
+  // State
   let isVisible = false;
   let searchQuery = '';
   let selectedGenres = [];
@@ -60,7 +62,10 @@
       observer.observe(element);
     }
     
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+      if (debounceTimer) clearTimeout(debounceTimer);
+    };
   });
   
   async function performSearch(page = 1) {
@@ -70,37 +75,25 @@
     currentPage = page;
     
     try {
-      const params = new URLSearchParams();
+      const params = {
+        page: page,
+        ...(searchQuery.trim() && { query: searchQuery.trim() }),
+        ...(selectedGenres.length > 0 && { with_genres: selectedGenres.join(',') }),
+        ...(selectedYear && { primary_release_year: selectedYear }),
+        ...(minRating && { 'vote_average.gte': minRating }),
+        ...(maxRating && { 'vote_average.lte': maxRating }),
+        ...(includeAdult && { include_adult: 'true' }),
+        sort_by: `${sortBy}.${sortOrder}`
+      };
       
-      if (searchQuery.trim()) {
-        params.append('query', searchQuery.trim());
+      const response = await tmdbService.discoverMovies(params);
+      
+      if (page === 1) {
+        searchResults = response.results;
+      } else {
+        searchResults = [...searchResults, ...response.results];
       }
       
-      if (selectedGenres.length > 0) {
-        params.append('with_genres', selectedGenres.join(','));
-      }
-      
-      if (selectedYear) {
-        params.append('primary_release_year', selectedYear);
-      }
-      
-      if (minRating) {
-        params.append('vote_average.gte', minRating);
-      }
-      
-      if (maxRating) {
-        params.append('vote_average.lte', maxRating);
-      }
-      
-      if (includeAdult) {
-        params.append('include_adult', 'true');
-      }
-      
-      params.append('sort_by', `${sortBy}.${sortOrder}`);
-      params.append('page', page.toString());
-      
-      const response = await tmdbService.searchMovies(searchQuery, page, params);
-      searchResults = response.results;
       totalPages = response.total_pages;
       totalResults = response.total_results;
       
@@ -145,13 +138,17 @@
   }
   
   function loadMore() {
-    if (currentPage < totalPages) {
+    if (currentPage < totalPages && !isSearching) {
       performSearch(currentPage + 1);
     }
   }
   
   function handleMovieClick(movie) {
-    window.location.href = `/movies/${movie.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${movie.id}`;
+    // Navegar a la página de la película
+    const movieSlug = movie.title.toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+    window.location.href = `/movies/${movieSlug}-${movie.id}`;
   }
   
   // Reactive statement for auto-search with debounce
@@ -163,7 +160,7 @@
   }
 </script>
 
-<div id="advanced-search" class="bg-vault-dark/80 border border-vault-light/20 rounded-xl p-6">
+<div id="advanced-search" class="bg-vault-dark/90 border border-vault-light/20 rounded-xl p-6 backdrop-blur-sm">
   <div class="flex items-center justify-between mb-6">
     <h3 class="text-xl font-semibold text-vault-cream">Advanced Search</h3>
     <button
@@ -185,7 +182,7 @@
         bind:value={searchQuery}
         type="text"
         placeholder="Search movies, actors, directors..."
-        class="w-full px-4 py-3 bg-vault-dark/60 border border-vault-light/30 rounded-lg text-vault-cream placeholder-vault-light/60 focus:outline-none focus:border-vault-light transition-colors duration-200"
+        class="w-full px-4 py-3 bg-vault-dark border border-vault-light/30 rounded-lg text-vault-cream placeholder-vault-light/60 focus:outline-none focus:border-vault-light transition-colors duration-200"
       />
     </div>
     
@@ -196,7 +193,7 @@
       </label>
       <select
         bind:value={selectedYear}
-        class="w-full px-4 py-3 bg-vault-dark/60 border border-vault-light/30 rounded-lg text-vault-cream focus:outline-none focus:border-vault-light transition-colors duration-200"
+        class="w-full px-4 py-3 bg-vault-dark border border-vault-light/30 rounded-lg text-vault-cream focus:outline-none focus:border-vault-light transition-colors duration-200"
       >
         <option value="">Any Year</option>
         {#each yearOptions as year}
@@ -215,7 +212,7 @@
       </label>
       <select
         bind:value={minRating}
-        class="w-full px-4 py-3 bg-vault-dark/60 border border-vault-light/30 rounded-lg text-vault-cream focus:outline-none focus:border-vault-light transition-colors duration-200"
+        class="w-full px-4 py-3 bg-vault-dark border border-vault-light/30 rounded-lg text-vault-cream focus:outline-none focus:border-vault-light transition-colors duration-200"
       >
         {#each ratingOptions as option}
           <option value={option.value}>{option.label}</option>
@@ -279,7 +276,7 @@
           on:click={() => toggleGenre(genre.id)}
           class="px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 {selectedGenres.includes(genre.id) 
             ? 'bg-vault-medium text-vault-dark' 
-            : 'bg-vault-dark/60 border border-vault-light/30 text-vault-light hover:border-vault-light/50'}"
+            : 'bg-vault-dark border border-vault-light/30 text-vault-light hover:border-vault-light/50 hover:bg-vault-dark/80'}"
         >
           {genre.name}
         </button>
@@ -293,7 +290,7 @@
       <input
         bind:checked={includeAdult}
         type="checkbox"
-        class="w-4 h-4 text-vault-medium bg-vault-dark/60 border-vault-light/30 rounded focus:ring-vault-light focus:ring-2"
+        class="w-4 h-4 text-vault-medium bg-vault-dark border-vault-light/30 rounded focus:ring-vault-light focus:ring-2"
       />
       Include Adult Content
     </label>
@@ -304,7 +301,7 @@
     <button
       on:click={handleSearch}
       disabled={isSearching}
-      class="px-8 py-3 bg-vault-medium hover:bg-vault-light text-vault-dark rounded-lg font-semibold transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+      class="px-8 py-3 bg-vault-medium hover:bg-vault-light text-vault-dark rounded-lg font-semibold transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg"
     >
       {#if isSearching}
         <div class="flex items-center gap-2">
@@ -330,11 +327,14 @@
       </div>
       
       <!-- Results Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-6">
         {#each searchResults as movie}
           <div
             on:click={() => handleMovieClick(movie)}
-            class="bg-vault-dark/40 border border-vault-light/20 rounded-lg overflow-hidden cursor-pointer hover:border-vault-light/40 transition-all duration-200 hover:scale-105"
+            class="bg-vault-dark/60 border border-vault-light/20 rounded-lg overflow-hidden cursor-pointer hover:border-vault-light/40 transition-all duration-200 hover:scale-105 hover:bg-vault-dark/80"
+            role="button"
+            tabindex="0"
+            on:keydown={(e) => e.key === 'Enter' && handleMovieClick(movie)}
           >
             <div class="aspect-[2/3] relative">
               {#if movie.poster_path}
@@ -342,16 +342,17 @@
                   src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
                   alt={movie.title}
                   class="w-full h-full object-cover"
+                  loading="lazy"
                 />
               {:else}
                 <div class="w-full h-full bg-vault-medium/20 flex items-center justify-center">
                   <svg class="w-12 h-12 text-vault-light/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 002 2v12a2 2 0 002 2z"></path>
                   </svg>
                 </div>
               {/if}
               
-              {#if movie.vote_average}
+              {#if movie.vote_average && movie.vote_average > 0}
                 <div class="absolute top-2 right-2 bg-vault-dark/90 text-vault-cream px-2 py-1 rounded-full text-xs font-semibold">
                   ⭐ {movie.vote_average.toFixed(1)}
                 </div>
@@ -376,10 +377,13 @@
           <button
             on:click={loadMore}
             disabled={isSearching}
-            class="px-6 py-3 bg-vault-dark/60 border border-vault-light/30 text-vault-light rounded-lg font-medium transition-all duration-200 hover:border-vault-light/50 disabled:opacity-50 disabled:cursor-not-allowed"
+            class="px-6 py-3 bg-vault-dark border border-vault-light/30 text-vault-light rounded-lg font-medium transition-all duration-200 hover:border-vault-light/50 hover:bg-vault-dark/80 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {#if isSearching}
-              Loading...
+              <div class="flex items-center justify-center gap-2">
+                <div class="w-4 h-4 border-2 border-vault-light/30 border-t-vault-light rounded-full animate-spin"></div>
+                Loading...
+              </div>
             {:else}
               Load More Results
             {/if}
@@ -411,9 +415,9 @@
     -moz-appearance: none;
     width: 1rem;
     height: 1rem;
-    border: 2px solid rgba(148, 180, 193, 0.3);
+    border: 2px solid rgba(148, 180, 193, 0.5);
     border-radius: 0.25rem;
-    background-color: rgba(33, 52, 72, 0.6);
+    background-color: var(--vault-dark);
     cursor: pointer;
     position: relative;
     transition: all 0.2s;
@@ -430,14 +434,35 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #213448;
+    color: var(--vault-dark);
     font-size: 0.75rem;
     font-weight: bold;
   }
   
   input[type="checkbox"]:focus {
     outline: none;
-    ring: 2px;
-    ring-color: rgba(148, 180, 193, 0.5);
+    box-shadow: 0 0 0 2px rgba(148, 180, 193, 0.5);
   }
-</style> 
+  
+  /* Custom select styling for better visibility */
+  select {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%2394B4C1' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 0.75rem center;
+    background-repeat: no-repeat;
+    background-size: 1.5em 1.5em;
+    padding-right: 2.5rem;
+  }
+  
+  select option {
+    background-color: var(--vault-dark);
+    color: var(--vault-cream);
+  }
+  
+  /* line-clamp-2 utility */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

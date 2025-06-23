@@ -1,0 +1,26 @@
+:root {
+    --vault-bg: #0d1117;
+    --vault-dark: #213448;
+    --vault-medium: #547792;
+    --vault-light: #94B4C1;
+    --vault-cream: #ECEFCA;
+  }
+  
+  /* Transiciones suaves para cambios de tema */
+  * {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  /* Estilos específicos para modo claro */
+  .light-mode {
+    --vault-bg: #ffffff;
+    --vault-dark: #f8f9fa;
+    --vault-medium: #6c757d;
+    --vault-light: #343a40;
+    --vault-cream: #212529;
+  }
+  
+  /* Asegurar que el body tenga transición suave */
+  body {
+    transition: background-color 0.3s ease;
+  }

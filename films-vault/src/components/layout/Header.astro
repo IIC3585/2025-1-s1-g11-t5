@@ -17,7 +17,7 @@ import DarkModeToggle from '../svelte/DarkModeToggle.svelte';
           <h1 class="text-xl font-semibold text-vault-cream">
             <a href="/" class="hover:text-vault-light transition-colors">FilmVault</a>
           </h1>
-          <p class="text-xs text-vault-light/60">Professional Cinema Tracking</p>
+          <p class="text-xs text-vault-light/60">Cinema Tracking</p>
         </div>
       </div>
       
@@ -35,19 +35,15 @@ import DarkModeToggle from '../svelte/DarkModeToggle.svelte';
            class="text-vault-cream hover:text-vault-light transition-colors font-medium">
           Watchlist
         </a>
-        <a href="/stats" 
+        <a href="/search" 
            class="text-vault-cream hover:text-vault-light transition-colors font-medium">
-          Analytics
-        </a>
-        
-        <!-- CTA Button -->
-        <a href="/discover" 
-           class="bg-vault-medium hover:bg-vault-light text-vault-dark px-4 py-2 rounded-lg font-medium transition-all duration-200 shadow-vault">
-          Discover
+          Advanced Search
         </a>
         
         <!-- Dark Mode Toggle -->
-        <DarkModeToggle client:only="svelte" />
+        <div class="ml-6">
+          <DarkModeToggle client:only="svelte" />
+        </div>
       </div>
 
       <!-- Mobile Menu Button -->

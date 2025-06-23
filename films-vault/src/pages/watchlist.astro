@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import WatchlistManager from '../components/svelte/WatchlistManager.svelte';
+import WatchlistViewer from '../components/svelte/WatchlistViewer.svelte';
+---
+
+<Layout title="My Watchlists - FilmVault">
+  <Header />
+  
+  <main class="min-h-screen bg-vault-dark">
+    <div class="container mx-auto px-6 py-8">
+      <!-- Header Section -->
+      <div class="mb-12 text-center">
+        <h1 class="text-4xl font-bold text-vault-cream mb-4">My Watchlists</h1>
+        <p class="text-vault-light/80 text-lg max-w-2xl mx-auto">
+          Organize your favorite movies and discover new ones. Create custom watchlists for different moods and genres.
+        </p>
+      </div>
+
+      <!-- Watchlist Manager -->
+      <div class="mb-8">
+        <WatchlistManager 
+          client:load
+          movie={null}
+        />
+      </div>
+
+      <!-- Watchlist Viewer -->
+      <WatchlistViewer client:load />
+    </div>
+  </main>
+  
+  <Footer />
+</Layout>

@@ -74,6 +74,41 @@ class TMDBService {
   async getMoviesByGenre(genreId: number, page: number = 1): Promise<TMDBResponse<TMDBMovie>> {
     return this.fetch<TMDBResponse<TMDBMovie>>(`/discover/movie?with_genres=${genreId}&page=${page}`);
   }
+
+  // Advanced search with filters (discover endpoint)
+  async discoverMovies(params: {
+    query?: string;
+    page?: number;
+    with_genres?: string;
+    primary_release_year?: string;
+    'vote_average.gte'?: string;
+    'vote_average.lte'?: string;
+    sort_by?: string;
+    include_adult?: string;
+  }): Promise<TMDBResponse<TMDBMovie>> {
+    const { query, ...discoverParams } = params;
+    
+    if (query && query.trim()) {
+      // Use search endpoint if there's a text query
+      const searchParams = new URLSearchParams({
+        query: query.trim(),
+        page: params.page?.toString() || '1'
+      });
+      return this.fetch<TMDBResponse<TMDBMovie>>(`/search/movie?${searchParams.toString()}`);
+    } else {
+      // Use discover endpoint for filtered browsing
+      const queryParams = new URLSearchParams();
+      
+      Object.entries(discoverParams).forEach(([key, value]) => {
+        if (value !== undefined && value !== null && value !== '') {
+          queryParams.append(key, value.toString());
+        }
+      });
+      
+      return this.fetch<TMDBResponse<TMDBMovie>>(`/discover/movie?${queryParams.toString()}`);
+    }
+  }
+
 }
 
 export const tmdbService = new TMDBService(); 
