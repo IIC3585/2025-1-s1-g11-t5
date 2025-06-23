@@ -1,0 +1,193 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+
+// Import React components with their client directives
+import SearchComponent from '../components/react/SearchComponent.jsx';
+import FavoriteButton from '../components/react/FavoriteButton.jsx';
+import MovieCarousel from '../components/react/MovieCarousel.jsx';
+import FilterBar from '../components/react/FilterBar.jsx';
+
+// Sample data for demonstration
+const sampleMovies = [
+  {
+    id: 1,
+    title: "The Shawshank Redemption",
+    poster_path: "/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+    release_date: "1994-09-23",
+    vote_average: 9.3,
+    overview: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+  },
+  {
+    id: 2,
+    title: "The Godfather",
+    poster_path: "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+    release_date: "1972-03-14",
+    vote_average: 9.2,
+    overview: "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family."
+  },
+  {
+    id: 3,
+    title: "The Dark Knight",
+    poster_path: "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    release_date: "2008-07-18",
+    vote_average: 9.0,
+    overview: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+  },
+  {
+    id: 4,
+    title: "Pulp Fiction",
+    poster_path: "/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+    release_date: "1994-09-10",
+    vote_average: 8.9,
+    overview: "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper."
+  }
+];
+
+const sampleGenres: Array<{ id: number; name: string }> = [
+  { id: 28, name: "Action" },
+  { id: 12, name: "Adventure" },
+  { id: 16, name: "Animation" },
+  { id: 35, name: "Comedy" },
+  { id: 80, name: "Crime" },
+  { id: 99, name: "Documentary" },
+  { id: 18, name: "Drama" },
+  { id: 10751, name: "Family" },
+  { id: 14, name: "Fantasy" },
+  { id: 36, name: "History" },
+  { id: 27, name: "Horror" },
+  { id: 10402, name: "Music" },
+  { id: 9648, name: "Mystery" },
+  { id: 10749, name: "Romance" },
+  { id: 878, name: "Science Fiction" },
+  { id: 10770, name: "TV Movie" },
+  { id: 53, name: "Thriller" },
+  { id: 10752, name: "War" },
+  { id: 37, name: "Western" }
+];
+---
+
+<Layout title="React Components Demo - Films Vault">
+  <Header />
+  
+  <main class="min-h-screen bg-gradient-to-br from-vault-dark via-vault-dark to-vault-medium/20">
+    <div class="container mx-auto px-6 py-12">
+      
+      <!-- Page Header -->
+      <div class="text-center mb-16">
+        <h1 class="text-4xl md:text-5xl font-bold text-vault-cream mb-6">
+          React Components Demo
+        </h1>
+        <p class="text-xl text-vault-light/90 max-w-3xl mx-auto">
+          Showcasing the interactive React components with different client directives for optimal performance.
+        </p>
+      </div>
+
+      <!-- Search Component Section -->
+      <section class="mb-16">
+        <div class="text-center mb-8">
+          <h2 class="text-2xl font-bold text-vault-cream mb-2">Search Component</h2>
+          <p class="text-vault-light/80">client:load - Loads immediately for instant search functionality</p>
+        </div>
+        <SearchComponent client:load />
+      </section>
+
+      <!-- Filter Bar Section -->
+      <section class="mb-16">
+        <div class="text-center mb-8">
+          <h2 class="text-2xl font-bold text-vault-cream mb-2">Filter Bar</h2>
+          <p class="text-vault-light/80">client:load - Interactive filters for movie browsing</p>
+        </div>
+        <FilterBar 
+          client:load 
+          genres={sampleGenres}
+          onFiltersChange={(filters: any) => console.log('Filters changed:', filters)}
+        />
+      </section>
+
+      <!-- Movie Carousel Section -->
+      <section class="mb-16">
+        <div class="text-center mb-8">
+          <h2 class="text-2xl font-bold text-vault-cream mb-2">Movie Carousel</h2>
+          <p class="text-vault-light/80">client:visible - Loads when scrolled into view for better performance</p>
+        </div>
+        <MovieCarousel 
+          client:visible 
+          movies={sampleMovies}
+          title="Featured Movies"
+          showViewAll={true}
+        />
+      </section>
+
+      <!-- Favorite Button Section -->
+      <section class="mb-16">
+        <div class="text-center mb-8">
+          <h2 class="text-2xl font-bold text-vault-cream mb-2">Favorite Button</h2>
+          <p class="text-vault-light/80">client:idle - Loads when browser is idle for non-critical interactions</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {sampleMovies.map((movie) => (
+            <div class="bg-vault-dark/80 border border-vault-light/20 rounded-xl p-6 text-center">
+              <div class="aspect-[2/3] mb-4 bg-vault-medium/20 rounded-lg flex items-center justify-center">
+                <svg class="w-12 h-12 text-vault-light/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+              </div>
+              <h3 class="text-vault-cream font-semibold mb-2">{movie.title}</h3>
+              <FavoriteButton 
+                client:idle 
+                movieId={movie.id}
+                movieTitle={movie.title}
+                moviePoster={movie.poster_path}
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- Client Directives Explanation -->
+      <section class="bg-vault-dark/60 border border-vault-light/20 rounded-xl p-8">
+        <h2 class="text-2xl font-bold text-vault-cream mb-6">Client Directives Explained</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="space-y-4">
+            <div class="bg-vault-dark/40 p-4 rounded-lg">
+              <h3 class="text-vault-light font-semibold mb-2">client:load</h3>
+              <p class="text-vault-light/80 text-sm">
+                Loads and hydrates the component immediately when the page loads. Best for critical interactive elements like search and filters.
+              </p>
+            </div>
+            
+            <div class="bg-vault-dark/40 p-4 rounded-lg">
+              <h3 class="text-vault-light font-semibold mb-2">client:idle</h3>
+              <p class="text-vault-light/80 text-sm">
+                Loads when the browser is idle. Perfect for non-critical interactions like favorite buttons that don't need immediate functionality.
+              </p>
+            </div>
+          </div>
+          
+          <div class="space-y-4">
+            <div class="bg-vault-dark/40 p-4 rounded-lg">
+              <h3 class="text-vault-light font-semibold mb-2">client:visible</h3>
+              <p class="text-vault-light/80 text-sm">
+                Loads when the component enters the viewport. Ideal for content-heavy components like carousels that are below the fold.
+              </p>
+            </div>
+            
+            <div class="bg-vault-dark/40 p-4 rounded-lg">
+              <h3 class="text-vault-light font-semibold mb-2">client:media</h3>
+              <p class="text-vault-light/80 text-sm">
+                Loads based on media queries. Useful for responsive components that only need to be interactive on certain screen sizes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+  
+  <Footer />
+</Layout> 

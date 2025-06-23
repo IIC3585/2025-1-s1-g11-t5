@@ -1,0 +1,181 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import MovieModal from '../components/svelte/MovieModal.svelte';
+import WatchlistManager from '../components/svelte/WatchlistManager.svelte';
+import AdvancedSearch from '../components/svelte/AdvancedSearch.svelte';
+import DarkModeToggle from '../components/svelte/DarkModeToggle.svelte';
+import { getCollection } from 'astro:content';
+
+const movies = await getCollection('movies');
+const genres = await getCollection('genres');
+const sampleMovie = movies[0]?.data || {
+  id: 1,
+  title: "Sample Movie",
+  overview: "This is a sample movie for demonstration purposes.",
+  posterPath: null,
+  backdropPath: null,
+  releaseDate: "2024-01-01",
+  voteAverage: 8.5,
+  runtime: 120,
+  genres: [{ id: 1, name: "Action" }],
+  tagline: "An epic adventure awaits",
+  status: "Released",
+  budget: 50000000,
+  revenue: 150000000,
+  homepage: "https://example.com"
+};
+---
+
+<Layout title="Svelte Components Demo">
+  <Header />
+  
+  <main class="container mx-auto px-6 py-8">
+    <!-- Page Header -->
+    <div class="mb-12">
+      <h1 class="text-4xl font-bold text-vault-cream mb-4">Svelte Components Demo</h1>
+      <p class="text-vault-light/80 text-lg">
+        Explore the interactive Svelte components with different client directives.
+      </p>
+    </div>
+
+    <!-- Dark Mode Toggle (client:only="svelte") -->
+    <div class="mb-8">
+      <div class="bg-vault-dark/60 border border-vault-light/20 rounded-xl p-6">
+        <h2 class="text-2xl font-semibold text-vault-cream mb-4">Dark Mode Toggle</h2>
+        <p class="text-vault-light/80 mb-4">
+          <strong>Directive:</strong> <code class="bg-vault-dark/40 px-2 py-1 rounded text-vault-light">client:only="svelte"</code><br>
+          <strong>Purpose:</strong> Renders only on the client side, perfect for theme toggles that need immediate access to localStorage.
+        </p>
+        <div class="flex justify-center">
+          <DarkModeToggle client:only="svelte" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Movie Modal (client:visible) -->
+    <div class="mb-8">
+      <div class="bg-vault-dark/60 border border-vault-light/20 rounded-xl p-6">
+        <h2 class="text-2xl font-semibold text-vault-cream mb-4">Movie Modal</h2>
+        <p class="text-vault-light/80 mb-4">
+          <strong>Directive:</strong> <code class="bg-vault-dark/40 px-2 py-1 rounded text-vault-light">client:visible</code><br>
+          <strong>Purpose:</strong> Loads when the component becomes visible in the viewport, ideal for modals and overlays.
+        </p>
+        <div class="flex justify-center">
+          <button
+            id="open-modal-btn"
+            class="px-6 py-3 bg-vault-medium hover:bg-vault-light text-vault-dark rounded-lg font-semibold transition-colors duration-200"
+          >
+            Open Movie Modal
+          </button>
+        </div>
+        
+        <MovieModal 
+          client:visible
+          movie={sampleMovie}
+          isOpen={false}
+        />
+      </div>
+    </div>
+
+    <!-- Watchlist Manager (client:idle) -->
+    <div class="mb-8">
+      <div class="bg-vault-dark/60 border border-vault-light/20 rounded-xl p-6">
+        <h2 class="text-2xl font-semibold text-vault-cream mb-4">Watchlist Manager</h2>
+        <p class="text-vault-light/80 mb-4">
+          <strong>Directive:</strong> <code class="bg-vault-dark/40 px-2 py-1 rounded text-vault-light">client:idle</code><br>
+          <strong>Purpose:</strong> Loads when the browser is idle, perfect for non-critical features like watchlist management.
+        </p>
+        <WatchlistManager 
+          client:idle
+          movie={sampleMovie}
+        />
+      </div>
+    </div>
+
+    <!-- Advanced Search (client:visible) -->
+    <div class="mb-8">
+      <div class="bg-vault-dark/60 border border-vault-light/20 rounded-xl p-6">
+        <h2 class="text-2xl font-semibold text-vault-cream mb-4">Advanced Search</h2>
+        <p class="text-vault-light/80 mb-4">
+          <strong>Directive:</strong> <code class="bg-vault-dark/40 px-2 py-1 rounded text-vault-light">client:visible</code><br>
+          <strong>Purpose:</strong> Loads when visible, great for search components that need to be ready when users scroll to them.
+        </p>
+        <AdvancedSearch 
+          client:visible
+          genres={genres.map(g => ({ id: g.data.id, name: g.data.name }))}
+        />
+      </div>
+    </div>
+
+    <!-- Component Comparison -->
+    <div class="mb-8">
+      <div class="bg-vault-dark/60 border border-vault-light/20 rounded-xl p-6">
+        <h2 class="text-2xl font-semibold text-vault-cream mb-4">Client Directives Comparison</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-lg font-semibold text-vault-cream mb-3">Directive Types</h3>
+            <div class="space-y-3">
+              <div class="p-3 bg-vault-dark/40 rounded-lg">
+                <code class="text-vault-medium font-semibold">client:only="svelte"</code>
+                <p class="text-vault-light/80 text-sm mt-1">Renders only on client, no SSR</p>
+              </div>
+              <div class="p-3 bg-vault-dark/40 rounded-lg">
+                <code class="text-vault-medium font-semibold">client:visible</code>
+                <p class="text-vault-light/80 text-sm mt-1">Loads when component becomes visible</p>
+              </div>
+              <div class="p-3 bg-vault-dark/40 rounded-lg">
+                <code class="text-vault-medium font-semibold">client:idle</code>
+                <p class="text-vault-light/80 text-sm mt-1">Loads when browser is idle</p>
+              </div>
+              <div class="p-3 bg-vault-dark/40 rounded-lg">
+                <code class="text-vault-medium font-semibold">client:load</code>
+                <p class="text-vault-light/80 text-sm mt-1">Loads immediately (not used here)</p>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <h3 class="text-lg font-semibold text-vault-cream mb-3">Use Cases</h3>
+            <div class="space-y-3">
+              <div class="p-3 bg-vault-dark/40 rounded-lg">
+                <h4 class="text-vault-light font-medium">Theme Toggles</h4>
+                <p class="text-vault-light/80 text-sm mt-1">Need localStorage access, use client:only</p>
+              </div>
+              <div class="p-3 bg-vault-dark/40 rounded-lg">
+                <h4 class="text-vault-light font-medium">Modals & Overlays</h4>
+                <p class="text-vault-light/80 text-sm mt-1">Load when needed, use client:visible</p>
+              </div>
+              <div class="p-3 bg-vault-dark/40 rounded-lg">
+                <h4 class="text-vault-light font-medium">Non-Critical Features</h4>
+                <p class="text-vault-light/80 text-sm mt-1">Load during idle time, use client:idle</p>
+              </div>
+              <div class="p-3 bg-vault-dark/40 rounded-lg">
+                <h4 class="text-vault-light font-medium">Search Components</h4>
+                <p class="text-vault-light/80 text-sm mt-1">Load when visible, use client:visible</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <Footer />
+</Layout>
+
+<script>
+  // Handle modal opening
+  document.addEventListener('DOMContentLoaded', () => {
+    const openModalBtn = document.getElementById('open-modal-btn');
+    const modal = document.querySelector('[data-movie-modal]');
+    
+    if (openModalBtn && modal) {
+      openModalBtn.addEventListener('click', () => {
+        // Dispatch custom event to open modal
+        modal.dispatchEvent(new CustomEvent('openModal'));
+      });
+    }
+  });
+</script> 
