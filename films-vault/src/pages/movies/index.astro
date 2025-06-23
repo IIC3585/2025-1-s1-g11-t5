@@ -1,12 +1,19 @@
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/layout/Header.astro';
-import Footer from '../components/layout/Footer.astro';
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
 import { getCollection } from 'astro:content';
-import { getPosterUrl, getPlaceholderImage } from '../utils/movie-utils';
+import { getPosterUrl, getPlaceholderImage } from '../../utils/image';
+
+import SearchComponent from '../../components/react/SearchComponent.jsx';
+import FilterBar from '../../components/react/FilterBar.jsx';
+import FavoriteButton from '../../components/react/FavoriteButton.jsx';
+import MovieGrid from '../../components/react/MovieGrid.jsx';
 
 const movies = await getCollection('movies');
 const genres = await getCollection('genres');
-const featuredMovies = movies.slice(0, 12);
+const initialCount = 12;
+---
 
 <Layout title="Movies Collection">
   <Header />
@@ -20,7 +27,20 @@ const featuredMovies = movies.slice(0, 12);
       </p>
     </div>
 
-    <!-- Genre Filter Tabs -->
+    <!-- COMPONENTE REACT: Búsqueda -->
+    <div class="mb-8">
+      <SearchComponent client:load />
+    </div>
+
+    <!-- COMPONENTE REACT: Barra de Filtros -->
+    <div class="mb-8">
+      <FilterBar 
+        client:load 
+        genres={genres.map(g => ({ id: g.data.id, name: g.data.name }))}
+      />
+    </div>
+
+    <!-- Genre Filter Tabs (mantener como fallback) -->
     <div class="mb-8">
       <div class="flex flex-wrap gap-2">
         <a href="/movies" 
@@ -36,57 +56,14 @@ const featuredMovies = movies.slice(0, 12);
       </div>
     </div>
 
-    <!-- Movies Grid -->
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6">
-      {featuredMovies.map(movie => {
-        const posterUrl = getPosterUrl(movie.data.posterPath) || getPlaceholderImage(movie.data.title);
-        const movieSlug = `${movie.data.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${movie.data.id}`;
-        
-        return (
-          <article class="group">
-            <a href={`/movies/${movieSlug}`} class="block">
-              <div class="bg-vault-dark/60 border border-vault-light/20 rounded-xl overflow-hidden hover:border-vault-light/40 transition-all duration-300 hover:transform hover:scale-105">
-                <!-- Poster -->
-                <div class="aspect-[2/3] relative overflow-hidden">
-                  <img 
-                    src={posterUrl} 
-                    alt={movie.data.title}
-                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    loading="lazy"
-                  />
-                  
-                  <!-- Rating Badge -->
-                  <div class="absolute top-3 right-3 bg-vault-dark/90 text-vault-cream px-2 py-1 rounded-lg text-sm font-medium">
-                    {movie.data.voteAverage.toFixed(1)}
-                  </div>
-                </div>
-                
-                <!-- Content -->
-                <div class="p-4">
-                  <h3 class="font-semibold text-vault-cream group-hover:text-vault-light transition-colors line-clamp-2 text-sm">
-                    {movie.data.title}
-                  </h3>
-                  <p class="text-vault-light/60 text-xs mt-1">
-                    {new Date(movie.data.releaseDate).getFullYear()}
-                  </p>
-                </div>
-              </div>
-            </a>
-          </article>
-        );
-      })}
-    </div>
+    <!-- Movies Grid React -->
+    <MovieGrid 
+      client:load 
+      movies={movies} 
+      initialCount={initialCount} 
+    />
 
-    <!-- Load More Section -->
-    <div class="text-center mt-12">
-      <p class="text-vault-light/60 mb-4">
-        Showing {featuredMovies.length} of {movies.length} movies
-      </p>
-      <button class="bg-vault-medium hover:bg-vault-light text-vault-dark px-6 py-3 rounded-lg font-semibold transition-colors">
-        Load More Movies
-      </button>
-    </div>
   </main>
   
   <Footer />
-</Layout> 
+</Layout>

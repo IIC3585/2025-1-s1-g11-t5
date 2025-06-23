@@ -2,9 +2,52 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
+import { getCollection } from 'astro:content';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+// IMPORTAR COMPONENTES REACT
+import SearchComponent from '../components/react/SearchComponent.jsx';
+import MovieCarousel from '../components/react/MovieCarousel.jsx';
+
+// Cargar datos de películas
+const movies = await getCollection('movies');
+const genres = await getCollection('genres');
+
+// Categorizar películas para carruseles
+const topRatedMovies = movies
+  .sort((a, b) => b.data.voteAverage - a.data.voteAverage)
+  .slice(0, 12)
+  .map(m => ({
+    id: m.data.id,
+    title: m.data.title,
+    poster_path: m.data.posterPath,
+    release_date: m.data.releaseDate,
+    vote_average: m.data.voteAverage,
+    overview: m.data.overview
+  }));
+
+const recentMovies = movies
+  .sort((a, b) => new Date(b.data.releaseDate) - new Date(a.data.releaseDate))
+  .slice(0, 12)
+  .map(m => ({
+    id: m.data.id,
+    title: m.data.title,
+    poster_path: m.data.posterPath,
+    release_date: m.data.releaseDate,
+    vote_average: m.data.voteAverage,
+    overview: m.data.overview
+  }));
+
+const popularMovies = movies
+  .sort((a, b) => b.data.popularity - a.data.popularity)
+  .slice(0, 12)
+  .map(m => ({
+    id: m.data.id,
+    title: m.data.title,
+    poster_path: m.data.posterPath,
+    release_date: m.data.releaseDate,
+    vote_average: m.data.voteAverage,
+    overview: m.data.overview
+  }));
 ---
 
 <Layout title="Professional Cinema Tracking">
@@ -19,7 +62,7 @@ import Footer from '../components/layout/Footer.astro';
 			<div class="relative container mx-auto text-center">
 				<div class="max-w-4xl mx-auto">
 					<h1 class="text-5xl md:text-6xl font-bold mb-6 text-vault-cream leading-tight">
-						Professional Cinema
+						Cinema
 						<span class="text-transparent bg-clip-text bg-gradient-to-r from-vault-light to-vault-medium">
 							Tracking Platform
 						</span>
@@ -29,15 +72,88 @@ import Footer from '../components/layout/Footer.astro';
 						Advanced analytics, comprehensive tracking, and intelligent discovery for film professionals and enthusiasts.
 					</p>
 					
+					<!-- COMPONENTE REACT: Búsqueda en Hero -->
+					<div class="max-w-md mx-auto mb-8">
+						<SearchComponent client:load />
+					</div>
+					
 					<div class="flex flex-col sm:flex-row gap-4 justify-center">
 						<a href="/movies" 
 						   class="bg-vault-medium hover:bg-vault-light text-vault-dark px-8 py-4 rounded-lg font-semibold transition-all duration-200 shadow-vault-lg transform hover:scale-105">
 							Explore Movies
 						</a>
-						<a href="/analytics" 
+						<a href="/search" 
 						   class="border-2 border-vault-light/30 hover:border-vault-light hover:bg-vault-light/10 text-vault-cream px-8 py-4 rounded-lg font-semibold transition-all duration-200">
-							View Analytics
+							Advanced Search
 						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Movie Collections Section -->
+		<section class="py-16 px-6">
+			<div class="container mx-auto">
+				<!-- COMPONENTE REACT: Top Rated Movies Carousel -->
+				<div class="mb-16">
+					<MovieCarousel 
+						client:visible
+						movies={topRatedMovies}
+						title="Top Rated Movies"
+						showViewAll={true}
+					/>
+				</div>
+
+				<!-- COMPONENTE REACT: Recent Movies Carousel -->
+				<div class="mb-16">
+					<MovieCarousel 
+						client:visible
+						movies={recentMovies}
+						title="Recently Added"
+						showViewAll={true}
+					/>
+				</div>
+
+				<!-- COMPONENTE REACT: Popular Movies Carousel -->
+				<div class="mb-16">
+					<MovieCarousel 
+						client:visible
+						movies={popularMovies}
+						title="Most Popular"
+						showViewAll={true}
+					/>
+				</div>
+			</div>
+		</section>
+
+		<!-- Stats Section -->
+		<section class="py-16 px-6 bg-vault-dark/30">
+			<div class="container mx-auto">
+				<div class="text-center mb-12">
+					<h2 class="text-3xl font-bold text-vault-cream mb-4">Collection Statistics</h2>
+					<p class="text-vault-light/80 text-lg">Comprehensive cinema database at your fingertips</p>
+				</div>
+				
+				<div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+					<div class="bg-vault-dark/60 border border-vault-light/20 rounded-xl p-6">
+						<h3 class="text-4xl font-bold text-vault-medium mb-2">{movies.length}</h3>
+						<p class="text-vault-light/80">Total Movies</p>
+					</div>
+					<div class="bg-vault-dark/60 border border-vault-light/20 rounded-xl p-6">
+						<h3 class="text-4xl font-bold text-vault-medium mb-2">{genres.length}</h3>
+						<p class="text-vault-light/80">Genres</p>
+					</div>
+					<div class="bg-vault-dark/60 border border-vault-light/20 rounded-xl p-6">
+						<h3 class="text-4xl font-bold text-vault-medium mb-2">
+							{topRatedMovies[0]?.vote_average.toFixed(1)}
+						</h3>
+						<p class="text-vault-light/80">Highest Rating</p>
+					</div>
+					<div class="bg-vault-dark/60 border border-vault-light/20 rounded-xl p-6">
+						<h3 class="text-4xl font-bold text-vault-medium mb-2">
+							{new Date().getFullYear()}
+						</h3>
+						<p class="text-vault-light/80">Latest Year</p>
 					</div>
 				</div>
 			</div>

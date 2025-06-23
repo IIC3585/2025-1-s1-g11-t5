@@ -1,12 +1,8 @@
 // src/content/config.ts - Astro v5.0 Content Layer API
 import { defineCollection, z } from 'astro:content';
-import { glob } from 'astro/loaders';
 
 const movieCollection = defineCollection({
-  loader: glob({ 
-    pattern: '*.json', 
-    base: './src/content/movies' 
-  }),
+  type: 'data',
   schema: z.object({
     id: z.number(),
     title: z.string(),
@@ -49,10 +45,7 @@ const movieCollection = defineCollection({
 });
 
 const genreCollection = defineCollection({
-  loader: glob({ 
-    pattern: '*.json', 
-    base: './src/content/genres' 
-  }),
+  type: 'data',
   schema: z.object({
     id: z.number(),
     name: z.string(),
